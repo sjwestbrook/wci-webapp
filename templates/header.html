@@ -8,7 +8,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html">
+          <a class="navbar-brand" ui-sref="home">
             <img class="logo" src="images/wci-logo-white.png" alt="WCI Home" />
           </a>
         </div>
@@ -18,62 +18,65 @@
         <ul class="nav navbar-nav navbar-right">
             
           <li class="dropdown">                
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About Us<span class="caret"></span></a>
+            <a ui-sref="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About Us<span class="caret"></span></a>
             <ul class="dropdown-menu">             
               <li>
-                <a class="drop-links" href="#/executive-director">A word from our <br />Executive Director</a>
+                <a class="drop-links" ui-sref="executive-director">A word from our <br />Executive Director</a>
               </li>
               <br />
               <li>
-                <a class="drop-links" href="#/mission">Mission, Vison &amp; <br /> Values</a>
+                <a class="drop-links" ui-sref="mission">Mission, Vison &amp; <br /> Values</a>
               </li>
               <br /> 
-              <li><a class="drop-links" href="#/corporate-resume">Corporate Resume</a></li>
-              <li><a class="drop-links" href="#/locations">Locations</a></li>
-              <li><a class="drop-links" href="#/staff">Staff</a></li>              
+              <li><a class="drop-links" ui-sref="history">Corporate History</a></li>
+              <li><a class="drop-links" ui-sref="locations">Locations</a></li>
+              <li><a class="drop-links" ui-sref="staff">Staff</a></li>              
               <li>
-                <a class="drop-links" href="#/board">Board of Directors</a>
+                <a class="drop-links" ui-sref="board">Board of Directors</a>
               </li>
               <li>
-                <a class="drop-links" href="#/reports">Annual Reports</a>
+                <a class="drop-links" ui-sref="reports">Annual Reports</a>
               </li>
               <li>
-                <a class="drop-links" href="#/success-stories">Success Stories</a>
+                <a class="drop-links" ui-sref="success-stories">Success Stories</a>
               </li>              
+                <li>
+                <a class="drop-links" ui-sref="volunteer">Volunteer</a>
+              </li> 
+                <li>
+                <a class="drop-links" ui-sref="#">Grievance Procedures</a>  <!-- find pdf -->
+              </li> 
             </ul>
           </li>
             
-          <li><a href="#/business-solutions">Business Solutions</a></li>
+          <li><a ui-sref="business-solutions">Business Solutions</a></li>
             
-          <li><a href="#/job-seeker">Job Seeker Services</a></li>  
+          <li><a ui-sref="job-seeker">Job Seeker Services</a></li>  
             
-          <li><a href="#/resources">Resources</a></li>
+          <li><a ui-sref="resources">Resources</a></li>
             
           <li class="dropdown">
-            <a href="#/programs" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Programs <span class="caret"></span>
+            <a ui-sref="programs" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Programs <span class="caret"></span>
             </a>
             <ul class="dropdown-menu">
-              <li><a class="drop-links" href="#/aca">Affordable Care Act</a></li>
-              <li><a class="drop-links" href="#/children-first">Children First</a></li>
-              <li><a class="drop-links" href="#/second-chances">Connecting to <br /> Second Chances</a></li>
+              <li><a class="drop-links" ui-sref="aca">Healthcare</a></li>
+              <li><a class="drop-links" ui-sref="children-first">Children First</a></li>
+              <li><a class="drop-links" ui-sref="second-chances">Connecting to <br /> Second Chances</a></li>
               <br />  
               
-              <li><a class="drop-links" href="#/emergency-assistance">Emergency <br />  Assistance</a></li>
+              <li><a class="drop-links" ui-sref="emergency-assistance">Emergency <br />  Assistance</a></li>
               <br /> 
-              <li><a class="drop-links" href="#/fset">FoodShare <br /> Employment &amp; <br /> Training</a></li>
+              <li><a class="drop-links" ui-sref="fset">FoodShare <br /> Employment &amp; <br /> Training</a></li>
               <br />
-              <br />
-              <li><a class="drop-links" href="#/transportation-connections">Transportation <br /> Connections</a></li>
-              <br />
-              <li><a class="drop-links" href="#/w2w">Windows to Work</a></li>
+              <li><a class="drop-links" ui-sref="w2w">Windows to Work</a></li>
               <li>
-                <a class="drop-links" href="#/wioa">WIOA (Workforce <br /> Innovation &amp;  <br />  Opportunity Act)</a>
+                <a class="drop-links" ui-sref="wioa">WIOA (Workforce <br /> Innovation &amp;  <br />  Opportunity Act)</a>
                  <br /> 
               </li>
                <br /> 
-              </li>
-              <li><a class="drop-links" href="#/w2">Wisconsin Works</a></li>
-              <li><a class="drop-links" href="#/wise">WISE Program</a></li>   
+<!--               </li> -->
+              <li><a class="drop-links" ui-sref="w2">Wisconsin Works</a></li>
+              <li><a class="drop-links" ui-sref="wise">WISE Program</a></li>   
             </ul>
           </li>
         
