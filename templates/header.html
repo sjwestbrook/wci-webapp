@@ -19,8 +19,8 @@
       <div class="collapse navbar-collapse" id="navbar">
         <ul class="nav navbar-nav navbar-right">
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About Us<span class="caret"></span></a>  <!-- role="button" -->
-            <ul class="dropdown-menu"  aria-labelledby="navbarDropdownMenuLink">             
+            <a class="nav-link dropdown-toggle" id="aboutUsDropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About Us<span class="caret"></span></a>  <!-- role="button" -->
+            <ul class="dropdown-menu" aria-labelledby="aboutUsDropdown">             
               <li><a class="dropdown-item" ui-sref="executive-director">A word from our <br />Executive Director</a></li>
               <li><a class="dropdown-item" ui-sref="mission">Mission, Vison &amp; <br /> Values</a></li>
               <li><a class="dropdown-item" ui-sref="history">Corporate History</a></li>
@@ -38,20 +38,20 @@
           <li class="nav-item"><a ui-sref="resources">Resources</a></li> 
             
           <li class="nav-item dropdown">
-            <a ui-sref="programs" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Programs <span class="caret"></span>
+            <a ui-sref="programs" class="nav-link dropdown-toggle" id="programDropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Programs <span class="caret"></span>
             </a>
-            <ul class="dropdown-menu">
-              <li><a class="drop-links" ui-sref="aca">Healthcare</a></li>
-              <li><a class="drop-links" ui-sref="children-first">Children First</a></li>
-              <li><a class="drop-links" ui-sref="second-chances">Connecting to <br /> Second Chances</a></li>
-              <li><a class="drop-links" ui-sref="emergency-assistance">Emergency <br />  Assistance</a></li> 
-              <li><a class="drop-links" ui-sref="fset">FoodShare <br /> Employment &amp; <br /> Training</a></li>
-              <li><a class="drop-links" ui-sref="w2w">Windows to Work</a></li>
+            <ul class="dropdown-menu" aria-labelledby="programDropdown">
+              <li><a class="dropdown-item" ui-sref="aca">Healthcare</a></li>
+              <li><a class="dropdown-item"ui-sref="children-first">Children First</a></li>
+              <li><a class="dropdown-item" ui-sref="second-chances">Connecting to <br /> Second Chances</a></li>
+              <li><a class="dropdown-item" ui-sref="emergency-assistance">Emergency <br />  Assistance</a></li> 
+              <li><a class="dropdown-item" ui-sref="fset">FoodShare <br /> Employment &amp; <br /> Training</a></li>
+              <li><a class="dropdown-item" ui-sref="w2w">Windows to Work</a></li>
               <li>
-                <a class="drop-links" ui-sref="wioa">WIOA (Workforce <br /> Innovation &amp;  <br />  Opportunity Act)</a>
+                <a class="dropdown-item" ui-sref="wioa">WIOA (Workforce <br /> Innovation &amp;  <br />  Opportunity Act)</a>
               </li>
-              <li><a class="drop-links" ui-sref="w2">Wisconsin Works</a></li>
-              <li><a class="drop-links" ui-sref="wise">WISE Program</a></li>   
+              <li><a class="dropdown-item" ui-sref="w2">Wisconsin Works</a></li>
+              <li><a class="dropdown-item" ui-sref="wise">WISE Program</a></li>   
             </ul>
           </li>   
             
