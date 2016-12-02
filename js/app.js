@@ -31,7 +31,7 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
         .state('about', {
             url: '/about',
             views: {
-                '': { templateUrl: 'partial-about.html' },
+                '': { templateUrl: './partials/partial-about.html' },
                 'columnOne@about': { template: 'Look I am a column!' },
                 'columnTwo@about': { 
                     templateUrl: './partials/table-data.html',
