@@ -9,13 +9,13 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
         // HOME STATES AND NESTED VIEWS ========================================
         .state('home', {
             url: 'home',
-            templateUrl: 'partial-home.html'
+            templateUrl: 'partials/partial-home.html'
         })
         
         // nested list with custom controller
         .state('home.list', {
             url: 'list',
-            templateUrl: 'partial-home-list.html',
+            templateUrl: 'partials/partial-home-list.html',
             controller: function($scope) {
                 $scope.dogs = ['Bernese', 'Husky', 'Goldendoodle'];
             }
@@ -34,7 +34,7 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
                 '': { templateUrl: 'partial-about.html' },
                 'columnOne@about': { template: 'Look I am a column!' },
                 'columnTwo@about': { 
-                    templateUrl: 'table-data.html',
+                    templateUrl: 'partials/table-data.html',
                     controller: 'scotchController'
                 }
             }
