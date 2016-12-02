@@ -89,12 +89,7 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
         .state('community-resources', {
             url: '/community-resources',
             templateUrl: './partials/community-resources.html'
-        })
-    
-        .state('history', {
-            url: '/history',
-            templateUrl: './partials/history.html'
-        })
+        })     
     
         .state('county-resources', {
             url: '/county-resources',
@@ -119,6 +114,11 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
       .state('fset', {
             url: '/fset',
             templateUrl: './partials/fset.html'
+        })
+    
+      .state('history', {
+            url: '/history',
+            templateUrl: './partials/history.html'
         })
     
        .state('jackson', {
@@ -160,6 +160,11 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
        .state('monroe', {
             url: '/monroe',
             templateUrl: './partials/monroe.html'
+        })
+    
+        .state('news', {
+            url: '/news',
+            templateUrl: './partials/news.html'
         })
     
        .state('pepin', {
