@@ -34,11 +34,11 @@
    
     <!-- Website Content -->
     
-    
-    <div ng-include='"templates/header.html"'></div>
-    <div ng-view></div>
-    <div ng-include='"templates/footer.html"'></div>
-  
+    <div class="container-fluid"> 
+        <div ng-include='"templates/header.html"'></div>
+        <div ng-view></div>
+        <div ng-include='"templates/footer.html"'></div>
+    </div> <!-- end container-fluid -->
     
     
     <!-- JS (load angular, ui-router, and our custom js file) -->
