@@ -41,8 +41,10 @@
           <li class="nav-item"><a ui-sref="resources">Resources</a></li> 
             
           <li class="nav-item dropdown">
-            <a ui-sref="programs" class="nav-link dropdown-toggle" id="programDropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Programs <span class="caret"></span>
-            </a>
+            <button id="programDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Programs
+              <span class="caret"></span>
+            </button>  <!-- class="nav-link dropdown-toggle"  -->
             <ul class="dropdown-menu" aria-labelledby="programDropdown">
               <li><a class="dropdown-item" ui-sref="aca">Healthcare</a></li>
               <li><a class="dropdown-item"ui-sref="children-first">Children First</a></li>
