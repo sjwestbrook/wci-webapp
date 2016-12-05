@@ -133,7 +133,7 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
     
        .state('job-seeker', {
             url: '/job-seeker',
-            templateUrl: './partials/job-seeker.html'
+            templateUrl: '../partials/job-seeker.html'
         })
     
         .state('juneau', {
