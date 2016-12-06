@@ -203,7 +203,7 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
                     templateUrl: './partials/staff-list.html',
                     controller: 'staffController'
                 }
-            })            
+            }
         })
     
         .state('success-stories', {
