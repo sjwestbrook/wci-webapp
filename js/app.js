@@ -197,7 +197,7 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
             views: {
                 '': { templateUrl: './partials/staff.html' },
 //                 'columnOne@staff': { template: 'Look I am a column!' },
-//                 'columnTwo@staff': { 
+                'columnOne@staff': { 
                     templateUrl: './partials/staff-list.html',
                     controller: 'staffController'
                 }
