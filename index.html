@@ -34,11 +34,9 @@
     <![endif]-->
    
     <!-- Website Content -->  
-    <div class="container-fluid">
-        <div ng-include='"templates/header.html"'></div>
-        <div ui-view></div>
-        <div ng-include='"templates/footer.html"'></div>
-    </div>
+    <div ng-include='"templates/header.html"'></div>
+    <div ui-view class="container-fluid"></div>
+    <div ng-include='"templates/footer.html"'></div>
     
     <!-- JS (load angular, ui-router, and our custom js file) -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
