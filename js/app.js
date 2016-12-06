@@ -195,13 +195,15 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
        .state('staff', {
             url: '/staff',
             views: {
-                '': { templateUrl: './partials/staff.html' },
+                '': { 
+                    templateUrl: './partials/staff.html' 
+                },
 //                 'columnOne@staff': { template: 'Look I am a column!' },
                 'columnOne@staff': { 
                     templateUrl: './partials/staff-list.html',
                     controller: 'staffController'
                 }
-            }            
+            })            
         })
     
         .state('success-stories', {
