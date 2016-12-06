@@ -1,1 +1,26 @@
+<h2>Staff</h2>
 
+<table class="table table-hover table-striped table-bordered">
+<!--     <thead>
+        <tr>
+            <td>Name</td>
+            <td>Cost</td>
+        </tr>
+    </thead> -->
+    <tbody>
+    
+        <tr ng-repeat="staff in staff">
+           <td>
+             <ul>
+<!--                <li>{{ staff.image }}</li> -->
+               <li>{{ staff.name }}</li>
+               <li>{{ staff.title }}</li>
+               <li>{{ staff.location }}</li>
+               <li>{{ staff.phone }}</li>
+               <li>{{ staff.email }}</li>
+             </ul>      
+          </td>
+        </tr>
+        
+    </tbody>
+</table>
