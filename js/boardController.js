@@ -1,5 +1,5 @@
 
-routerApp.controller('staffController', function($scope) {
+routerApp.controller('boardController', function($scope) {
     
     $scope.message = 'test';
    
