@@ -14,7 +14,7 @@ routerApp.controller('staffController', function($scope) {
         {
 //             image: ,
             name: 'Carla Anderson',
-            title: 'Employment Resource Coordiator',
+            title: 'Employment Resource Coordinator',
             location: 'Monroe County',
             phone: '608-374-7740',
             email: 'andersonc@workforceconnections.org'
@@ -34,7 +34,55 @@ routerApp.controller('staffController', function($scope) {
             location: 'Trempealeau, Buffalo, Pepin Counties',
             phone: '608-790-2380',
             email: 'bergersona@workforceconnections.org'
-        }
+        },
+        
+        {
+//             image: ,
+            name: 'Gina Brown',
+            title: 'W2 &amp; FSET Programs Manager',
+            phone: '608-386-1629',
+            email: 'browng@workforceconnections.org'
+        },
+        {
+//             image: ,
+            name: 'Andrea Brownlee',
+            title: 'Employment Coordinator - W2',
+            location: 'La Crosse County',
+            phone: '608-789-5646',
+            email: 'brownleea@workforceconnections.org'
+        },
+        {
+//             image: ,
+            name: 'Erika Deal',
+            title: 'Employment Coordinator - Title V',
+            location: 'La Crosse County',
+            phone: '608-789-5645',
+            email: 'deale@workforceconnections.org'
+        },
+        {
+//             image: ,
+            name: 'Mike Dumke',
+            title: 'Finance Director',
+            location: 'La Crosse County',
+            phone: '608-433-2765',
+            email: 'dumkem@workforceconnections.org'
+        },
+        {
+//             image: ,
+            name: 'Tyler Diktanas',
+            title: 'Employment Coordinator - IOA',
+            location: 'Trempealeau, Buffalo, Pepin Counties',
+            phone: '608-433-2775',
+            email: 'diktanast@workforceconnections.org'
+        },
+        {
+//             image: ,
+            name: 'Jennifer Dyer',
+            title: 'Employment Coordinator - W2',
+            location: 'La Crosse County',
+            phone: '608-789-6197',
+            email: 'dwyerj@workforceconnections.org'
+        },
     ];
     
 });
