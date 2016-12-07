@@ -3,7 +3,7 @@ routerApp.controller('boardController', function($scope) {
     
     $scope.message = 'test';
    
-    $scope.staff = [
+    $scope.members = [
 
         {
             name: 'Ann Boland',
