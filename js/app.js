@@ -60,8 +60,18 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
         // BOARD STATE AND NESTED VIEW ========================================
         .state('board', {
             url: '/board',
-            templateUrl: './partials/board.html'
-        })    
+            views: {
+                '': { 
+                    templateUrl: './partials/board.html' 
+                },
+                'boardMembers@board': { 
+                    templateUrl: './partials/board-list.html',
+                    controller: 'boardController'
+                }
+            }
+        })
+    
+    
         .state('board.agendas-minutes', {
             url: '/agendas-minutes',
             templateUrl: './partials/agendas-minutes.html',
