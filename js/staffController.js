@@ -39,7 +39,8 @@ routerApp.controller('staffController', function($scope) {
         {
 //             image: ,
             name: 'Gina Brown',
-            title: 'W2 &amp; FSET Programs Manager',
+            title: 'W2 & FSET Programs Manager',
+            location: 'Traveling staff',
             phone: '608-386-1629',
             email: 'browng@workforceconnections.org'
         },
