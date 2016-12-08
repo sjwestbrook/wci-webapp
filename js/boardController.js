@@ -27,37 +27,49 @@ routerApp.controller('boardController', function($scope) {
             name: 'Kurt Bear',
             role: 'Director',
             company: 'MidCity Steel',
-            title: 'Owner/CEO'
+            title: 'President/CEO'
         },
         {
-            name: '',
+            name: 'Anne Hlavacka',
             role: 'Director',
-            company: '',
-            title: ''
+            company: 'Small Business Development Center',
+            title: 'Director'
         },
         {
-            name: '',
+            name: 'Karen Long',
             role: 'Director',
-            company: '',
-            title: ''
+            company: 'Organic Valley/CROPP Cooperative',
+            title: 'Employee Culture and Communications Manager'
         },
         {
-            name: '',
+            name: 'Angela Menezes',
             role: 'Director',
-            company: '',
-            title: ''
+            company: 'Logistics Health Incorporated',
+            title: 'Human Capital Consultant'
         },
         {
-            name: '',
+            name: 'Tim Vondrasek',
             role: 'Director',
-            company: '',
-            title: ''
+            company: 'Norwinn Company',
+            title: 'General Manager'
         },
         {
-            name: '',
+            name: 'Neil Kamrowski',
             role: 'Director',
-            company: '',
-            title: ''
+            company: 'International Assoc of Machinists and Aerospace Workers',
+            title: 'President'
+        },
+         {
+            name: 'Tim Vondrasek',
+            role: 'Director',
+            company: 'Norwinn Company',
+            title: 'General Manager'
+         },        
+         {
+            name: 'Dimitar Dzikov',
+            role: 'Director',
+            company: 'Coulee Bank',
+            title: 'Business Banking Officer'
         }
     ];
     
