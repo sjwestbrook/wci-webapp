@@ -174,7 +174,15 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
     
         .state('news', {
             url: '/news',
-            templateUrl: './partials/news.html'
+            views: {
+                '': { 
+                    templateUrl: './partials/news.html' 
+                },
+                'newsController@news': { 
+                    templateUrl: './partials/news-list.html',
+                    controller: 'newsController'
+                }
+            }
         })
     
        .state('pepin', {
