@@ -2,21 +2,26 @@
 
 /* COLORS ======================== */
 
-/* @charcoal: rgb(47,52,58);
-@medgrey: rgb(113,125,140);
-@ltgrey: rgb(221,221,221);
-@beige: rgb(189,182,156);
-@ltteal: rgb(128footer-index,206,185);
-@blue: rgb(65,170,196); */
+//@charcoal: rgb(47,52,58);
+//@medgrey: rgb(113,125,140);
+//@ltgrey: rgb(221,221,221);
+//@beige: rgb(189,182,156);
+//@ltteal: rgb(128footer-index,206,185);
+//@dkteal: rgb(65,170,196); 
+//@white: rgb(255,255,255);
+//@black: rgb(0,0,0);
+//@fuschia: rgb(199,0,57);
+
 
 @charcoal: #2F343A;
 @medgrey: #717D8C;
 @ltgrey: #DDDDDD;
 @beige: #BDB69C;
 @ltteal: #80CEB9;
-@blue: #41AAC4;
+@dkteal: #41AAC4;
+@white: #ffffff;
 @black: #000000;
-
+@fuschia: #C70039;
 
 
 /* FONTS ======================== */
@@ -25,11 +30,36 @@
 @text: 'Arimo', sans-serif;
 
 /* MIXINS ======================== */
-
+.header-links {
+  a {
+    color: @white;
+    background-color: @dkteal;
+    &:hover {
+      color: @fuschia;
+      background-color: @dkteal;
+      border: 0;
+    }
+    &:visited {
+      color: @white;
+      background-color: @dkteal;
+    }
+    &:active {
+      color: @fuschia;
+      background-color: @dkteal;
+      border: 0;
+    }
+  }  
+}
 
 
 /* MISC ======================== */
 
+ul {
+  list-style: none;
+  li {
+    
+  }
+}
 
 
 /* BODY ======================== */
@@ -40,34 +70,105 @@ h1, h2, h3, h4, h5, h6 {
 
 p, a {
   font-family: @text;
-  color: @black;
 }
 
 
 /* HEADER ======================== */
 
-
+.navbar-other {
+  color: @white;
+  background-color: @dkteal;
+  font-weight: 600;
+  .navbar-brand {
+    img {
+      width: 15%;
+    }
+  }
+  .nav {
+    list-style: none;
+    .nav-item {
+      .header-links;
+      padding: 0;
+      button {
+        ul {
+          li {
+            .header-links;
+          }
+        }
+        color: @white;
+        background-color: @dkteal;
+        border: 0;
+        margin-top: 17%;
+      }
+    }
+    .dropdown-menu {
+      list-style: none;
+      .li {
+        padding: 1% 3%;
+      }
+      a {
+        .header-links;
+      }
+    }    
+  }
+  
+//  figure out how to make hamburger button white  
+  .navbar-header {
+    button {
+      .navbar-toggle {
+        .icon-bar {
+          color: @white;
+        }      
+      }
+    } 
+  }
+}
 
 /*  FOOTER ======================== */
 
 .footer-index {
-  color: @ltgrey;
+  color: @white;
   background-color: @charcoal; 
   font-size: .8em;
+//  padding: 5% 0%;
+  .footer-buffer {
+    padding: 2% 1%;
+  }
   a {
-    color: @ltgrey;
+    i {
+      font-size: 1.1em;
+    }
+    color: @white;
     background-color: @charcoal;
     &:hover {
-      color: @blue;
+      color: @fuschia;
       background-color: @charcoal;
     }
-    &:visited: {
-      color: @ltgrey;
+    &:visited {
+      color: @white;
       background-color: @charcoal;
     }
     &:active {
-      color: @blue;
+      color: @fuschia;
       background-color: @charcoal;
     }
   }
 }
+
+
+
+/*  HOME ======================== */
+
+.blocks {
+  padding: 1% 3%;
+}
+
+
+
+
+
+// MEDIA QUERIES
+
+//header buttons (about, programs) in mobile must have 17% padding removed and a minor left padding added to be in line with non-dropdown links
+
+
