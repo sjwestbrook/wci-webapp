@@ -2,20 +2,72 @@
 
 /* COLORS ======================== */
 
-@charcoal: rgb(47,52,58);
+/* @charcoal: rgb(47,52,58);
 @medgrey: rgb(113,125,140);
 @ltgrey: rgb(221,221,221);
 @beige: rgb(189,182,156);
-@ltteal: rgb(128,206,185);
-@blue: rgb(65,170,196);
+@ltteal: rgb(128footer-index,206,185);
+@blue: rgb(65,170,196); */
+
+@charcoal: #2F343A;
+@medgrey: #717D8C;
+@ltgrey: #DDDDDD;
+@beige: #BDB69C;
+@ltteal: #80CEB9;
+@blue: #41AAC4;
+@black: #000000;
+
 
 
 /* FONTS ======================== */
 
-
+@headings: 'Didact Gothic', sans-serif;
+@text: 'Arimo', sans-serif;
 
 /* MIXINS ======================== */
 
 
 
 /* MISC ======================== */
+
+
+
+/* BODY ======================== */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: @headings; 
+}
+
+p, a {
+  font-family: @text;
+  color: @black;
+}
+
+
+/* HEADER ======================== */
+
+
+
+/*  FOOTER ======================== */
+
+.footer-index {
+  color: @ltgrey;
+  background-color: @charcoal; 
+  font-size: .8em;
+  a {
+    color: @ltgrey;
+    background-color: @charcoal;
+    &:hover {
+      color: @blue;
+      background-color: @charcoal;
+    }
+    &:visited: {
+      color: @ltgrey;
+      background-color: @charcoal;
+    }
+    &:active {
+      color: @blue;
+      background-color: @charcoal;
+    }
+  }
+}
