@@ -81,6 +81,18 @@
 
 /* MISC ======================== */
 
+/* for sticky footer */
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    margin: 0 0 100px; /* bottom = footer height */
+}
+/* end for sticky footer */
+
+
+
 h1, h2, h3, h4, h5, h6 {
   font-family: @headings; 
   font-weight: 600;
@@ -156,12 +168,27 @@ ul {
   }
 }
 
+
+
+
+footer {
+    
+}
+
 /*  FOOTER ======================== */
 
 .footer-index {
   color: @white;
   background-color: @charcoal; 
   font-size: .8em;
+  /*   for sticky footer */
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 100px;
+  width: 100%;
+  /*   end for sticky footer */
+  
 //  padding: 5% 0%;
   .footer-buffer {
     padding: 2% 1%;
