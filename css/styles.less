@@ -52,6 +52,29 @@
 }
 
 
+.footer-links {
+  a {
+    color: @white;
+    background-color: @charcoal;
+    &:hover {
+      color: @fuschia;
+      background-color: @charcoal;
+      border: 0;
+    }
+    &:visited {
+      color: @white;
+      background-color: @charcoal;
+    }
+    &:active {
+      color: @fuschia;
+      background-color: @charcoal;
+      border: 0;
+    }
+  }  
+}
+
+
+
 /* MISC ======================== */
 
 ul {
@@ -135,7 +158,8 @@ p, a {
   .footer-buffer {
     padding: 2% 1%;
   }
-  a {
+  .footer-links;
+/*   a {
     i {
       font-size: 1.1em;
     }
@@ -153,7 +177,7 @@ p, a {
       color: @fuschia;
       background-color: @charcoal;
     }
-  }
+  } */
 }
 
 
