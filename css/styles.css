@@ -151,6 +151,9 @@ a {
   background-color: #2F343A;
 }
 /*  HOME ======================== */
+.carousel-inner item p {
+  text-align: center;
+}
 .blocks {
   padding: 1% 3%;
 }
