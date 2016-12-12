@@ -11,6 +11,7 @@
 //@white: rgb(255,255,255);
 //@black: rgb(0,0,0);
 //@fuschia: rgb(199,0,57);
+//@orange: rgb(255, 157, 0);
 
 
 @charcoal: #2F343A;
@@ -22,6 +23,7 @@
 @white: #ffffff;
 @black: #000000;
 @fuschia: #C70039;
+@orange: FF9D00;
 
 
 /* FONTS ======================== */
@@ -34,8 +36,9 @@
   a {
     color: @white;
     background-color: @dkteal;
+    text-decoration: none;
     &:hover {
-      color: @fuschia;
+      color: @orange;
       background-color: @dkteal;
       border: 0;
     }
@@ -44,7 +47,7 @@
       background-color: @dkteal;
     }
     &:active {
-      color: @fuschia;
+      color: @orange;
       background-color: @dkteal;
       border: 0;
     }
@@ -52,25 +55,65 @@
 }
 
 
-/* MISC ======================== */
-
-ul {
-  list-style: none;
-  li {
-    
-  }
+.footer-links {
+  a {
+    color: @white;
+    background-color: @charcoal;
+    text-decoration: none;
+    &:hover {
+      color: @orange;
+      background-color: @charcoal;
+      border: 0;
+    }
+    &:visited {
+      color: @white;
+      background-color: @charcoal;
+    }
+    &:active {
+      color: @orange;
+      background-color: @charcoal;
+      border: 0;
+    }
+  }  
 }
 
 
-/* BODY ======================== */
+
+/* MISC ======================== */
+
+/* for sticky footer */
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    margin: 0 0 100px; /* bottom = footer height */
+}
+/* end for sticky footer */
+
+
 
 h1, h2, h3, h4, h5, h6 {
   font-family: @headings; 
+  font-weight: 600;
+  text-transform: uppercase;
 }
 
 p, a {
   font-family: @text;
 }
+
+img {
+  display: block;
+  margin: auto;
+/*   width: 40%;  */
+}
+
+ul {
+  list-style: none;
+} 
+  
+
 
 
 /* HEADER ======================== */
@@ -125,17 +168,33 @@ p, a {
   }
 }
 
+
+
+
+footer {
+    
+}
+
 /*  FOOTER ======================== */
 
 .footer-index {
   color: @white;
   background-color: @charcoal; 
   font-size: .8em;
+  /*   for sticky footer */
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 100px;
+  width: 100%;
+  /*   end for sticky footer */
+  
 //  padding: 5% 0%;
   .footer-buffer {
     padding: 2% 1%;
   }
-  a {
+  .footer-links;
+/*   a {
     i {
       font-size: 1.1em;
     }
@@ -153,7 +212,7 @@ p, a {
       color: @fuschia;
       background-color: @charcoal;
     }
-  }
+  } */
 }
 
 
@@ -177,7 +236,11 @@ p, a {
 }
 
 
-
+.accomplishments {
+  li {
+    list-style-type: disc;
+  }
+}
 
 
 // MEDIA QUERIES
