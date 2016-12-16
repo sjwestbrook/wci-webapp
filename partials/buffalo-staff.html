@@ -1,0 +1,20 @@
+
+<h2>Staff</h2>
+
+<table class="table table-hover table-striped table-bordered">
+
+    <tbody>
+    
+        <tr ng-repeat="buffaloStaff in buffaloStaff">
+           <td>
+             <ul>
+               <li>{{ buffaloStaff.name }}</li>
+               <li>{{ buffaloStaff.title }}</li>
+               <li><i class="fa fa-mobile"></i> &nbsp; {{ buffaloStaff.phone }}</li>
+               <li><i class="fa fa-envelope-o"></i> &nbsp; {{ buffaloStaff.email }}</li>
+             </ul>      
+          </td>
+        </tr>
+        
+    </tbody>
+</table>
