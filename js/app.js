@@ -91,6 +91,11 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
             templateUrl: './partials/careers.html'
         })
     
+        .state('application', {
+            url: '/application',
+            templateUrl: './partials/application.html'
+        })
+    
         .state('children-first', {
             url: '/children-first',
             templateUrl: './partials/children-first.html'
