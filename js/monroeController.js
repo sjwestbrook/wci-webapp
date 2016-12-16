@@ -12,7 +12,8 @@ routerApp.controller('monroeController', function($scope) {
         
         {
             name: 'Sadie Schultz',
-            title: 'Employment785-7740-2769',
+            title: 'Employment Coordinator - FSET',
+            phone: '785-7740-2769',
             email: 'schultzs@workforceconnections.org'
         }
     ];    
