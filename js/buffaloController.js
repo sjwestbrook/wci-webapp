@@ -2,7 +2,7 @@ routerApp.controller('buffaloController', function($scope) {
     
     $scope.message = 'test';
    
-    $scope.buffalo = [
+    $scope.buffaloStaff = [
         {
 //             image: ,
             name: 'Autumn Bergerson',
