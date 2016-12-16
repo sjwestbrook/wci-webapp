@@ -82,8 +82,21 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
         
         .state('buffalo', {
             url: '/buffalo',
-            templateUrl: './partials/buffalo.html'
+            views: {
+                '': { 
+                    templateUrl: './partials/buffalo.html' 
+                },
+                'buffaloStaff@buffalo': { 
+                    templateUrl: './partials/buffalo-staff.html',
+                    controller: 'buffaloController'
+                }
+            }
         })
+    
+//         .state('buffalo', {
+//             url: '/buffalo',
+//             templateUrl: './partials/buffalo.html'
+//         })
     
        .state('business-solutions', {
             url: '/business-solutions',
