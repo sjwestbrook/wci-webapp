@@ -181,11 +181,6 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
     
         .state('juneau', {
             url: '/juneau',
-            templateUrl: './partials/juneau.html'
-        })
-    
-        .state('juneau', {
-            url: '/juneau',
             views: {
                 '': { 
                     templateUrl: './partials/juneau.html' 
