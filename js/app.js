@@ -155,10 +155,18 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
             url: '/history',
             templateUrl: './partials/history.html'
         })
-    
+        
        .state('jackson', {
             url: '/jackson',
-            templateUrl: './partials/jackson.html'
+            views: {
+                '': { 
+                    templateUrl: './partials/jackson.html' 
+                },
+                'jacksonStaff@jackson': { 
+                    templateUrl: './partials/jackson-staff.html',
+                    controller: 'jacksonController'
+                }
+            }
         })
     
        .state('job-search-resources', {
@@ -176,9 +184,30 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
             templateUrl: './partials/juneau.html'
         })
     
+        .state('juneau', {
+            url: '/juneau',
+            views: {
+                '': { 
+                    templateUrl: './partials/juneau.html' 
+                },
+                'juneauStaff@juneau': { 
+                    templateUrl: './partials/juneau-staff.html',
+                    controller: 'juneauController'
+                }
+            }
+        })
+    
         .state('lacrosse', {
             url: '/lacrosse',
-            templateUrl: './partials/lacrosse.html'
+            views: {
+                '': { 
+                    templateUrl: './partials/lacrosse.html' 
+                },
+                'lacrosseStaff@lacrosse': { 
+                    templateUrl: './partials/lacrosse-staff.html',
+                    controller: 'lacrosseController'
+                }
+            }
         })
     
     
@@ -192,9 +221,17 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
             templateUrl: './partials/mission.html'
         })
     
-       .state('monroe', {
+        .state('monroe', {
             url: '/monroe',
-            templateUrl: './partials/monroe.html'
+            views: {
+                '': { 
+                    templateUrl: './partials/monroe.html' 
+                },
+                'monroeStaff@monroe': { 
+                    templateUrl: './partials/monroe-staff.html',
+                    controller: 'monroeController'
+                }
+            }
         })
     
         .state('news', {
@@ -210,9 +247,17 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
             }
         })
     
-       .state('pepin', {
+        .state('pepin', {
             url: '/pepin',
-            templateUrl: './partials/pepin.html'
+            views: {
+                '': { 
+                    templateUrl: './partials/pepin.html' 
+                },
+                'pepinStaff@pepin': { 
+                    templateUrl: './partials/pepin-staff.html',
+                    controller: 'pepinController'
+                }
+            }
         })
     
        .state('reports', {
@@ -252,15 +297,31 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
             url: '/transportation-connections',
             templateUrl: './partials/transportation-connections.html'
         })
-     
+                
         .state('trempealeau', {
             url: '/trempealeau',
-            templateUrl: './partials/trempealeau.html'
+            views: {
+                '': { 
+                    templateUrl: './partials/trempealeau.html' 
+                },
+                'trempealeauStaff@trempealeau': { 
+                    templateUrl: './partials/trempealeau-staff.html',
+                    controller: 'trempealeauController'
+                }
+            }
         })
     
-      .state('vernon', {
+        .state('vernon', {
             url: '/vernon',
-            templateUrl: './partials/vernon.html'
+            views: {
+                '': { 
+                    templateUrl: './partials/vernon.html' 
+                },
+                'vernonStaff@vernon': { 
+                    templateUrl: './partials/vernon-staff.html',
+                    controller: 'vernonController'
+                }
+            }
         })
     
         .state('volunteer', {
