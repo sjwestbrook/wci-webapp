@@ -1,0 +1,19 @@
+<h2>Staff</h2>
+
+<table class="table table-hover table-striped table-bordered">
+
+    <tbody>
+    
+        <tr ng-repeat="vernon in vernon">
+           <td>
+             <ul>
+               <li>{{ vernon.name }}</li>
+               <li>{{ vernon.title }}</li>
+               <li><i class="fa fa-mobile"></i> &nbsp; {{ vernon.phone }}</li>
+               <li><i class="fa fa-envelope-o"></i> &nbsp; {{ vernon.email }}</li>
+             </ul>      
+          </td>
+        </tr>
+        
+    </tbody>
+</table>
