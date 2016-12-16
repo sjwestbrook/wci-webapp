@@ -92,12 +92,7 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
                 }
             }
         })
-    
-//         .state('buffalo', {
-//             url: '/buffalo',
-//             templateUrl: './partials/buffalo.html'
-//         })
-    
+     
        .state('business-solutions', {
             url: '/business-solutions',
             templateUrl: './partials/business-solutions.html'
@@ -130,9 +125,17 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
     
         .state('crawford', {
             url: '/crawford',
-            templateUrl: './partials/crawford.html'
+            views: {
+                '': { 
+                    templateUrl: './partials/crawford.html' 
+                },
+                'crawfordStaff@crawford': { 
+                    templateUrl: './partials/crawford-staff.html',
+                    controller: 'crawfordController'
+                }
+            }
         })
-    
+       
        .state('emergency-assistance', {
             url: '/emergency-assistance',
             templateUrl: './partials/emergency-assistance.html'
