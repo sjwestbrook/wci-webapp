@@ -4,7 +4,6 @@ routerApp.controller('buffaloController', function($scope) {
    
     $scope.buffalo = [
         {
-//             image: ,
             name: 'Autumn Bergerson',
             title: 'Employment Coordinator - W2/FSET',
             phone: '608-790-2380',
@@ -12,7 +11,6 @@ routerApp.controller('buffaloController', function($scope) {
         },
         
         {
-//             image: ,
             name: 'Pam Taylor',
             title: 'Employment Coordinator - WIOA',
             phone: '608-386-1629',
