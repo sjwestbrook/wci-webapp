@@ -41,15 +41,10 @@
   border: 0;
 }
 /* MISC ======================== */
+* {
+  outline: red dotted 1px;
+}
 /* for sticky footer */
-html {
-  position: relative;
-  min-height: 100%;
-}
-body {
-  margin: 0 0 100px;
-  /* bottom = footer height */
-}
 /* end for sticky footer */
 h1,
 h2,
