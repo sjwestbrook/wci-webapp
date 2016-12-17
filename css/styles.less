@@ -74,6 +74,9 @@
       background-color: @charcoal;
       border: 0;
     }
+    i {
+      font-size: 1.15em;
+    }
   }  
 }
 
@@ -86,18 +89,6 @@
   outline: red dotted 1px;
 }
 
-/* for sticky footer */
-//html {
-//    position: relative;
-//    min-height: 100%;
-//}
-//body {
-//    margin: 0 0 100px; /* bottom = footer height */
-//}
-/* end for sticky footer */
-
-
-
 h1, h2, h3, h4, h5, h6 {
   font-family: @headings; 
   font-weight: 700;
@@ -109,11 +100,11 @@ p, a {
   font-size: 1em;
 }
 
-img {
-  display: block;
-  margin: auto;
-/*   width: 40%;  */
-}
+//img {
+//  display: block;
+//  margin: auto;
+///*   width: 40%;  */
+//}
 
 ul {
   list-style: none;
@@ -184,14 +175,6 @@ ul {
   color: @white;
   background-color: @charcoal; 
   font-size: .8em;
-  /*   for sticky footer */
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  height: 100px;
-  width: 100%;
-  /*   end for sticky footer */
-  
   .footer-buffer {
     padding: 2% 1%;
   }
@@ -202,9 +185,9 @@ ul {
 
 /*  HOME ======================== */
 
-//.carousel-row {
-//  
-//}
+.carousel-row {
+  padding: 0;
+}
 
 .carousel-inner {
   .item {

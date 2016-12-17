@@ -40,12 +40,13 @@
   background-color: #2f343a;
   border: 0;
 }
+.footer-links a i {
+  font-size: 1.15em;
+}
 /* MISC ======================== */
 * {
   outline: red dotted 1px;
 }
-/* for sticky footer */
-/* end for sticky footer */
 h1,
 h2,
 h3,
@@ -60,11 +61,6 @@ p,
 a {
   font-family: 'Arimo', sans-serif;
   font-size: 1em;
-}
-img {
-  display: block;
-  margin: auto;
-  /*   width: 40%;  */
 }
 ul {
   list-style: none;
@@ -162,13 +158,6 @@ ul {
   color: #ffffff;
   background-color: #2f343a;
   font-size: .8em;
-  /*   for sticky footer */
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  height: 100px;
-  width: 100%;
-  /*   end for sticky footer */
 }
 .footer-index .footer-buffer {
   padding: 2% 1%;
@@ -192,7 +181,13 @@ ul {
   background-color: #2f343a;
   border: 0;
 }
+.footer-index a i {
+  font-size: 1.15em;
+}
 /*  HOME ======================== */
+.carousel-row {
+  padding: 0;
+}
 .carousel-inner .item p {
   text-align: center;
 }
