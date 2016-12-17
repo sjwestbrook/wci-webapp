@@ -74,9 +74,6 @@ img {
 ul {
   list-style: none;
 }
-a {
-  margin: 5%;
-}
 /* HEADER ======================== */
 .navbar-other {
   color: #ffffff;
@@ -177,25 +174,6 @@ a {
   height: 100px;
   width: 100%;
   /*   end for sticky footer */
-  /*   a {
-    i {
-      font-size: 1.1em;
-    }
-    color: @white;
-    background-color: @charcoal;
-    &:hover {
-      color: @fuschia;
-      background-color: @charcoal;
-    }
-    &:visited {
-      color: @white;
-      background-color: @charcoal;
-    }
-    &:active {
-      color: @fuschia;
-      background-color: @charcoal;
-    }
-  } */
 }
 .footer-index .footer-buffer {
   padding: 2% 1%;
@@ -220,6 +198,9 @@ a {
   border: 0;
 }
 /*  HOME ======================== */
+.carousel-inner .item p {
+  text-align: center;
+}
 .blocks {
   padding: 1% 3%;
 }
