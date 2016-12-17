@@ -214,24 +214,21 @@ ul {
   .block1, .block2, .block3, .block4 {
     background-color: @ltgrey;
     text-align: center;
-    a {
-      padding: 6 5%;
+  }
+  a {
+    padding: 6 5%;
+    color: @charcoal;
+    text-decoration: none;
+    &:hover {
+      color: @orange;
+      border: 0;
+    }
+    &:visited {
       color: @charcoal;
-      text-decoration: none;
-      &:hover {
-        color: @orange;
-        border: 0;
-      }
-      &:visited {
-        color: @charcoal;
-      }
-      &:active {
-        color: @orange;
-        border: 0;
-      }
-      i {
-        font-size: 2em;
-      }
+    }
+    &:active {
+      color: @orange;
+      border: 0;
     }
   }
 }
