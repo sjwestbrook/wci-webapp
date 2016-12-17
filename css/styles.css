@@ -209,9 +209,42 @@ ul {
 .blocks .block2,
 .blocks .block3,
 .blocks .block4 {
-  padding: 6 5%;
   background-color: #dddddd;
   text-align: center;
+}
+.blocks .block1 a,
+.blocks .block2 a,
+.blocks .block3 a,
+.blocks .block4 a {
+  padding: 6 5%;
+  color: #2f343a;
+  text-decoration: none;
+}
+.blocks .block1 a:hover,
+.blocks .block2 a:hover,
+.blocks .block3 a:hover,
+.blocks .block4 a:hover {
+  color: #ff9d00;
+  border: 0;
+}
+.blocks .block1 a:visited,
+.blocks .block2 a:visited,
+.blocks .block3 a:visited,
+.blocks .block4 a:visited {
+  color: #2f343a;
+}
+.blocks .block1 a:active,
+.blocks .block2 a:active,
+.blocks .block3 a:active,
+.blocks .block4 a:active {
+  color: #ff9d00;
+  border: 0;
+}
+.blocks .block1 a i,
+.blocks .block2 a i,
+.blocks .block3 a i,
+.blocks .block4 a i {
+  font-size: 2em;
 }
 .accomplishments li {
   list-style-type: disc;
