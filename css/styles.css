@@ -55,6 +55,7 @@ h5,
 h6 {
   font-family: 'Didact Gothic', sans-serif;
   font-weight: 700;
+  text-align: center;
   text-transform: uppercase;
 }
 p,
@@ -69,7 +70,7 @@ ul {
   text-align: center;
 }
 .card .news-img {
-  width: 70%;
+  width: 100%;
 }
 /* HEADER ======================== */
 .navbar-other {
