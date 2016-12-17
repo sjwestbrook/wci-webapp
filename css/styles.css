@@ -68,6 +68,9 @@ ul {
 .card {
   text-align: center;
 }
+.card .news-img {
+  width: 70%;
+}
 /* HEADER ======================== */
 .navbar-other {
   color: #ffffff;
