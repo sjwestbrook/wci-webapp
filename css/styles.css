@@ -5,7 +5,6 @@
 .header-links a {
   color: #ffffff;
   background-color: #41aac4;
-  font-size: .8em;
   text-decoration: none;
 }
 .header-links a:hover {
@@ -96,7 +95,6 @@ a {
 .navbar-other .nav .nav-item a {
   color: #ffffff;
   background-color: #41aac4;
-  font-size: .8em;
   text-decoration: none;
 }
 .navbar-other .nav .nav-item a:hover {
@@ -122,7 +120,6 @@ a {
 .navbar-other .nav .nav-item button ul li a {
   color: #ffffff;
   background-color: #41aac4;
-  font-size: .8em;
   text-decoration: none;
 }
 .navbar-other .nav .nav-item button ul li a:hover {
@@ -149,7 +146,6 @@ a {
 .navbar-other .nav .dropdown-menu a a {
   color: #ffffff;
   background-color: #41aac4;
-  font-size: .8em;
   text-decoration: none;
 }
 .navbar-other .nav .dropdown-menu a a:hover {
@@ -224,9 +220,6 @@ a {
   border: 0;
 }
 /*  HOME ======================== */
-.carousel-inner .item .carousel-img {
-  text-align: center;
-}
 .blocks {
   padding: 1% 3%;
 }
