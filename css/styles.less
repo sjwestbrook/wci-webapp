@@ -174,7 +174,6 @@ ul {
     }    
   }
   
-//  figure out how to make hamburger button white  
   .navbar-header {
     button {
       .navbar-toggle {
@@ -200,6 +199,11 @@ ul {
     padding: 2% 1%;
   }
   .footer-links;
+  .address {
+    p {
+      margin-bottom: 0.5%;
+    }
+  }
 }
 
 
@@ -227,20 +231,21 @@ ul {
   margin: 0 -8%;
   color: @black;
   background-color: @ltteal;
+  font-weight: 700;
   text-align: center;
   a {
     padding: 6 5%;
     color: @charcoal;
     text-decoration: none;
     &:hover {
-      color: @orange;
+      color: @white;
       border: 0;
     }
     &:visited {
       color: @charcoal;
     }
     &:active {
-      color: @orange;
+      color: @white;
       border: 0;
     }
   }
@@ -266,3 +271,15 @@ ul {
 
 //header buttons (about, programs) in mobile must have 17% padding removed and a minor left padding added to be in line with non-dropdown links
 
+
+@media (max-width:499px){
+  .navbar-other {
+    .nav {
+      .nav-item {
+        button {
+          margin-top: 0%;
+        }
+      }
+    }
+  } 
+} /*  end media query */

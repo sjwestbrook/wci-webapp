@@ -200,6 +200,9 @@ ul {
 .footer-index a img {
   width: 80%;
 }
+.footer-index .address p {
+  margin-bottom: 0.5%;
+}
 /*  HOME ======================== */
 .carousel-row {
   margin: 0 -8%;
@@ -216,6 +219,7 @@ ul {
   margin: 0 -8%;
   color: #000000;
   background-color: #75d4eb;
+  font-weight: 700;
   text-align: center;
 }
 .blocks a {
@@ -224,16 +228,22 @@ ul {
   text-decoration: none;
 }
 .blocks a:hover {
-  color: #ff9d00;
+  color: #ffffff;
   border: 0;
 }
 .blocks a:visited {
   color: #2f343a;
 }
 .blocks a:active {
-  color: #ff9d00;
+  color: #ffffff;
   border: 0;
 }
 .accomplishments li {
   list-style-type: disc;
 }
+@media (max-width: 499px) {
+  .navbar-other .nav .nav-item button {
+    margin-top: 0%;
+  }
+}
+/*  end media query */
