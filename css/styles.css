@@ -65,6 +65,9 @@ a {
 ul {
   list-style: none;
 }
+.card {
+  text-align: center;
+}
 /* HEADER ======================== */
 .navbar-other {
   color: #ffffff;
