@@ -41,7 +41,7 @@
   border: 0;
 }
 .footer-links a i {
-  font-size: 1.15em;
+  font-size: 2em;
 }
 /* MISC ======================== */
 * {
@@ -192,17 +192,26 @@ ul {
   border: 0;
 }
 .footer-index a i {
-  font-size: 1.15em;
+  font-size: 2em;
 }
 /*  HOME ======================== */
 .carousel-row {
-  padding: 0;
+  margin: 0 -8%;
 }
 .carousel-inner .item p {
   text-align: center;
 }
 .blocks {
   padding: 1% 3%;
+  margin: 0 -8%;
+}
+.blocks .block1,
+.blocks .block2,
+.blocks .block3,
+.blocks .block4 {
+  padding: 6 5%;
+  background-color: #dddddd;
+  text-align: center;
 }
 .accomplishments li {
   list-style-type: disc;
