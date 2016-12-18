@@ -81,6 +81,9 @@ ul {
 .header-spacing {
   margin: 2% 0;
 }
+.row {
+  padding: 2% 0;
+}
 /* HEADER ======================== */
 .navbar-other {
   color: #ffffff;
