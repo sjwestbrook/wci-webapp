@@ -78,6 +78,9 @@ ul {
 .icon-bar {
   background-color: #ffffff;
 }
+.header-spacing {
+  margin: 2% 0;
+}
 /* HEADER ======================== */
 .navbar-other {
   color: #ffffff;
