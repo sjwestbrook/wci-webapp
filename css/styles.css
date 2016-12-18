@@ -95,7 +95,10 @@ ul {
 .margin-bottom {
   margin-bottom: 2%;
 }
-.location-list {
+.locations img {
+  width: 100%;
+}
+.locations .location-list {
   padding-left: 5%;
 }
 /* HEADER ======================== */
