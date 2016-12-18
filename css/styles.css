@@ -70,6 +70,7 @@ ul {
   list-style: none;
 }
 .card {
+  background-color: #dddddd;
   padding: 3% 2%;
   text-align: center;
   -webkit-box-shadow: 2px 2px 3px 0px rgba(50, 50, 50, 0.75);
