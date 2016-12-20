@@ -251,8 +251,8 @@ a {
   width: 100%;
   margin-bottom: -3%;
 }
-.carousel-inner .item .carousel-img .dark-caption {
-  padding: 3%;
+.carousel-inner .item .carousel-img .carousel-caption .dark-caption {
+  padding: 2% 3%;
   background-color: rgba(0, 0, 0, 0.4);
 }
 .blocks {
