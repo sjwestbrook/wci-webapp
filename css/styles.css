@@ -1,5 +1,16 @@
 /* VARIABLES ======================== */
 /* COLORS ======================== */
+/* @charcoal: rgb(47,52,58);
+@medgrey: rgb(113,125,140);
+@ltgrey: rgb(221,221,221);
+@beige: rgb(189,182,156);
+@ltteal: rgba(117, 212, 235, 1)
+@dkteal: rgb(65,170,196); 
+@white: rgb(255,255,255);
+@black: rgb(0,0,0);
+@fuschia: rgb(199,0,57);
+@orange: rgb(255, 157, 0);
+ */
 /* FONTS ======================== */
 /* MIXINS ======================== */
 .header-links a {
@@ -236,6 +247,10 @@ ul {
 .carousel-inner .item .carousel-img {
   width: 100%;
   margin-bottom: -3%;
+}
+.carousel-inner .item .carousel-img .dark-caption {
+  padding: 3%;
+  background-color: rgba(0, 0, 0, 0.4);
 }
 .blocks {
   padding: 1% 3%;
