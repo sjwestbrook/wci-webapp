@@ -2,17 +2,17 @@
 
 /* COLORS ======================== */
 
-//@charcoal: rgb(47,52,58);
-//@medgrey: rgb(113,125,140);
-//@ltgrey: rgb(221,221,221);
-//@beige: rgb(189,182,156);
-//@ltteal: rgba(117, 212, 235, 1)
-//@dkteal: rgb(65,170,196); 
-//@white: rgb(255,255,255);
-//@black: rgb(0,0,0);
-//@fuschia: rgb(199,0,57);
-//@orange: rgb(255, 157, 0);
-
+/* @charcoal: rgb(47,52,58);
+@medgrey: rgb(113,125,140);
+@ltgrey: rgb(221,221,221);
+@beige: rgb(189,182,156);
+@ltteal: rgba(117, 212, 235, 1)
+@dkteal: rgb(65,170,196); 
+@white: rgb(255,255,255);
+@black: rgb(0,0,0);
+@fuschia: rgb(199,0,57);
+@orange: rgb(255, 157, 0);
+ */
 
 @charcoal: #2F343A;
 @medgrey: #717D8C;
@@ -24,6 +24,7 @@
 @black: #000000;
 @fuschia: #C70039;
 @orange: #FF9D00;
+@black-transp: rgba(0, 0, 0, 0.4);
 
 
 /* FONTS ======================== */
@@ -87,11 +88,6 @@
 
 /* MISC ======================== */
 
-
-//* {
-//  outline: red dotted 1px;
-//}
-
 .container-fluid {
   padding: 0 5%;
 }
@@ -107,11 +103,6 @@ p, a {
   font-family: @text;
   font-size: 1em;
 }
-
-//img {
-//  display: block;
-//  margin: auto;
-//}
 
 ul {
   list-style: none;
@@ -248,6 +239,10 @@ ul {
     .carousel-img {
       width: 100%;
       margin-bottom: -3%;
+      .dark-caption {
+        padding: 3%;
+        background-color: @black-transp;
+      }
     }
   }  
 }
