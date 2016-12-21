@@ -81,7 +81,7 @@ ul {
   list-style: none;
 }
 .card {
-  background-color: #dddddd;
+  background-color: #fcfcfc;
   padding: 3% 2%;
   text-align: center;
   -webkit-box-shadow: 2px 2px 3px 0px rgba(50, 50, 50, 0.75);
@@ -242,7 +242,8 @@ a {
 }
 /*  HOME ======================== */
 .carousel-row {
-  margin: 0 -8%;
+  /*   margin: 0 -8%; */
+  margin: -2% -8% 0 -8%;
 }
 .carousel-inner .item p {
   text-align: center;
@@ -256,7 +257,7 @@ a {
   background-color: rgba(0, 0, 0, 0.4);
 }
 .blocks {
-  padding: 1% 3%;
+  padding: 2% 10%;
   margin: 0 -8%;
   color: #000000;
   font-weight: 600;
