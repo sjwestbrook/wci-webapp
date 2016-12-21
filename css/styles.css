@@ -285,23 +285,23 @@ a {
   padding-bottom: .5%;
 }
 /*  ANNUAL REPORTS ======================== */
-.reports a a {
+.reports a {
   color: #ffffff;
-  background-color: #41aac4;
+  /*     background-color: @dkteal; */
   text-decoration: none;
 }
-.reports a a:hover {
+.reports a:hover {
   color: #c70039;
-  background-color: #41aac4;
+  /*       background-color: @dkteal; */
   border: 0;
 }
-.reports a a:visited {
+.reports a:visited {
   color: #ffffff;
-  background-color: #41aac4;
+  /*       background-color: @dkteal; */
 }
-.reports a a:active {
+.reports a:active {
   color: #c70039;
-  background-color: #41aac4;
+  /*       background-color: @dkteal; */
   border: 0;
 }
 @media (max-width: 499px) {
