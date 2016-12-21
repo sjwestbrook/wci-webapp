@@ -122,16 +122,18 @@ ul {
 a {
   cursor: pointer;
 }
-figcaption {
+figure {
   position: relative;
 }
-figcaption .figure-caption {
+figure figcaption {
+  position: absolute;
+  top: 40%;
+  left: 10%;
   padding: 2% 3%;
   background-color: rgba(0, 0, 0, 0.4);
   color: #ffffff;
-  position: absolute;
-  top: 40%;
-  left: 25%;
+  font-size: 2.5em;
+  text-transform: uppercase;
 }
 /* HEADER ======================== */
 .navbar-other {
