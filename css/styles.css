@@ -115,6 +115,10 @@ ul {
 a {
   cursor: pointer;
 }
+.button {
+  background-color: #41aac4;
+  color: #ffffff;
+}
 /* HEADER ======================== */
 .navbar-other {
   color: #ffffff;
@@ -283,6 +287,26 @@ a {
 .accomplishments li {
   list-style-type: disc;
   padding-bottom: .5%;
+}
+/*  ANNUAL REPORTS ======================== */
+.reports a a {
+  color: #ffffff;
+  background-color: #41aac4;
+  text-decoration: none;
+}
+.reports a a:hover {
+  color: #c70039;
+  background-color: #41aac4;
+  border: 0;
+}
+.reports a a:visited {
+  color: #ffffff;
+  background-color: #41aac4;
+}
+.reports a a:active {
+  color: #c70039;
+  background-color: #41aac4;
+  border: 0;
 }
 @media (max-width: 499px) {
   .navbar-other .nav .nav-item button {
