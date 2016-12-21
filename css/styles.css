@@ -122,6 +122,10 @@ ul {
 a {
   cursor: pointer;
 }
+figcaption .figure-caption {
+  padding: 2% 3%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
 /* HEADER ======================== */
 .navbar-other {
   color: #ffffff;
