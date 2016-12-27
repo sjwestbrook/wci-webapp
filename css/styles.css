@@ -257,6 +257,10 @@ figure figcaption {
 .footer-index a img {
   width: 80%;
 }
+.footer-index .staff-links {
+  font-size: 1.3em;
+  font-weight: bold;
+}
 .footer-index .address p {
   margin-bottom: 0.5%;
 }
