@@ -1,32 +1,24 @@
-<h2>Staff</h2>
-
 <table class="table table-hover table-striped table-bordered">
-<!--     <thead>
-        <tr>
-            <td>Name</td>
-            <td>Cost</td>
-        </tr>
-    </thead> -->
-    <tbody>
-    
-        <tr ng-repeat="staff in staff">
-           <td>
-             <ul>
+  <tbody>
+
+      <tr ng-repeat="staff in staff">
+         <td>
+           <ul>
 <!--                <li>{{ staff.image }}</li> -->
-               <li>{{ staff.name }}</li>
-               <li>{{ staff.title }}</li>
-               <li>
-                 <i class="fa fa-building" aria-hidden="true"></i> &nbsp; 
-                 {{ staff.location }}</li>
-               <li>
-                 <i class="fa fa-phone-square" aria-hidden="true"></i> &nbsp; 
-                 {{ staff.phone }}</li>
-               <li>
-                 <i class="fa fa-envelope-o" aria-hidden="true"></i> &nbsp; 
-                 {{ staff.email }}</li>
-             </ul>      
-          </td>
-        </tr>
-        
-    </tbody>
+             <li>{{ staff.name }}</li>
+             <li>{{ staff.title }}</li>
+             <li>
+               <i class="fa fa-building" aria-hidden="true"></i> &nbsp; 
+               {{ staff.location }}</li>
+             <li>
+               <i class="fa fa-phone-square" aria-hidden="true"></i> &nbsp; 
+               {{ staff.phone }}</li>
+             <li>
+               <i class="fa fa-envelope-o" aria-hidden="true"></i> &nbsp; 
+               {{ staff.email }}</li>
+           </ul>      
+        </td>
+      </tr>
+
+  </tbody>
 </table>
