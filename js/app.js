@@ -270,6 +270,11 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
             templateUrl: './partials/second-chances.html'
         })
       
+        .state('request-services', {
+            url: '/request-services',
+            templateUrl: './partials/request-services.html'
+        })
+    
        .state('staff', {
             url: '/staff',
             views: {
