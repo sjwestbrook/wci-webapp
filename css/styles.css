@@ -229,6 +229,9 @@ figure figcaption {
   background-color: #2f343a;
   font-size: .8em;
 }
+.footer-index img {
+  width: 150px;
+}
 .footer-index .footer-buffer {
   padding: 2% 1%;
 }
@@ -260,6 +263,7 @@ figure figcaption {
 .footer-index .staff-links {
   font-size: 1.3em;
   font-weight: bold;
+  line-spacing: .1em;
 }
 .footer-index .address p {
   margin-bottom: 0.5%;
