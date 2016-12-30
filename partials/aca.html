@@ -17,6 +17,7 @@
     <button type="button" class="btn btn-primary btn-lg btn-block">Western WI Open Enrollment Events 2016</button>
     
     <br />
+    <br />
     
     <h2>What is Wisconsin Coverage Connections</h2>
     <p>Wisconsin Coverage Connections will provide extensive outreach and enrollment assistance in the small communities and rural areas of western Wisconsin to reach uninsured families with children. Kids who have health coverage are better prepared to do well in school and succeed in life. Medicaid and Children’s Health Insurance Program (CHIP) offer free or low-cost health insurance for kids and teens. Children can receive regular check-ups, immunizations, doctor and dentist visits and more.</p>
@@ -40,80 +41,6 @@
 </div> <!-- end row -->
 
 
-<div class="row">
-  <div class="col-sm-6">
-    <div class="youtube-player" data-id="Eeb1WteC6Fo"></div>
-  </div> <!-- end col -->
-  <div class="col-sm-6">
-    <div class="youtube-player" data-id="-58VD3z7ZiQ"></div>
-  </div> <!-- end col -->
-</div>  <!-- end row -->
-
-<div class="row">
-  <div class="col-sm-6">
-    <div class="youtube-player" data-id="JZ7vmXh63Jw"></div>
-  </div> <!-- end col -->
-  <div class="col-sm-6">
-    <div class="youtube-player" data-id="XOkPAANg3R8"></div>
-  </div> <!-- end col -->
-</div>  <!-- end row -->
-
-<div class="row">
-  <div class="col-sm-6">
-    <div class="youtube-player" data-id="H3TDtGM8AMw"></div>
-  </div> <!-- end col -->
-  <div class="col-sm-6">
-    <div class="youtube-player" data-id="3ZhPJsUnmag"></div>
-  </div> <!-- end col -->
-</div>  <!-- end row -->
-
-
-
-
-
-<!--  ========================== -->
-
-<script>
- 
-    /* Light YouTube Embeds by @labnol */
-    /* Web: http://labnol.org/?p=27941 */
- 
-    document.addEventListener("DOMContentLoaded",
-        function() {
-            var div, n,
-                v = document.getElementsByClassName("youtube-player");
-            for (n = 0; n < v.length; n++) {
-                div = document.createElement("div");
-                div.setAttribute("data-id", v[n].dataset.id);
-                div.innerHTML = labnolThumb(v[n].dataset.id);
-                div.onclick = labnolIframe;
-                v[n].appendChild(div);
-            }
-        });
- 
-    function labnolThumb(id) {
-        var thumb = '<img src="https://i.ytimg.com/vi/ID/hqdefault.jpg">',
-            play = '<div class="play"></div>';
-        return thumb.replace("ID", id) + play;
-    }
- 
-    function labnolIframe() {
-        var iframe = document.createElement("iframe");
-        var embed = "https://www.youtube.com/embed/ID?autoplay=1";
-        iframe.setAttribute("src", embed.replace("ID", this.dataset.id));
-        iframe.setAttribute("frameborder", "0");
-        iframe.setAttribute("allowfullscreen", "1");
-        this.parentNode.replaceChild(iframe, this);
-    }
- 
-</script>
-
-
-
-
-<!--  ========================== -->
-
-<!--
 <div class="row">
   <div class="col-sm-6">
     <div class="embed-responsive embed-responsive-16by9">
@@ -152,4 +79,3 @@
     </div>
   </div>
 </div> 
--->
