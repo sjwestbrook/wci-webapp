@@ -231,17 +231,9 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
     
         .state('news', {
             url: '/news',
-            views: {
-                '': { 
-                    templateUrl: './partials/news.html' 
-                },
-                'newsController@news': { 
-                    templateUrl: './partials/news-list.html',
-                    controller: 'newsController'
-                }
-            }
+            templateUrl: './partials/news.html'
         })
-    
+      
         .state('pepin', {
             url: '/pepin',
             views: {
