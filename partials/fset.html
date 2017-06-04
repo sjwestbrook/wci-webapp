@@ -41,56 +41,58 @@
     <a href="#" title="" class="list-group-item" target=”_blank” aria-label="Open the FoodShare Employment and Training Program Flyer PDF in a new tab">Program Flyer</a>
     
     <a class="btn btn-primary btn-block" target="_blank" href="" role="button">Exemption Reasons</a>
-    
+                   
+                   
     <!-- Button HTML (to Trigger Modal) -->
-    <a href="#req-abawd" class="list-group-item" data-toggle="modal">Work Requirements</a>
+    <button type="button" class="btn btn-primary btn-block" data-toggle="modal" data-target="#req-abawd" aria-label="Open modal to view Work Requirements">Work Requirements</button>    
     <!-- Modal HTML -->
-    <div id="req-abawd" class="modal fade">
-      <div class="modal-dialog">
-          <div class="modal-content">            
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-            </div>                
-            <div class="modal-body">
-              <p>If your eligibility worker has determined you meet the ABAWD definition and that you do not have an exemption, you need to meet the work requirement to remain eligible for FoodShare. You can meet your monthly work requirements in one of three ways (see below) or through a combination of the first two ways.</p>
-              <p>You can enroll in the FSET program as one way to meet your work requirements and maintain your FoodShare eligibility.</p>
-              <ul>
-                <li class="bold">Option 1</li>
-                  <p><span class="bold">Complete 80 hours Work/Employment a Month</span></p>
-                  <p>Work is defined as:</p>
-                  <ul>
-                    <li>In exchange for money; or</li>
-                    <li>In exchange for other goods or services (such as food, rent); or</li>
-                    <li>Via self-employment; or</li>
-                    <li>Unpaid work experience or community service</li>
-                  </ul>
-                  <p>You must provide verification to a FoodShare eligibility worker that you are completing the 80 hours through this option.</p>
-                  <p>Verification can include paystubs, employer verification, or self-employment report forms.</p>
-                  <p>If you are working less than 80 hours, you can enroll in a work program (option 2) to complete the remaining hours for each month.</p>
+    <div class="modal fade" id="req-abawd" tabindex="-1" role="dialog" aria-labelledby="req-abawdLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h3 class="modal-title" id="req-abawdLabel">Children First Contacts</h3>
+          </div>            
+          <div class="modal-body">
+            <p>If your eligibility worker has determined you meet the ABAWD definition and that you do not have an exemption, you need to meet the work requirement to remain eligible for FoodShare. You can meet your monthly work requirements in one of three ways (see below) or through a combination of the first two ways.</p>
+            <p>You can enroll in the FSET program as one way to meet your work requirements and maintain your FoodShare eligibility.</p>
+            <ul>
+              <li class="bold">Option 1</li>
+                <p><span class="bold">Complete 80 hours Work/Employment a Month</span></p>
+                <p>Work is defined as:</p>
+                <ul>
+                  <li>In exchange for money; or</li>
+                  <li>In exchange for other goods or services (such as food, rent); or</li>
+                  <li>Via self-employment; or</li>
+                  <li>Unpaid work experience or community service</li>
+                </ul>
+                <p>You must provide verification to a FoodShare eligibility worker that you are completing the 80 hours through this option.</p>
+                <p>Verification can include paystubs, employer verification, or self-employment report forms.</p>
+                <p>If you are working less than 80 hours, you can enroll in a work program (option 2) to complete the remaining hours for each month.</p>
 
-                <li class="bold">Option 2</li>
-                <p><span class="bold">Participate 80 Hours a Month in a Work Program</span></p>
-                <p>Allowable work programs include:</p>
-                  <ul>
-                    <li>Children First</li>
-                    <li>FSET</li>
-                    <li>Refugee Cash Assistance</li>
-                    <li>Refugee Employment and Training</li>
-                    <li>Wisconsin Works (W-2)</li>
-                    <li>Workforce Investment Act / Workforce Innovation &amp; Opportunity Act (WIA/WIOA)</li>
-                    <li>Programs under Section 236 of the Trade Act</li>
-                  </ul>
-                  <p>If you participate in a program other than FSET for 80 or more hours a month, you must verify your participation with a FoodShare eligibility worker.</p>
-                  <p>You can do a combination of work and work program activities to meet your ABAWD Participation requirement.</p>
+              <li class="bold">Option 2</li>
+              <p><span class="bold">Participate 80 Hours a Month in a Work Program</span></p>
+              <p>Allowable work programs include:</p>
+                <ul>
+                  <li>Children First</li>
+                  <li>FSET</li>
+                  <li>Refugee Cash Assistance</li>
+                  <li>Refugee Employment and Training</li>
+                  <li>Wisconsin Works (W-2)</li>
+                  <li>Workforce Investment Act / Workforce Innovation &amp; Opportunity Act (WIA/WIOA)</li>
+                  <li>Programs under Section 236 of the Trade Act</li>
+                </ul>
+                <p>If you participate in a program other than FSET for 80 or more hours a month, you must verify your participation with a FoodShare eligibility worker.</p>
+                <p>You can do a combination of work and work program activities to meet your ABAWD Participation requirement.</p>
 
-                <li>Option 3</li>
-                  <p><span class="bold">Participate in a Workfare Assignment:</span></p>
-                  <p>In FSET, you can complete a voluntary workfare assignment at a public agency or a private non-profit agency to meet your ABAWD work requirement.</p>
-                  <p>Your monthly participation in workfare is determined by dividing your monthly FoodShare amount by minimum wage.</p>
-                  <p>Example: If you receive $194 in FoodShare, your monthly Workfare hours are 27 ($194/$7.25) or about 7 hours per week.</p>
-                  <p>If you chose the Workfare option, you only need to complete the workfare hours instead of the full 80 hours each month.</p>
-                  <p>You can volunteer for additional hours in your workfare assignment or in any other activities in FSET, but only the Workfare hours would need to be completed to meet the work requirement for FoodShare.</p>
-              </ul>
+              <li>Option 3</li>
+                <p><span class="bold">Participate in a Workfare Assignment:</span></p>
+                <p>In FSET, you can complete a voluntary workfare assignment at a public agency or a private non-profit agency to meet your ABAWD work requirement.</p>
+                <p>Your monthly participation in workfare is determined by dividing your monthly FoodShare amount by minimum wage.</p>
+                <p>Example: If you receive $194 in FoodShare, your monthly Workfare hours are 27 ($194/$7.25) or about 7 hours per week.</p>
+                <p>If you chose the Workfare option, you only need to complete the workfare hours instead of the full 80 hours each month.</p>
+                <p>You can volunteer for additional hours in your workfare assignment or in any other activities in FSET, but only the Workfare hours would need to be completed to meet the work requirement for FoodShare.</p>
+            </ul>
           </div>
           <div class="modal-footer">
             <button type="button" class="prog-btn" data-dismiss="modal">Close</button>
