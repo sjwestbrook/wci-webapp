@@ -147,6 +147,11 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
             templateUrl: './partials/pepin.html' 
         })
     
+        .state('request-services', {
+            url: '/request-services',
+            templateUrl: './partials/request-services.html'
+        })
+    
        .state('reports', {
             url: '/reports',
             templateUrl: './partials/reports.html'
