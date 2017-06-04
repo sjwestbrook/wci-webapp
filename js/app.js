@@ -6,93 +6,36 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
     
     $stateProvider
         
-        // HOME STATE ========================================
         .state('home', {
             url: '/home',
             templateUrl: './partials/home.html'
-        })
-        
-            // nested list with custom controller
-//         .state('home.list', {
-//             url: '/list',
-//             templateUrl: './partials/partial-home-list.html',
-//             controller: function($scope) {
-//                 $scope.dogs = ['Bernese', 'Husky', 'Goldendoodle'];
-//             }
-//         })
-        
-//         // nested list with just some random string data
-//         .state('home.paragraph', {
-//             url: '/paragraph',
-//             template: 'I could sure use a drink right now.'
-//         })
-        
-      
-    
-        // ABOUT PAGE AND MULTIPLE NAMED VIEWS =================================
+        }) 
+   
         .state('about', {
             url: '/about',
-            views: {
-                '': { templateUrl: './partials/about.html' },
-//                 'columnOne@about': { template: 'Look I am a column!' },
-//                 'columnTwo@about': { 
-//                     templateUrl: './partials/table-data.html',
-//                     controller: 'scotchController'
-//                 }
-            }            
+            templateUrl: './partials/about.html'
         })
-    
-    
     
         .state('404', {
             url: '/404',
             templateUrl: './partials/404.html'
         })
     
-    
         .state('aca', {
             url: '/aca',
             templateUrl: './partials/aca.html'
         })
-    
-    
-        
-        // BOARD STATE AND NESTED VIEW ========================================
+
         .state('board', {
             url: '/board',
-            views: {
-                '': { 
-                    templateUrl: './partials/board.html' 
-                },
-                'boardMembers@board': { 
-                    templateUrl: './partials/board-list.html',
-                    controller: 'boardController'
-                }
-            }
-        })
-    
-    
-        .state('board.agendas-minutes', {
-            url: '/agendas-minutes',
-            templateUrl: './partials/agendas-minutes.html',
-//             controller: function($scope) {
-//                 $scope.dogs = ['Bernese', 'Husky', 'Goldendoodle'];
-//             }
-        })
-        
-        .state('buffalo', {
-            url: '/buffalo',
-            views: {
-                '': { 
-                    templateUrl: './partials/buffalo.html' 
-                },
-                'buffaloStaff@buffalo': { 
-                    templateUrl: './partials/buffalo-staff.html',
-                    controller: 'buffaloController'
-                }
-            }
+            templateUrl: './partials/board.html'
         })
      
+     .state('buffalo', {
+            url: '/buffalo',
+            templateUrl: './partials/buffalo.html'
+        })
+    
        .state('business-solutions', {
             url: '/business-solutions',
             templateUrl: './partials/business-solutions.html'
@@ -125,15 +68,7 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
     
         .state('crawford', {
             url: '/crawford',
-            views: {
-                '': { 
-                    templateUrl: './partials/crawford.html' 
-                },
-                'crawfordStaff@crawford': { 
-                    templateUrl: './partials/crawford-staff.html',
-                    controller: 'crawfordController'
-                }
-            }
+            templateUrl: './partials/crawford.html'
         })
        
        .state('emergency-assistance', {
@@ -146,6 +81,11 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
             templateUrl: './partials/executive-director.html'
         })
     
+        .state('foster-grandparents', {
+            url: '/foster-grandparents',
+            templateUrl: './partials/foster-grandparents.html'
+        })
+    
       .state('fset', {
             url: '/fset',
             templateUrl: './partials/fset.html'
@@ -155,20 +95,12 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
             url: '/history',
             templateUrl: './partials/history.html'
         })
-        
-       .state('jackson', {
-            url: '/jackson',
-            views: {
-                '': { 
-                    templateUrl: './partials/jackson.html' 
-                },
-                'jacksonStaff@jackson': { 
-                    templateUrl: './partials/jackson-staff.html',
-                    controller: 'jacksonController'
-                }
-            }
-        })
     
+     .state('jackson', {
+            url: '/jackson',
+            templateUrl: './partials/jackson.html'
+        })
+        
        .state('job-search-resources', {
             url: '/job-search-resources',
             templateUrl: './partials/job-search-resources.html'
@@ -181,28 +113,12 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
     
         .state('juneau', {
             url: '/juneau',
-            views: {
-                '': { 
-                    templateUrl: './partials/juneau.html' 
-                },
-                'juneauStaff@juneau': { 
-                    templateUrl: './partials/juneau-staff.html',
-                    controller: 'juneauController'
-                }
-            }
+            templateUrl: './partials/juneau.html' 
         })
     
         .state('lacrosse', {
             url: '/lacrosse',
-            views: {
-                '': { 
-                    templateUrl: './partials/lacrosse.html' 
-                },
-                'lacrosseStaff@lacrosse': { 
-                    templateUrl: './partials/lacrosse-staff.html',
-                    controller: 'lacrosseController'
-                }
-            }
+            templateUrl: './partials/lacrosse.html' 
         })
     
     
@@ -218,15 +134,7 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
     
         .state('monroe', {
             url: '/monroe',
-            views: {
-                '': { 
-                    templateUrl: './partials/monroe.html' 
-                },
-                'monroeStaff@monroe': { 
-                    templateUrl: './partials/monroe-staff.html',
-                    controller: 'monroeController'
-                }
-            }
+            templateUrl: './partials/monroe.html'
         })
     
         .state('news', {
@@ -236,15 +144,7 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
       
         .state('pepin', {
             url: '/pepin',
-            views: {
-                '': { 
-                    templateUrl: './partials/pepin.html' 
-                },
-                'pepinStaff@pepin': { 
-                    templateUrl: './partials/pepin-staff.html',
-                    controller: 'pepinController'
-                }
-            }
+            templateUrl: './partials/pepin.html' 
         })
     
        .state('reports', {
@@ -256,11 +156,6 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
             url: '/resources',
             templateUrl: './partials/resources.html'
         })
-    
-        .state('second-chances', {
-            url: '/second-chances',
-            templateUrl: './partials/second-chances.html'
-        })
       
         .state('request-services', {
             url: '/request-services',
@@ -269,51 +164,22 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
     
        .state('staff', {
             url: '/staff',
-            views: {
-                '': { 
-                    templateUrl: './partials/staff.html' 
-                },
-                'columnOne@staff': { 
-                    templateUrl: './partials/staff-list.html',
-                    controller: 'staffController'
-                }
-            }
+            templateUrl: './partials/staff.html' 
         })
     
         .state('success-stories', {
             url: '/success-stories',
             templateUrl: './partials/success-stories.html'
         })
-    
-        .state('transportation-connections', {
-            url: '/transportation-connections',
-            templateUrl: './partials/transportation-connections.html'
-        })
-                
+        
         .state('trempealeau', {
             url: '/trempealeau',
-            views: {
-                '': { 
-                    templateUrl: './partials/trempealeau.html' 
-                },
-                'trempealeauStaff@trempealeau': { 
-                    templateUrl: './partials/trempealeau-staff.html',
-                    controller: 'trempealeauController'
-                }
-            }
+            templateUrl: './partials/trempealeau.html' 
         })
     
         .state('vernon', {
             url: '/vernon',
-            views: {
-                '': { 
-                    templateUrl: './partials/vernon.html' 
-                },
-                'vernonStaff@vernon': { 
-                    templateUrl: './partials/vernon-staff.html',
-                    controller: 'vernonController'
-                }
-            }
+            templateUrl: './partials/vernon.html' 
         })
     
         .state('volunteer', {
@@ -328,7 +194,7 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
     
     
         .state('w2-resources', {
-             url: '/w2-resources',
+            url: '/w2-resources',
             templateUrl: './partials/w2-resources.html'
         })
     
@@ -343,12 +209,12 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
         })
     
         .state('wioa-resources', {
-             url: '/wioa-resources',
+            url: '/wioa-resources',
             templateUrl: './partials/wioa-resources.html'
         })
     
        .state('wioa', {
-             url: '/wioa',
+            url: '/wioa',
             templateUrl: './partials/wioa.html'
         })
     
