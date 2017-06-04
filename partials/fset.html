@@ -37,11 +37,50 @@
     
     
   </div>  <!-- end col -->
+  
   <div class="col-sm-6">
-    <a href="#" title="" class="list-group-item" target=”_blank” aria-label="Open the FoodShare Employment and Training Program Flyer PDF in a new tab">Program Flyer</a>
+    <a href="pdf/WWOpenEnrollmentEvents2016.pdf" role=type="button" class="btn btn-primary btn-block" aria-label="Open the FoodShare Employment and Training Program Flyer PDF in a new tab">Program Flyer</a>
     
-    <a class="btn btn-primary btn-block" target="_blank" href="" role="button">Exemption Reasons</a>
-                   
+    
+    <button type="button" class="btn btn-primary btn-block" data-toggle="modal" data-target="#exempt-abawd" aria-label="Open modal to view Exemption Reasons">Exemption Reasons</button>    
+    <!-- Modal HTML -->
+    <div class="modal fade" id="exempt-abawd" tabindex="-1" role="dialog" aria-labelledby="exempt-abawdLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h3 class="modal-title" id="exempt-abawdLabel">Exemption Reasons</h3>
+          </div>            
+          <div class="modal-body">
+            <p>Many recipients who meet the ABAWD definition can be exempt from the work requirement.  The following are the allowable exemptions for the ABAWD requirements:</p>
+            <ul>
+                <li>Determined unfit for employment, which includes someone who is:
+                  <ul>
+                    <li>Receiving temporary or permanent disability benefits from the government or a private source; or</li>
+                    <li>Mentally or physically unable to work, as determined by the IM agency; or</li>
+                    <li>Verified as unable to work by a statement from a health care professional or a social worker.</li>
+                  </ul>
+                </li>
+                <li>Receiving Unemployment Compensation (UC) or has applied for UC and is complying with UC work requirements;</li>
+                <li>Regularly participating in an alcohol or other drug addiction (AODA) treatment or rehabilitation program;</li>
+                <li>A student of higher education who is otherwise eligible for FoodShare;</li>
+                <li>A high school student 18 years of age or older, attending high school at least half-time;</li>
+                <li><span class="bold">Primary</span> caregiver of a dependent child under age 6 or an incapacitated person;</li>
+                <li>Receiving transitional FS benefits; or</li>
+                <li>Meeting the ABAWD work requirement outside of FSET through work and/or other allowable work program participation.  </li>
+              </ul>
+              <p>We can help you to report and verify your exemption claim but the FSET program cannot determine or approve an exemption for you.</p>
+              <p>Even if you meet an exemption, you can still volunteer to receive services in the FSET program.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="prog-btn" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div> <!-- end modal --> 
+     
+     
+     
                    
     <!-- Button HTML (to Trigger Modal) -->
     <button type="button" class="btn btn-primary btn-block" data-toggle="modal" data-target="#req-abawd" aria-label="Open modal to view Work Requirements">Work Requirements</button>    
@@ -51,7 +90,7 @@
         <div class="modal-content">
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h3 class="modal-title" id="req-abawdLabel">Children First Contacts</h3>
+            <h3 class="modal-title" id="req-abawdLabel">Work Requirements</h3>
           </div>            
           <div class="modal-body">
             <p>If your eligibility worker has determined you meet the ABAWD definition and that you do not have an exemption, you need to meet the work requirement to remain eligible for FoodShare. You can meet your monthly work requirements in one of three ways (see below) or through a combination of the first two ways.</p>
@@ -99,7 +138,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> <!-- end modal -->
     
     <a href="#" title="" class="list-group-item" target=”_blank” aria-label="Open the work requirement for adults PDF in a new tab">The Work Requirement for Adults</a>
   </div>  <!-- end col -->
