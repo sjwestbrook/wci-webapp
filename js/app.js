@@ -226,6 +226,5 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
         .state('wise', {
              url: '/wise',
             templateUrl: './partials/wise.html'
-        });
-    
+        })    
 });
