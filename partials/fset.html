@@ -25,10 +25,33 @@
 <div class="row">
   <div class="col-sm-6">
     <a class="btn btn-primary btn-block" target="_blank" href="" role="button">FSET Overview</a>
+    <button type="button" class="btn btn-primary btn-block" data-toggle="modal" data-target="#what-fset" aria-label="Open modal to view the FSET Overview">FSET Overview</button>    
+    <!-- Modal HTML -->
+    <div class="modal fade" id="what-fset" tabindex="-1" role="dialog" aria-labelledby="what-fsetLAbel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h3 class="modal-title" id="what-fsetLabel">FSET Overview</h3>
+          </div>            
+          <div class="modal-body">
+            <p> The FSET program is funded through State of Wisconsin Department of Agriculture through Supplemental Nutrition Assistance Program (SNAP) Funds. </p>
+            <p><a href="https://www.dhs.wisconsin.gov/foodshare/fset.htm" title="FSET">More information</a></p>
+            <p>Workforce Connections, Inc. provides FSET services to voluntary individuals in Jackson, Juneau, Monroe, Vernon, Crawford, Buffalo, Trempealeau, and La Crosse Counties.  FSET program services are designed to assist those individuals eligible and receiving the FoodShare benefit in finding and maintaining employment.  FSET services include assessment, case management, job search assistance, referrals, work experience, workfare, education, self-employment, job retention services and supportive services to those voluntarily cooperating with the program.</p>
+            <p>FSET is a VOLUNTARY employment and training program for recipients of FoodShare in Wisconsin. The primary goal of the FSET program is to help people gain employment. This goal is achieved by helping people increase skills and education and overcome barriers to employment.</p>
+            <p>Ultimately, YOUR goals are OUR goals.</p>  
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="prog-btn" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div> <!-- end modal -->  
+    
     
     
    
-    <button type="button" class="btn btn-primary btn-block" data-toggle="modal" data-target="#fset-services" aria-label="Open modal to view the USDA Nondescrimination Statement">FSET Support Services</button>    
+    <button type="button" class="btn btn-primary btn-block" data-toggle="modal" data-target="#fset-services" aria-label="Open modal to view FSET Support Services">FSET Support Services</button>    
     <!-- Modal HTML -->
     <div class="modal fade" id="fset-services" tabindex="-1" role="dialog" aria-labelledby="fset-servicesLabel">
       <div class="modal-dialog" role="document">
