@@ -161,11 +161,6 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
             url: '/resources',
             templateUrl: './partials/resources.html'
         })
-      
-        .state('request-services', {
-            url: '/request-services',
-            templateUrl: './partials/request-services.html'
-        })
     
        .state('staff', {
             url: '/staff',
@@ -226,5 +221,5 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
         .state('wise', {
              url: '/wise',
             templateUrl: './partials/wise.html'
-        })    
+        });    
 });
