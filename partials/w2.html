@@ -25,16 +25,13 @@
 
 <div class="row">
   <div class="col-sm-6">
-    <a class="btn btn-primary btn-block" href="" role="button">W-2 Overview</a>  <!-- modal -->
-    
+  
     <!-- Button HTML (to Trigger Modal) -->
-            <a href="#what-w2" data-toggle="modal" class="list-group-item" style="text-align:center; font-size:16px; background: #e07e2b; color:#FFFFFF;">W-2 Overview</a>
-
+    <a href="#what-w2" data-toggle="modal" class="list-group-item">W-2 Overview</a>
     <!-- Modal HTML -->
     <div id="what-w2" class="modal fade">
       <div class="modal-dialog">
-          <div class="modal-content">
-          
+          <div class="modal-content">          
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
             </div> <!-- end modal header -->
@@ -63,17 +60,44 @@
                 <li>Job Access Loans (JAL) - Short term, no interest loans may be available to assist workers in obtaining or retaining employment.</li>
                 <li>Other miscellaneous services based on your needs and eligibility.</li>
               </ol>
-
-             </div> <!-- end modal body -->
-                
-              <div class="modal-footer">
-                <button type="button" class="prog-btn" data-dismiss="modal">Close</button>
-              </div> <!-- end footer -->   
+           </div> <!-- end modal body -->
+           <div class="modal-footer">
+             <button type="button" class="prog-btn" data-dismiss="modal">Close</button>
+           </div> <!-- end footer -->   
+        </div>
+      </div>
+    </div>
+   
+    <!-- Button HTML (to Trigger Modal) -->
+    <a href="#w2-locations" data-toggle="modal" class="list-group-item">Locations</a>
+    <!-- Modal HTML -->
+    <div id="w2-locations" class="modal fade">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          </div>
+          <div class="modal-body">
+            <ul>
+              <li><a ui-sref="buffalo" target="_blank" aria-label="Open Buffalo County page in new tab">Buffalo County</a></li>
+              <li><a ui-sref="crawford" target="_blank" aria-label="Open Crawford County page in new tab">Crawford County</a></li>
+              <li><a ui-sref="jackson" target="_blank" aria-label="Open Jackson County page in new tab">Jackson County</a></li>
+              <li><a ui-sref="lacrosse" target="_blank" aria-label="Open La Crosse County page in new tab">La Crosse County</a></li>
+              <li><a ui-sref="monroe" target="_blank" aria-label="Open Monroe County page in new tab">Monroe County</a></li>
+              <li><a ui-sref="pepin" target="_blank" aria-label="Open Pepin County page in new tab">Pepin County</a></li>
+              <li><a ui-sref="trempealeau" target="_blank" aria-label="Open Trempealeau County page in new tab">Trempealeau County</a></li>
+              <li><a ui-sref="vernons" target="_blank" aria-label="Open Vernon County page in new tab">Vernon County</a></li>
+            </ul>                       
+          </div>
+          <div class="modal-footer">
+            <button type="button" class=" prog-btn" data-dismiss="modal">Close</button>
+          </div>
         </div>
       </div>
     </div>
     
-    <a class="btn btn-primary btn-block" href="" role="button">Locations</a>  <!-- modal -->
+    
+    
     <a class="btn btn-primary btn-block" href="" role="button">What to Bring</a>
   </div>  <!-- end col -->
   
