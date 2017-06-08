@@ -76,6 +76,21 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
             templateUrl: './partials/emergency-assistance.html'
         })
     
+        .state('empire-testimonial', {
+            url: '/empire-testimonial',
+            templateUrl: './partials/empire-testimonial.html'
+        })
+    
+        .state('employee-benefits', {
+            url: '/employee-benefits',
+            templateUrl: './partials/employee-benefits.html'
+        })
+    
+        .state('employee-testimonials', {
+            url: '/employee-testimonials',
+            templateUrl: './partials/employee-testimonials.html'
+        })
+    
         .state('executive-director', {
             url: '/executive-director',
             templateUrl: './partials/executive-director.html'
@@ -86,9 +101,19 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
             templateUrl: './partials/foster-grandparents.html'
         })
     
-      .state('fset', {
+       .state('fset', {
             url: '/fset',
             templateUrl: './partials/fset.html'
+        })
+    
+        .state('healthcare-impact-stories', {
+            url: '/healthcare-impact-stories',
+            templateUrl: './partials/healthcare-impact-stories.html'
+        })
+    
+        .state('healthcare-press-release', {
+            url: '/healthcare-press-release',
+            templateUrl: './partials/healthcare-press-release.html'
         })
     
       .state('history', {
@@ -96,11 +121,16 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
             templateUrl: './partials/history.html'
         })
     
-     .state('jackson', {
+        .state('jackson', {
             url: '/jackson',
             templateUrl: './partials/jackson.html'
         })
         
+        .state('job-postings', {
+            url: '/job-postings',
+            templateUrl: './partials/job-postings.html'
+        })
+    
        .state('job-search-resources', {
             url: '/job-search-resources',
             templateUrl: './partials/job-search-resources.html'
