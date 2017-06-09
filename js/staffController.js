@@ -4,7 +4,7 @@ routerApp.controller('staffController', function($scope) {
    
     $scope.staff = [
         {
-            image: './images/staff/amundsonp.jpg',
+//             image: './images/staff/amundsonp.jpg',
             name: 'Pamela Amundson',
             title: 'Financial Manager - Fiscal',
             location: 'La Crosse County',
