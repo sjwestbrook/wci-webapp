@@ -38,9 +38,10 @@
   margin: 0 auto;
 }
 /* ============================== CARD STYLES ============================== */
-card .img-top {
+img .card .img-top {
   width: 50%;
 }
+/* ============================== FOOTER STYLES ============================== */
 .footer-links a {
   color: #ffffff;
   background-color: #2F343A;
