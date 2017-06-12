@@ -197,9 +197,9 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
             templateUrl: './partials/staff.html'
         })
     
-        .state('success-stories', {
-            url: '/success-stories',
-            templateUrl: './partials/success-stories.html'
+        .state('impact-stories', {
+            url: '/impact-stories',
+            templateUrl: './partials/impact-stories.html'
         })
         
         .state('trempealeau', {
