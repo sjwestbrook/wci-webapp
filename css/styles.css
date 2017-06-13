@@ -8,28 +8,40 @@
 @dkteal: rgb(65,170,196); 
 @white: rgb(255,255,255);
 @black: rgb(0,0,0);
-@fuschia: rgb(199,0,57);
+        @fuschia: rgb(199,0,57);
 @orange: rgb(255, 157, 0);
  */
+/* @charcoal: #2F343A;
+@medgrey: #717D8C;
+@ltgrey: #DDDDDD;
+@ltstgrey: #FCFCFC;
+@beige: #BDB69C;
+@ltteal: #75d4eb;
+@dkteal: #41AAC4;
+@white: #ffffff;
+@black: #000000;
+@fuschia: #C70039;
+@orange: #FF9D00;
+@black-transp: rgba(0, 0, 0, 0.4); */
 /* ============================== FONTS ============================== */
 /* ============================== MIXINS ============================== */
 .header-links a {
   color: #ffffff;
-  background-color: #41AAC4;
+  background-color: #75253d;
   text-decoration: none;
 }
 .header-links a:hover {
-  color: #C70039;
-  background-color: #41AAC4;
+  color: #BEBA31;
+  background-color: #75253d;
   border: 0;
 }
 .header-links a:visited {
   color: #ffffff;
-  background-color: #41AAC4;
+  background-color: #75253d;
 }
 .header-links a:active {
-  color: #C70039;
-  background-color: #41AAC4;
+  color: #BEBA31;
+  background-color: #75253d;
   border: 0;
 }
 /* ============================== GLOBAL STYLES ============================== */
@@ -44,21 +56,21 @@
 /* ============================== FOOTER STYLES ============================== */
 .footer-links a {
   color: #ffffff;
-  background-color: #2F343A;
+  background-color: #124834;
   text-decoration: none;
 }
 .footer-links a:hover {
-  color: #C70039;
-  background-color: #2F343A;
+  color: #BEBA31;
+  background-color: #124834;
   border: 0;
 }
 .footer-links a:visited {
   color: #ffffff;
-  background-color: #2F343A;
+  background-color: #124834;
 }
 .footer-links a:active {
-  color: #C70039;
-  background-color: #2F343A;
+  color: #BEBA31;
+  background-color: #124834;
   border: 0;
 }
 .footer-links a i {
@@ -153,7 +165,7 @@ figure figcaption {
 /* HEADER ======================== */
 .navbar-other {
   color: #ffffff;
-  background-color: #41AAC4;
+  background-color: #75253d;
   font-weight: 600;
 }
 .navbar-other .navbar-brand img {
@@ -167,46 +179,46 @@ figure figcaption {
 }
 .navbar-other .nav .nav-item a {
   color: #ffffff;
-  background-color: #41AAC4;
+  background-color: #75253d;
   text-decoration: none;
 }
 .navbar-other .nav .nav-item a:hover {
-  color: #C70039;
-  background-color: #41AAC4;
+  color: #BEBA31;
+  background-color: #75253d;
   border: 0;
 }
 .navbar-other .nav .nav-item a:visited {
   color: #ffffff;
-  background-color: #41AAC4;
+  background-color: #75253d;
 }
 .navbar-other .nav .nav-item a:active {
-  color: #C70039;
-  background-color: #41AAC4;
+  color: #BEBA31;
+  background-color: #75253d;
   border: 0;
 }
 .navbar-other .nav .nav-item button {
   color: #ffffff;
-  background-color: #41AAC4;
+  background-color: #75253d;
   border: 0;
   margin-top: 17%;
 }
 .navbar-other .nav .nav-item button ul li a {
   color: #ffffff;
-  background-color: #41AAC4;
+  background-color: #75253d;
   text-decoration: none;
 }
 .navbar-other .nav .nav-item button ul li a:hover {
-  color: #C70039;
-  background-color: #41AAC4;
+  color: #BEBA31;
+  background-color: #75253d;
   border: 0;
 }
 .navbar-other .nav .nav-item button ul li a:visited {
   color: #ffffff;
-  background-color: #41AAC4;
+  background-color: #75253d;
 }
 .navbar-other .nav .nav-item button ul li a:active {
-  color: #C70039;
-  background-color: #41AAC4;
+  color: #BEBA31;
+  background-color: #75253d;
   border: 0;
 }
 .navbar-other .nav .dropdown-menu {
@@ -218,21 +230,21 @@ figure figcaption {
 }
 .navbar-other .nav .dropdown-menu a a {
   color: #ffffff;
-  background-color: #41AAC4;
+  background-color: #75253d;
   text-decoration: none;
 }
 .navbar-other .nav .dropdown-menu a a:hover {
-  color: #C70039;
-  background-color: #41AAC4;
+  color: #BEBA31;
+  background-color: #75253d;
   border: 0;
 }
 .navbar-other .nav .dropdown-menu a a:visited {
   color: #ffffff;
-  background-color: #41AAC4;
+  background-color: #75253d;
 }
 .navbar-other .nav .dropdown-menu a a:active {
-  color: #C70039;
-  background-color: #41AAC4;
+  color: #BEBA31;
+  background-color: #75253d;
   border: 0;
 }
 .navbar-other .navbar-header button .navbar-toggle .icon-bar {
@@ -241,7 +253,7 @@ figure figcaption {
 /*  FOOTER ======================== */
 .footer-index {
   color: #ffffff;
-  background-color: #2F343A;
+  background-color: #124834;
   font-size: .8em;
 }
 .footer-index img {
@@ -252,21 +264,21 @@ figure figcaption {
 }
 .footer-index a {
   color: #ffffff;
-  background-color: #2F343A;
+  background-color: #124834;
   text-decoration: none;
 }
 .footer-index a:hover {
-  color: #C70039;
-  background-color: #2F343A;
+  color: #BEBA31;
+  background-color: #124834;
   border: 0;
 }
 .footer-index a:visited {
   color: #ffffff;
-  background-color: #2F343A;
+  background-color: #124834;
 }
 .footer-index a:active {
-  color: #C70039;
-  background-color: #2F343A;
+  color: #BEBA31;
+  background-color: #124834;
   border: 0;
 }
 .footer-index a i {
@@ -308,18 +320,18 @@ figure figcaption {
 }
 .blocks a {
   padding: 6 5%;
-  color: #2F343A;
+  color: #333333;
   text-decoration: none;
 }
 .blocks a:hover {
-  color: #C70039;
+  color: #BEBA31;
   border: 0;
 }
 .blocks a:visited {
-  color: #2F343A;
+  color: #333333;
 }
 .blocks a:active {
-  color: #C70039;
+  color: #BEBA31;
   border: 0;
 }
 /*  HISTORY ======================== */
@@ -330,21 +342,17 @@ figure figcaption {
 /*  ANNUAL REPORTS ======================== */
 .reports a {
   color: #ffffff;
-  /*     background-color: @dkteal; */
   text-decoration: none;
 }
 .reports a:hover {
-  color: #C70039;
-  /*       background-color: @dkteal; */
+  color: #BEBA31;
   border: 0;
 }
 .reports a:visited {
   color: #ffffff;
-  /*       background-color: @dkteal; */
 }
 .reports a:active {
-  color: #C70039;
-  /*       background-color: @dkteal; */
+  color: #BEBA31;
   border: 0;
 }
 @media (max-width: 499px) {
