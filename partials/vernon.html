@@ -1,13 +1,13 @@
 
-<div class="row">
+<div class="row" role="presentation">
   <div class="col-md-12">
-    <img src="images/ver.JPG" class="header-img" alt="Vernon County" />
+    <img src="images/county/vernon-county.JPG" class="header-img" alt="Vernon County" />
   </div><!-- end col -->
 </div><!-- end row -->
 
 <div class="row">
   <div class="col-md-12">
-    <h2>Vernon County</h2>
+    <h1>Vernon County</h1>
   </div><!-- end col -->
 </div><!-- end row -->
 
@@ -16,7 +16,7 @@
 <div class="row">
   <div class="col-sm-6">
     <div>
-      <h3>Office Info</h3>  
+      <h2>Office Info</h2>  
       <ul>
         <li>By Appointment Only</li>
         <li>220 S. Main St.</li>
@@ -30,16 +30,27 @@
       </ul>
     </div>
     
-    <div>  
-      <div ui-view="vernonStaff"></div>         
-    </div> 
+    <div>  <!-- start staff info -->
+      <div class="card">
+        <img class="card-img-top" src="./images/staff/wardj.jpg" alt="Jonathan Ward" />
+        <div class="card-block">
+          <h3 class="card-title"> Jonathan Ward</h3>
+          <ul>
+              <li>Employment Coordinator</li>
+              <li>Vernon County</li>
+              <li><a href="tel:1-608-433-2768"><i class="fa fa-phone-square" aria-hidden="true"></i>608-433-2768 </a></li>    
+              <li><a href="mailto:wardj@workforceconnections.org"><i class="fa fa-envelope" aria-hidden="true"></i>wardj@workforceconnections.org </a></li>                
+          </ul>
+        </div>
+      </div>  <!-- end card -->     
+    </div>  <!-- end staff info -->
 
   </div> <!-- end col -->
   
   
   <div class="col-sm-6">
     
-    <h3>Programs</h3>
+    <h2>Programs</h2>
     <a class="btn btn-primary btn-block" ui-sref="aca" role="button">Affordable Care Act</a>
     <a class="btn btn-primary btn-block" ui-sref="emergency-assistance" role="button">Emergency Assistance</a>
     <a class="btn btn-primary btn-block" ui-sref="fset" role="button">Food Share Employment &amp; Training (FSET)</a>
