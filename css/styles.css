@@ -1,29 +1,8 @@
 /* ============================== VARIABLES ============================== */
 /* ============================== COLORS ============================== */
-/* @charcoal: rgb(47,52,58);
-@medgrey: rgb(113,125,140);
-@ltgrey: rgb(221,221,221);
-@beige: rgb(189,182,156);
-@ltteal: rgba(117, 212, 235, 1)
-@dkteal: rgb(65,170,196); 
-@white: rgb(255,255,255);
-@black: rgb(0,0,0);
-        @fuschia: rgb(199,0,57);
-@orange: rgb(255, 157, 0);
- */
-/* @charcoal: #2F343A;
-@medgrey: #717D8C;
-@ltgrey: #DDDDDD;
-@ltstgrey: #FCFCFC;
-@beige: #BDB69C;
-@ltteal: #75d4eb;
-@dkteal: #41AAC4;
-@white: #ffffff;
-@black: #000000;
-@fuschia: #C70039;
-@orange: #FF9D00;
-@black-transp: rgba(0, 0, 0, 0.4); */
 /* ============================== FONTS ============================== */
+/* @headings: 'Didact Gothic', sans-serif;
+@text: 'Arimo', sans-serif; */
 /* ============================== MIXINS ============================== */
 .header-links a {
   color: #ffffff;
@@ -31,7 +10,7 @@
   text-decoration: none;
 }
 .header-links a:hover {
-  color: #BEBA31;
+  color: #E07E2B;
   background-color: #75253d;
   border: 0;
 }
@@ -40,14 +19,20 @@
   background-color: #75253d;
 }
 .header-links a:active {
-  color: #BEBA31;
+  color: #E07E2B;
   background-color: #75253d;
   border: 0;
 }
 /* ============================== GLOBAL STYLES ============================== */
+body {
+  font-family: "Aleo", serif;
+}
 .container-fluid {
   width: 80%;
   margin: 0 auto;
+}
+.bold {
+  font-weight: bold;
 }
 /* ============================== CARD STYLES ============================== */
 .card-img-top {
@@ -60,7 +45,7 @@
   text-decoration: none;
 }
 .footer-links a:hover {
-  color: #BEBA31;
+  color: #E07E2B;
   background-color: #124834;
   border: 0;
 }
@@ -69,7 +54,7 @@
   background-color: #124834;
 }
 .footer-links a:active {
-  color: #BEBA31;
+  color: #E07E2B;
   background-color: #124834;
   border: 0;
 }
@@ -89,15 +74,15 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Didact Gothic', sans-serif;
+  /*   font-family: @headings;  */
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
 }
 p,
 a {
-  font-family: 'Arimo', sans-serif;
-  font-size: 1em;
+  /*   font-family: @text; */
+  font-size: 1.2em;
 }
 ul {
   list-style: none;
@@ -183,7 +168,7 @@ figure figcaption {
   text-decoration: none;
 }
 .navbar-other .nav .nav-item a:hover {
-  color: #BEBA31;
+  color: #E07E2B;
   background-color: #75253d;
   border: 0;
 }
@@ -192,7 +177,7 @@ figure figcaption {
   background-color: #75253d;
 }
 .navbar-other .nav .nav-item a:active {
-  color: #BEBA31;
+  color: #E07E2B;
   background-color: #75253d;
   border: 0;
 }
@@ -208,7 +193,7 @@ figure figcaption {
   text-decoration: none;
 }
 .navbar-other .nav .nav-item button ul li a:hover {
-  color: #BEBA31;
+  color: #E07E2B;
   background-color: #75253d;
   border: 0;
 }
@@ -217,7 +202,7 @@ figure figcaption {
   background-color: #75253d;
 }
 .navbar-other .nav .nav-item button ul li a:active {
-  color: #BEBA31;
+  color: #E07E2B;
   background-color: #75253d;
   border: 0;
 }
@@ -234,7 +219,7 @@ figure figcaption {
   text-decoration: none;
 }
 .navbar-other .nav .dropdown-menu a a:hover {
-  color: #BEBA31;
+  color: #E07E2B;
   background-color: #75253d;
   border: 0;
 }
@@ -243,7 +228,7 @@ figure figcaption {
   background-color: #75253d;
 }
 .navbar-other .nav .dropdown-menu a a:active {
-  color: #BEBA31;
+  color: #E07E2B;
   background-color: #75253d;
   border: 0;
 }
@@ -268,7 +253,7 @@ figure figcaption {
   text-decoration: none;
 }
 .footer-index a:hover {
-  color: #BEBA31;
+  color: #E07E2B;
   background-color: #124834;
   border: 0;
 }
@@ -277,7 +262,7 @@ figure figcaption {
   background-color: #124834;
 }
 .footer-index a:active {
-  color: #BEBA31;
+  color: #E07E2B;
   background-color: #124834;
   border: 0;
 }
@@ -324,14 +309,14 @@ figure figcaption {
   text-decoration: none;
 }
 .blocks a:hover {
-  color: #BEBA31;
+  color: #E07E2B;
   border: 0;
 }
 .blocks a:visited {
   color: #333333;
 }
 .blocks a:active {
-  color: #BEBA31;
+  color: #E07E2B;
   border: 0;
 }
 /*  HISTORY ======================== */
@@ -345,14 +330,14 @@ figure figcaption {
   text-decoration: none;
 }
 .reports a:hover {
-  color: #BEBA31;
+  color: #E07E2B;
   border: 0;
 }
 .reports a:visited {
   color: #ffffff;
 }
 .reports a:active {
-  color: #BEBA31;
+  color: #E07E2B;
   border: 0;
 }
 @media (max-width: 499px) {
