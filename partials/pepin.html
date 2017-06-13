@@ -1,13 +1,13 @@
 
-<div class="row">
+<div class="row" role="presentation">
   <div class="col-md-12">
-    <img src="images/pep.JPG" class="header-img" alt="Pepin County" />
+    <img src="images/county/pepin-county.JPG" class="header-img" alt="Pepin County" />
   </div><!-- end col -->
 </div><!-- end row -->
 
 <div class="row">
   <div class="col-md-12">
-    <h2>Pepin County</h2>
+    <h1>Pepin County</h1>
   </div><!-- end col -->
 </div><!-- end row -->
 
@@ -16,7 +16,7 @@
 <div class="row">
   <div class="col-sm-6">
     <div>
-      <h3>Office Info</h3>  
+      <h2>Office Info</h2>  
       <ul>
         <li>By Appointment Only</li>
         <li>316 West Madison</li>
@@ -30,16 +30,27 @@
       </ul>
     </div>
     
-    <div>  
-      <div ui-view="pepinStaff"></div>         
-    </div> 
+    <div>  <!-- start staff info -->
+      <div class="card">
+        <img class="card-img-top" src="./images/staff/bellk.jpg" alt="Kristin Bell" />
+        <div class="card-block">
+          <h class="card-title">Kristin Bell </h3>
+          <ul>
+              <li>Employment Coordinator - W2/FSET</li>
+              <li>Jackson County</li>
+              <li><a href="tel:1-608-790-2380"><i class="fa fa-phone-square" aria-hidden="true"></i>608-790-2380 </a></li>    
+              <li><a href="mailto:bellk@workforceconnections.org"><i class="fa fa-envelope" aria-hidden="true"></i>bellk@workforceconnections.org </a></li>                
+          </ul>
+        </div>
+      </div>  <!-- end card -->           
+    </div>  <!-- end staff info -->
 
   </div> <!-- end col -->
   
   
   <div class="col-sm-6">
     
-    <h3>Programs</h3>
+    <h2>Programs</h2>
     <a class="btn btn-primary btn-block" ui-sref="aca" role="button">Affordable Care Act</a>
     <a class="btn btn-primary btn-block" ui-sref="emergency-assistance" role="button">Emergency Assistance</a>
     <a class="btn btn-primary btn-block" ui-sref="transportation-connections" role="button">Transportation Connections</a>
