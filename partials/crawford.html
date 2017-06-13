@@ -1,4 +1,4 @@
-<div class="row">
+<div class="row" role="presentation">
   <div class="col-md-12">
     <img src="images/craw.JPG" class="header-img" alt="Crawford County" />
   </div><!-- end col -->
@@ -15,7 +15,7 @@
 <div class="row">
   <div class="col-sm-6">
     <div>
-      <h3>Office Info</h3>  
+      <h2>Office Info</h2>  
       <ul>
         <li>By Appointment Only</li>
         <li>1304 South Marquette Road</li>
@@ -29,16 +29,37 @@
       </ul>
     </div>
     
-    <div>  
-      <div ui-view="crawfordStaff"></div>         
-    </div> 
+    <div> <!-- start staff contact info --> 
+      <div class="card">
+        <img class="card-img-top" src="./images/staff/nopic.JPG" alt="Sarah Ferguson" />
+        <div class="card-block">
+          <h3 class="card-title">Sarah Ferguson </h3>
+          <ul>
+              <li>Employment Coordinator</li>
+              <li><a href="tel:1-608-433-2775"><i class="fa fa-phone-square" aria-hidden="true"></i>608-433-2775 </a></li>    
+              <li><a href="mailto:fergusons@workforceconnections.org"><i class="fa fa-envelope" aria-hidden="true"></i>fergusons@workforceconnections.org </a></li>                
+          </ul>
+        </div>
+      </div>  <!-- end card -->  
+      <div class="card">
+        <img class="card-img-top" src="./images/staff/mezeraf.jpg" alt="Frankie Mezera" />
+        <div class="card-block">
+          <h3 class="card-title">Frankie Mezera </h3>
+          <ul>
+              <li>Operations Coordinator</li>
+              <li><a href="tel:1-608-792-8250"><i class="fa fa-phone-square" aria-hidden="true"></i>608-792-8250 </a></li>    
+              <li><a href="mailto:mezeraf@workforceconnections.org"><i class="fa fa-envelope" aria-hidden="true"></i>mezeraf@workforceconnections.org </a></li>                
+          </ul>
+        </div>
+      </div>  <!-- end card -->
+    </div> <!-- end staff contact info -->   
 
   </div> <!-- end col -->
   
   
   <div class="col-sm-6">
     
-    <h3>Programs</h3>
+    <h2>Programs</h2>
     <a class="btn btn-primary btn-block" ui-sref="aca" role="button">Affordable Care Act</a>
     <a class="btn btn-primary btn-block" ui-sref="emergency-assistance" role="button">Emergency Assistance</a>
     <a class="btn btn-primary btn-block" ui-sref="fset" role="button">Food Share Employment &amp; Training (FSET)</a>
