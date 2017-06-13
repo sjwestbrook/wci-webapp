@@ -2,31 +2,6 @@
 
 /* ============================== COLORS ============================== */
 
-/* @charcoal: rgb(47,52,58);
-@medgrey: rgb(113,125,140);
-@ltgrey: rgb(221,221,221);
-@beige: rgb(189,182,156);
-@ltteal: rgba(117, 212, 235, 1)
-@dkteal: rgb(65,170,196); 
-@white: rgb(255,255,255);
-@black: rgb(0,0,0);
-        @fuschia: rgb(199,0,57);
-@orange: rgb(255, 157, 0);
- */
-
-/* @charcoal: #2F343A;
-@medgrey: #717D8C;
-@ltgrey: #DDDDDD;
-@ltstgrey: #FCFCFC;
-@beige: #BDB69C;
-@ltteal: #75d4eb;
-@dkteal: #41AAC4;
-@white: #ffffff;
-@black: #000000;
-@fuschia: #C70039;
-@orange: #FF9D00;
-@black-transp: rgba(0, 0, 0, 0.4); */
-
 @maroon: #75253d;
 @teal: #124834;
 @grey-blue: #51748A;
@@ -44,8 +19,9 @@
 
 /* ============================== FONTS ============================== */
 
-@headings: 'Didact Gothic', sans-serif;
-@text: 'Arimo', sans-serif;
+/* @headings: 'Didact Gothic', sans-serif;
+@text: 'Arimo', sans-serif; */
+
 
 /* ============================== MIXINS ============================== */
 .header-links {
@@ -54,7 +30,7 @@
     background-color: @maroon;
     text-decoration: none;
     &:hover {
-      color: @lime;
+      color: @orange;
       background-color: @maroon;
       border: 0;
     }
@@ -63,7 +39,7 @@
       background-color: @maroon;
     }
     &:active {
-      color: @lime;
+      color: @orange;
       background-color: @maroon;
       border: 0;
     }
@@ -72,6 +48,11 @@
 
 
 /* ============================== GLOBAL STYLES ============================== */
+
+body {
+  font-family: "Aleo", serif;              
+}
+
 .container-fluid {
   width: 80%;
   margin: 0 auto;
@@ -97,7 +78,7 @@
     background-color: @teal;
     text-decoration: none;
     &:hover {
-      color: @lime;
+      color: @orange;
       background-color: @teal;
       border: 0;
     }
@@ -106,7 +87,7 @@
       background-color: @teal;
     }
     &:active {
-      color: @lime;
+      color: @orange;
       background-color: @teal;
       border: 0;
     }
@@ -128,15 +109,15 @@
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: @headings; 
+/*   font-family: @headings;  */
   font-weight: 700;  
   text-align: center;
   text-transform: uppercase;
 }
 
 p, a {
-  font-family: @text;
-  font-size: 1em;
+/*   font-family: @text; */
+  font-size: 1.2em;
 }
 
 ul {
@@ -334,14 +315,14 @@ figure {
     color: @charcoal;
     text-decoration: none;
     &:hover {
-      color: @lime;
+      color: @orange;
       border: 0;
     }
     &:visited {
       color: @charcoal;
     }
     &:active {
-      color: @lime;
+      color: @orange;
       border: 0;
     }
   }
@@ -366,14 +347,14 @@ figure {
     color: @white;
     text-decoration: none;
     &:hover {
-      color: @lime;
+      color: @orange;
       border: 0;
     }
     &:visited {
       color: @white;
     }
     &:active {
-      color: @lime;
+      color: @orange;
       border: 0;
     }
   }
