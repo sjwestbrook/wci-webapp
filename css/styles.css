@@ -40,6 +40,22 @@ li {
   font-size: 1.1em;
   line-height: 1.7em;
 }
+button a {
+  color: #ffffff;
+  text-decoration: none;
+}
+button:hover {
+  color: #E07E2B;
+  text-decoration: none;
+}
+button:visited {
+  color: #ffffff;
+  text-decoration: none;
+}
+button:active {
+  color: #E07E2B;
+  text-decoration: none;
+}
 /* ============================== CARD STYLES ============================== */
 .card-img-top {
   width: 50%;
