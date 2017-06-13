@@ -26,7 +26,7 @@
 /* ============================== GLOBAL STYLES ============================== */
 body {
   font-family: "Aleo", serif;
-/*   line-height: 1.7em; */
+  /*   line-height: 1.7em; */
 }
 .container-fluid {
   width: 80%;
@@ -35,8 +35,9 @@ body {
 .bold {
   font-weight: bold;
 }
-p {
-  font-size: 1.2em;
+p,
+li {
+  font-size: 1.1em;
   line-height: 1.7em;
 }
 /* ============================== CARD STYLES ============================== */
