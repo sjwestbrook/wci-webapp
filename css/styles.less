@@ -14,7 +14,7 @@
 @orange: rgb(255, 157, 0);
  */
 
-@charcoal: #2F343A;
+/* @charcoal: #2F343A;
 @medgrey: #717D8C;
 @ltgrey: #DDDDDD;
 @ltstgrey: #FCFCFC;
@@ -25,7 +25,21 @@
 @black: #000000;
 @fuschia: #C70039;
 @orange: #FF9D00;
+@black-transp: rgba(0, 0, 0, 0.4); */
+
+@maroon: #75253d;
+@teal: #124834;
+@grey-blue: #51748A;
+@lime: #BEBA31;
+@orange: #E07E2B;
+@white: #ffffff;
+@black: #000000;
+
 @black-transp: rgba(0, 0, 0, 0.4);
+@charcoal: #333333;  
+@medgrey: #717D8C;
+@ltgrey: #DDDDDD;
+@ltstgrey: #FCFCFC;
 
 
 /* ============================== FONTS ============================== */
@@ -37,20 +51,20 @@
 .header-links {
   a {
     color: @white;
-    background-color: @dkteal;
+    background-color: @maroon;
     text-decoration: none;
     &:hover {
-      color: @fuschia;
-      background-color: @dkteal;
+      color: @lime;
+      background-color: @maroon;
       border: 0;
     }
     &:visited {
       color: @white;
-      background-color: @dkteal;
+      background-color: @maroon;
     }
     &:active {
-      color: @fuschia;
-      background-color: @dkteal;
+      color: @lime;
+      background-color: @maroon;
       border: 0;
     }
   }  
@@ -78,20 +92,20 @@
 .footer-links {
   a {
     color: @white;
-    background-color: @charcoal;
+    background-color: @teal;
     text-decoration: none;
     &:hover {
-      color: @fuschia;
-      background-color: @charcoal;
+      color: @lime;
+      background-color: @teal;
       border: 0;
     }
     &:visited {
       color: @white;
-      background-color: @charcoal;
+      background-color: @teal;
     }
     &:active {
-      color: @fuschia;
-      background-color: @charcoal;
+      color: @lime;
+      background-color: @teal;
       border: 0;
     }
     i {
@@ -224,7 +238,7 @@ figure {
           }
         }
         color: @white;
-        background-color: @dkteal;
+        background-color: @maroon;
         border: 0;
         margin-top: 17%;
       }
@@ -260,7 +274,7 @@ figure {
 
 .footer-index {
   color: @white;
-  background-color: @charcoal; 
+  background-color: @teal; 
   font-size: .8em;
   img {
     width: 150px;
@@ -311,7 +325,6 @@ figure {
   padding: 2% 10%;
   margin: 0 -8%;
   color: @black;
-//  background-color: @ltteal;
   font-weight: 600;
   text-align: center;
   a {
@@ -349,20 +362,16 @@ figure {
 .reports {
   a {
     color: @white;
-/*     background-color: @dkteal; */
     text-decoration: none;
     &:hover {
       color: @fuschia;
-/*       background-color: @dkteal; */
       border: 0;
     }
     &:visited {
       color: @white;
-/*       background-color: @dkteal; */
     }
     &:active {
       color: @fuschia;
-/*       background-color: @dkteal; */
       border: 0;
     }
   }
