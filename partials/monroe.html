@@ -1,12 +1,12 @@
-<div class="row">
+<div class="row" role="presentation">
   <div class="col-md-12">
-    <img src="images/craw.JPG" class="header-img" alt="Crawford County" />
+    <img src="images/county/monroe-county.JPG" class="header-img" alt="Crawford County" />
   </div><!-- end col -->
 </div><!-- end row -->
 
 <div class="row">
   <div class="col-md-12">
-    <h2>Monroe County</h2>
+    <h1>Monroe County</h1>
   </div><!-- end col -->
 </div><!-- end row -->
 
@@ -15,7 +15,7 @@
 <div class="row">
   <div class="col-sm-6">
     <div>
-      <h3>Office Info</h3>  
+      <h2>Office Info</h2>  
       <ul>
         <li>Monday - Friday 8:00 - 4:30</li>
         <li>120 E. Milwaukee St</li>
@@ -29,16 +29,39 @@
       </ul>
     </div>
     
-    <div>  
-      <div ui-view="monroeStaff"></div>         
-    </div> 
+    <div>  <!-- start staff info -->
+      <div class="card">
+        <img class="card-img-top" src="./images/staff/hansenm.jpg" alt="Melissa Hansen" />
+        <div class="card-block">
+          <h3 class="card-title"> Melissa Hansen</h3>
+          <ul>
+              <li>Employment Coordinator – W2/FSET</li>
+              <li>Monroe County</li>
+              <li><a href="tel:1-608-433-2783"><i class="fa fa-phone-square" aria-hidden="true"></i> 608-433-2783</a></li>    
+              <li><a href="mailto:hansenm@workforceconnections.org"><i class="fa fa-envelope" aria-hidden="true"></i> hansenm@workforceconnections.org</a></li>                
+          </ul>
+        </div>
+      </div>  <!-- end card -->  
+      <div class="card">
+        <img class="card-img-top" src="./images/staff/schulzs.jpg" alt="Sadie Schultz" />
+        <div class="card-block">
+          <h3 class="card-title">Sadie Schultz </h3>
+          <ul>
+              <li>Employment Coordinator - FSET</li>
+              <li>Monroe County</li>
+              <li><a href="tel:1-608-785-7003"><i class="fa fa-phone-square" aria-hidden="true"></i>  608-785-7003</a></li>    
+              <li><a href="mailto:schultzs@workforceconnections.org"><i class="fa fa-envelope" aria-hidden="true"></i> schultzs@workforceconnections.org</a></li>                
+          </ul>
+        </div>
+      </div>  <!-- end card -->     
+    </div> <!-- end staff info -->
 
   </div> <!-- end col -->
   
   
   <div class="col-sm-6">
     
-    <h3>Programs</h3>
+    <h2>Programs</h2>
     <a class="btn btn-primary btn-block" ui-sref="aca" role="button">Affordable Care Act</a>
     <a class="btn btn-primary btn-block" ui-sref="children-first" role="button">Children First</a>
     <a class="btn btn-primary btn-block" ui-sref="emergency-assistance" role="button">Emergency Assistance</a>
