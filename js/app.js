@@ -202,9 +202,9 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
             templateUrl: './partials/impact-stories.html'
         })
     
-        .state('stories-archive', {
-            url: '/stories-archive',
-            templateUrl: './partials/stories-archive.html'
+        .state('impact-stories-archive', {
+            url: '/impact-stories-archive',
+            templateUrl: './partials/impact-stories-archive.html'
         })
         
         .state('trempealeau', {
