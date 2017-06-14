@@ -10,7 +10,7 @@
   text-decoration: none;
 }
 .header-links a:hover {
-  color: #E07E2B;
+  color: #DDDDDD;
   background-color: #75253d;
   border: 0;
 }
@@ -19,45 +19,33 @@
   background-color: #75253d;
 }
 .header-links a:active {
-  color: #E07E2B;
+  color: #DDDDDD;
   background-color: #75253d;
   border: 0;
 }
-/* ============================== GLOBAL STYLES ============================== */
-body {
-  font-family: "Aleo", serif;
-}
-.bold {
-  font-weight: bold;
-}
-button a {
+.body-links a {
   color: #ffffff;
   text-decoration: none;
 }
-button:hover {
-  color: #E07E2B;
+.body-links:hover {
+  color: #DDDDDD;
   text-decoration: none;
 }
-button:visited {
+.body-links:visited {
   color: #ffffff;
   text-decoration: none;
 }
-button:active {
-  color: #E07E2B;
+.body-links:active {
+  color: #DDDDDD;
   text-decoration: none;
 }
-/* ============================== CARD STYLES ============================== */
-.card-img-top {
-  width: 50%;
-}
-/* ============================== FOOTER STYLES ============================== */
 .footer-links a {
   color: #ffffff;
   background-color: #124834;
   text-decoration: none;
 }
 .footer-links a:hover {
-  color: #E07E2B;
+  color: #DDDDDD;
   background-color: #124834;
   border: 0;
 }
@@ -66,19 +54,35 @@ button:active {
   background-color: #124834;
 }
 .footer-links a:active {
-  color: #E07E2B;
+  color: #DDDDDD;
   background-color: #124834;
   border: 0;
 }
 .footer-links a i {
-  font-size: 2em;
+  font-size: 1.5em;
 }
 .footer-links a img {
   width: 80%;
 }
-/* MISC ======================== */
-.container-fluid {
-  padding: 0 5%;
+/* ============================== GLOBAL ELEMENT STYLES ============================== */
+body {
+  font-family: "Aleo", serif;
+}
+button a {
+  color: #ffffff;
+  text-decoration: none;
+}
+button:hover {
+  color: #DDDDDD;
+  text-decoration: none;
+}
+button:visited {
+  color: #ffffff;
+  text-decoration: none;
+}
+button:active {
+  color: #DDDDDD;
+  text-decoration: none;
 }
 h1,
 h2,
@@ -95,9 +99,41 @@ a {
   font-size: 1.1em;
   line-height: 1.7em;
 }
+a {
+  cursor: pointer;
+}
 ul {
   list-style: none;
 }
+/* figure {
+  position: relative;
+  figcaption {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    padding: 2% 3%;
+    background-color: @black-transp;
+    color: @white;
+    font-size: 2.5em;
+    text-transform: uppercase;
+  }
+}
+ */
+/* ============================== GLOBAL CLASS STYLES ============================== */
+.container-fluid {
+  width: 80%;
+  margin: 0 auto;
+}
+.bold {
+  font-weight: bold;
+}
+.row {
+  padding: 2% 0;
+}
+.margin-bottom {
+  margin-bottom: 2%;
+}
+/* ============================== CARD STYLES ============================== */
 .card {
   background-color: #FCFCFC;
   padding: 3% 2%;
@@ -113,9 +149,22 @@ ul {
 .card .last-card {
   margin-bottom: 2%;
 }
-.icon-bar {
-  background-color: #ffffff;
+.card-img-top {
+  width: 50%;
 }
+/* ============================== MODAL STYLES ============================== */
+.modal-btn-margin {
+  margin-bottom: 5px;
+}
+.locations img {
+  width: 100%;
+}
+.locations .location-list {
+  padding-left: 5%;
+}
+/* ============================== FOOTER STYLES ============================== */
+/* MISC ======================== */
+/* ============================== HEADER STYLES ============================== */
 .header-spacing {
   margin: 2% 0;
 }
@@ -127,38 +176,10 @@ ul {
   display: block;
   margin: 0 auto;
 }
-.row {
-  padding: 2% 0;
+.icon-bar {
+  background-color: #ffffff;
 }
-.margin-bottom {
-  margin-bottom: 2%;
-}
-.modal-btn-margin {
-  margin-bottom: 5px;
-}
-.locations img {
-  width: 100%;
-}
-.locations .location-list {
-  padding-left: 5%;
-}
-a {
-  cursor: pointer;
-}
-figure {
-  position: relative;
-}
-figure figcaption {
-  position: absolute;
-  top: 40%;
-  left: 10%;
-  padding: 2% 3%;
-  background-color: rgba(0, 0, 0, 0.4);
-  color: #ffffff;
-  font-size: 2.5em;
-  text-transform: uppercase;
-}
-/* HEADER ======================== */
+/* ============================== NAVBAR STYLES ============================== */
 .navbar-other {
   color: #ffffff;
   background-color: #75253d;
@@ -179,7 +200,7 @@ figure figcaption {
   text-decoration: none;
 }
 .navbar-other .nav .nav-item a:hover {
-  color: #E07E2B;
+  color: #DDDDDD;
   background-color: #75253d;
   border: 0;
 }
@@ -188,7 +209,7 @@ figure figcaption {
   background-color: #75253d;
 }
 .navbar-other .nav .nav-item a:active {
-  color: #E07E2B;
+  color: #DDDDDD;
   background-color: #75253d;
   border: 0;
 }
@@ -198,22 +219,22 @@ figure figcaption {
   border: 0;
   margin-top: 17%;
 }
-.navbar-other .nav .nav-item button ul li a {
+.navbar-other .nav .nav-item button ul li a a {
   color: #ffffff;
   background-color: #75253d;
   text-decoration: none;
 }
-.navbar-other .nav .nav-item button ul li a:hover {
-  color: #E07E2B;
+.navbar-other .nav .nav-item button ul li a a:hover {
+  color: #DDDDDD;
   background-color: #75253d;
   border: 0;
 }
-.navbar-other .nav .nav-item button ul li a:visited {
+.navbar-other .nav .nav-item button ul li a a:visited {
   color: #ffffff;
   background-color: #75253d;
 }
-.navbar-other .nav .nav-item button ul li a:active {
-  color: #E07E2B;
+.navbar-other .nav .nav-item button ul li a a:active {
+  color: #DDDDDD;
   background-color: #75253d;
   border: 0;
 }
@@ -224,29 +245,58 @@ figure figcaption {
 .navbar-other .nav .dropdown-menu .li {
   padding: 1% 3%;
 }
-.navbar-other .nav .dropdown-menu a a {
+.navbar-other .nav .dropdown-menu .li a a {
   color: #ffffff;
   background-color: #75253d;
   text-decoration: none;
 }
-.navbar-other .nav .dropdown-menu a a:hover {
-  color: #E07E2B;
+.navbar-other .nav .dropdown-menu .li a a:hover {
+  color: #DDDDDD;
   background-color: #75253d;
   border: 0;
 }
-.navbar-other .nav .dropdown-menu a a:visited {
+.navbar-other .nav .dropdown-menu .li a a:visited {
   color: #ffffff;
   background-color: #75253d;
 }
-.navbar-other .nav .dropdown-menu a a:active {
-  color: #E07E2B;
+.navbar-other .nav .dropdown-menu .li a a:active {
+  color: #DDDDDD;
   background-color: #75253d;
   border: 0;
 }
 .navbar-other .navbar-header button .navbar-toggle .icon-bar {
   color: #ffffff;
 }
-/*  FOOTER ======================== */
+/*  HOME ======================== */
+/* .carousel-row {
+  margin: -2% -8% 0 -8%;
+}
+
+.carousel-inner {
+  .item {
+    p {
+      text-align: center;
+    }
+    .carousel-img {
+      width: 100%;
+      margin-bottom: -3%;
+    }
+  }  
+} */
+/* .blocks {
+  
+} */
+/* ======================== HISTORY STYLES ======================== */
+.accomplishments li {
+  list-style-type: disc;
+  padding-bottom: .5%;
+}
+/* ======================== ANNUAL REPORT STYLES ======================== */
+/* ======================== ACA STYLES ======================== */
+.ytp-thumbnail-overlay-image {
+  margin: 0 auto;
+}
+/* ======================== FOOTER STYLES ======================== */
 .footer-index {
   color: #ffffff;
   background-color: #124834;
@@ -264,7 +314,7 @@ figure figcaption {
   text-decoration: none;
 }
 .footer-index a:hover {
-  color: #E07E2B;
+  color: #DDDDDD;
   background-color: #124834;
   border: 0;
 }
@@ -273,12 +323,12 @@ figure figcaption {
   background-color: #124834;
 }
 .footer-index a:active {
-  color: #E07E2B;
+  color: #DDDDDD;
   background-color: #124834;
   border: 0;
 }
 .footer-index a i {
-  font-size: 2em;
+  font-size: 1.5em;
 }
 .footer-index a img {
   width: 80%;
@@ -291,66 +341,8 @@ figure figcaption {
 .footer-index .address p {
   margin-bottom: 0.5%;
 }
-/*  HOME ======================== */
-.carousel-row {
-  /*   margin: 0 -8%; */
-  margin: -2% -8% 0 -8%;
-}
-.carousel-inner .item p {
-  text-align: center;
-}
-.carousel-inner .item .carousel-img {
-  width: 100%;
-  margin-bottom: -3%;
-}
-.dark-caption {
-  padding: 2% 3%;
-  background-color: rgba(0, 0, 0, 0.4);
-}
-.blocks {
-  padding: 2% 10%;
-  margin: 0 -8%;
-  color: #000000;
-  font-weight: 600;
-  text-align: center;
-}
-.blocks a {
-  padding: 6 5%;
-  color: #333333;
-  text-decoration: none;
-}
-.blocks a:hover {
-  color: #E07E2B;
-  border: 0;
-}
-.blocks a:visited {
-  color: #333333;
-}
-.blocks a:active {
-  color: #E07E2B;
-  border: 0;
-}
-/*  HISTORY ======================== */
-.accomplishments li {
-  list-style-type: disc;
-  padding-bottom: .5%;
-}
-/*  ANNUAL REPORTS ======================== */
-.reports a {
-  color: #ffffff;
-  text-decoration: none;
-}
-.reports a:hover {
-  color: #E07E2B;
-  border: 0;
-}
-.reports a:visited {
-  color: #ffffff;
-}
-.reports a:active {
-  color: #E07E2B;
-  border: 0;
-}
+/* ======================== MEDIA QUERIES ======================== */
+/* header buttons (about, programs) in mobile must have 17% padding removed and a minor left padding added to be in line with non-dropdown links */
 @media (max-width: 499px) {
   .navbar-other .nav .nav-item button {
     margin-top: 0%;
