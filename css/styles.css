@@ -26,19 +26,9 @@
 /* ============================== GLOBAL STYLES ============================== */
 body {
   font-family: "Aleo", serif;
-  /*   line-height: 1.7em; */
-}
-.container-fluid {
-  width: 80%;
-  margin: 0 auto;
 }
 .bold {
   font-weight: bold;
-}
-p,
-li {
-  font-size: 1.1em;
-  line-height: 1.7em;
 }
 button a {
   color: #ffffff;
@@ -96,15 +86,14 @@ h3,
 h4,
 h5,
 h6 {
-  /*   font-family: @headings;  */
   font-weight: 700;
   text-align: center;
-  text-transform: uppercase;
 }
 p,
+li,
 a {
-  /*   font-family: @text; */
-  font-size: 1.2em;
+  font-size: 1.1em;
+  line-height: 1.7em;
 }
 ul {
   list-style: none;
