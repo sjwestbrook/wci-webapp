@@ -76,6 +76,7 @@
   height: 360px;
   margin: 0;
   padding: 10% 2%;
+  color: #ffffff;
 }
 .block-styles2 p {
   padding: 4% 5%;
@@ -372,27 +373,12 @@ ol li {
 .blocks2 {
   margin: 0;
 }
-.blocks2 a {
-  color: #ffffff;
-  text-decoration: none;
-}
-.blocks2:hover {
-  color: #DDDDDD;
-  text-decoration: none;
-}
-.blocks2:visited {
-  color: #ffffff;
-  text-decoration: none;
-}
-.blocks2:active {
-  color: #DDDDDD;
-  text-decoration: none;
-}
 .blocks2 .block5 {
   background-color: #1c7151;
   height: 360px;
   margin: 0;
   padding: 10% 2%;
+  color: #ffffff;
 }
 .blocks2 .block5 p {
   padding: 4% 5%;
@@ -402,6 +388,7 @@ ol li {
   height: 360px;
   margin: 0;
   padding: 10% 2%;
+  color: #ffffff;
 }
 .blocks2 .block6 p {
   padding: 4% 5%;
@@ -411,6 +398,7 @@ ol li {
   height: 360px;
   margin: 0;
   padding: 10% 2%;
+  color: #ffffff;
 }
 .blocks2 .block7 p {
   padding: 4% 5%;
