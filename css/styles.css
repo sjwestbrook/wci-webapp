@@ -143,6 +143,9 @@ ol li {
 .logo-sm {
   width: 60%;
 }
+.img-lg {
+  width: 90%;
+}
 /* ============================== CARD STYLES ============================== */
 .card {
   background-color: #FCFCFC;
