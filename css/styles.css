@@ -96,7 +96,7 @@ h6 {
 p,
 li,
 a {
-  font-size: 1.1em;
+  font-size: 1.2em;
   line-height: 1.7em;
 }
 a {
@@ -256,7 +256,6 @@ ul {
 /* .carousel-row {
   margin: -2% -8% 0 -8%;
 }
-
 #carouselHome {
   .carousel-inner {
     .item {
@@ -270,9 +269,6 @@ ul {
     }  
   } 
 }
-
-
-
 .blocks {
   a {
     color: @black;
@@ -291,9 +287,6 @@ ul {
     text-decoration: none;
   }
 }
-
-
-
 /* ======================== HISTORY STYLES ======================== */
 .accomplishments li {
   list-style-type: disc;
