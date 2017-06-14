@@ -134,6 +134,9 @@ ol li {
 .margin-bottom {
   margin-bottom: 2%;
 }
+.padding-none {
+  padding: 0;
+}
 .centered-text {
   text-align: center;
 }
