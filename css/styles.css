@@ -72,6 +72,14 @@
 .block-styles p {
   padding: 4% 5%;
 }
+.block-styles2 {
+  height: 360px;
+  margin: 0;
+  padding: 10% 2%;
+}
+.block-styles2 p {
+  padding: 4% 5%;
+}
 /* ============================== GLOBAL ELEMENT STYLES ============================== */
 body {
   font-family: "Aleo", serif;
@@ -382,7 +390,7 @@ ol li {
 }
 .blocks .block5 {
   background-color: #124834;
-  height: 260px;
+  height: 360px;
   margin: 0;
   padding: 10% 2%;
 }
@@ -391,7 +399,7 @@ ol li {
 }
 .blocks .block6 {
   background-color: #75253d;
-  height: 260px;
+  height: 360px;
   margin: 0;
   padding: 10% 2%;
 }
@@ -400,7 +408,7 @@ ol li {
 }
 .blocks .block7 {
   background-color: #124834;
-  height: 260px;
+  height: 360px;
   margin: 0;
   padding: 10% 2%;
 }
