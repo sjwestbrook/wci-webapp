@@ -398,5 +398,9 @@ li {
   .collapse.in {
     display: block !important;
   }
+  .nav-item .dropdown {
+    margin-top: -10%;
+    margin-right: 1%;
+  }
 }
 /*  end media query */
