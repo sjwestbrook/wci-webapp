@@ -64,6 +64,14 @@
 .footer-links a img {
   width: 80%;
 }
+.block-styles {
+  height: 260px;
+  margin: 0;
+  padding: 10% 2%;
+}
+.block-styles p {
+  padding: 4% 5%;
+}
 /* ============================== GLOBAL ELEMENT STYLES ============================== */
 body {
   font-family: "Aleo", serif;
@@ -319,11 +327,17 @@ ol li {
   margin: 0;
   padding: 10% 2%;
 }
+.blocks .block1 p {
+  padding: 4% 5%;
+}
 .blocks .block2 {
   background-color: #1c7151;
   height: 260px;
   margin: 0;
   padding: 10% 2%;
+}
+.blocks .block2 p {
+  padding: 4% 5%;
 }
 .blocks .block3 {
   background-color: #75253d;
@@ -331,11 +345,17 @@ ol li {
   margin: 0;
   padding: 10% 2%;
 }
+.blocks .block3 p {
+  padding: 4% 5%;
+}
 .blocks .block4 {
   background-color: #c23e66;
   height: 260px;
   margin: 0;
   padding: 10% 2%;
+}
+.blocks .block4 p {
+  padding: 4% 5%;
 }
 /* ======================== HISTORY STYLES ======================== */
 .accomplishments li {
