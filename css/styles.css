@@ -156,6 +156,9 @@ ol li {
 .card-img-top {
   width: 50%;
 }
+.card-img-top-lg {
+  width: 90%;
+}
 /* ============================== MODAL STYLES ============================== */
 .modal-btn-margin {
   margin-bottom: 5px;
