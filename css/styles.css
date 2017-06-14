@@ -390,6 +390,7 @@ li {
   }
   .navbar-nav > li {
     float: none;
+    margin-top: -10%;
   }
   .navbar-nav > li > a {
     padding-top: 10px;
