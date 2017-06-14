@@ -288,6 +288,7 @@ ol li {
 /*  HOME ======================== */
 .carousel-row {
   margin: -2% -8% 0 -8%;
+  padding-bottom: 0;
 }
 #carouselHome .carousel-inner .item p {
   text-align: center;
