@@ -256,7 +256,6 @@ ul {
 /* .carousel-row {
   margin: -2% -8% 0 -8%;
 }
-
 .carousel-inner {
   .item {
     p {
@@ -308,6 +307,9 @@ ul {
 }
 .footer-index .footer-socials li {
   display: inline-block;
+}
+.footer-index .footer-socials li i {
+  padding-right: 10%;
 }
 .footer-index a {
   color: #ffffff;
