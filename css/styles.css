@@ -293,8 +293,13 @@ ol li {
   width: 100%;
   margin-bottom: -3%;
 }
+.blocks {
+  margin: 0;
+  padding: 10% 2%;
+  height: 320px;
+}
 .blocks a {
-  color: #000000;
+  color: #ffffff;
   text-decoration: none;
 }
 .blocks:hover {
@@ -302,7 +307,7 @@ ol li {
   text-decoration: none;
 }
 .blocks:visited {
-  color: #000000;
+  color: #ffffff;
   text-decoration: none;
 }
 .blocks:active {
@@ -311,19 +316,15 @@ ol li {
 }
 .blocks .block1 {
   background-color: #124834;
-  height: 320px;
 }
 .blocks .block2 {
   background-color: #269a6f;
-  height: 320px;
 }
 .blocks .block3 {
   background-color: #75253d;
-  height: 320px;
 }
 .blocks .block4 {
   background-color: #c23e66;
-  height: 320px;
 }
 /* ======================== HISTORY STYLES ======================== */
 .accomplishments li {
