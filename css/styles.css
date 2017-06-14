@@ -306,6 +306,9 @@ ul {
 .footer-index .footer-buffer {
   padding: 2% 1%;
 }
+.footer-index .footer-socials li {
+  display: inline-block;
+}
 .footer-index a {
   color: #ffffff;
   background-color: #124834;
@@ -332,12 +335,14 @@ ul {
   width: 80%;
 }
 .footer-index .staff-links {
-  font-size: 1.3em;
+  font-size: 1em;
   font-weight: bold;
   line-height: .1em;
 }
 .footer-index .address p {
   margin-bottom: 0.5%;
+  font-size: 1em;
+  font-weight: bold;
 }
 /* ======================== MEDIA QUERIES ======================== */
 /* header buttons (about, programs) in mobile must have 17% padding removed and a minor left padding added to be in line with non-dropdown links */
