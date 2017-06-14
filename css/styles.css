@@ -369,50 +369,50 @@ ol li {
   padding: 4% 5%;
 }
 /* ======================== MISSION STYLES ======================== */
-.blocks {
+.blocks2 {
   margin: 0;
 }
-.blocks a {
+.blocks2 a {
   color: #ffffff;
   text-decoration: none;
 }
-.blocks:hover {
+.blocks2:hover {
   color: #DDDDDD;
   text-decoration: none;
 }
-.blocks:visited {
+.blocks2:visited {
   color: #ffffff;
   text-decoration: none;
 }
-.blocks:active {
+.blocks2:active {
   color: #DDDDDD;
   text-decoration: none;
 }
-.blocks .block5 {
-  background-color: #124834;
+.blocks2 .block5 {
+  background-color: #1c7151;
   height: 360px;
   margin: 0;
   padding: 10% 2%;
 }
-.blocks .block5 p {
+.blocks2 .block5 p {
   padding: 4% 5%;
 }
-.blocks .block6 {
-  background-color: #75253d;
+.blocks2 .block6 {
+  background-color: #c23e66;
   height: 360px;
   margin: 0;
   padding: 10% 2%;
 }
-.blocks .block6 p {
+.blocks2 .block6 p {
   padding: 4% 5%;
 }
-.blocks .block7 {
-  background-color: #124834;
+.blocks2 .block7 {
+  background-color: #1c7151;
   height: 360px;
   margin: 0;
   padding: 10% 2%;
 }
-.blocks .block7 p {
+.blocks2 .block7 p {
   padding: 4% 5%;
 }
 /* ======================== HISTORY STYLES ======================== */
