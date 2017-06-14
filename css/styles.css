@@ -360,6 +360,53 @@ ol li {
 .blocks .block4 p {
   padding: 4% 5%;
 }
+/* ======================== MISSION STYLES ======================== */
+.blocks {
+  margin: 0;
+}
+.blocks a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.blocks:hover {
+  color: #DDDDDD;
+  text-decoration: none;
+}
+.blocks:visited {
+  color: #ffffff;
+  text-decoration: none;
+}
+.blocks:active {
+  color: #DDDDDD;
+  text-decoration: none;
+}
+.blocks .block5 {
+  background-color: #124834;
+  height: 260px;
+  margin: 0;
+  padding: 10% 2%;
+}
+.blocks .block5 p {
+  padding: 4% 5%;
+}
+.blocks .block6 {
+  background-color: #75253d;
+  height: 260px;
+  margin: 0;
+  padding: 10% 2%;
+}
+.blocks .block6 p {
+  padding: 4% 5%;
+}
+.blocks .block7 {
+  background-color: #124834;
+  height: 260px;
+  margin: 0;
+  padding: 10% 2%;
+}
+.blocks .block7 p {
+  padding: 4% 5%;
+}
 /* ======================== HISTORY STYLES ======================== */
 .accomplishments li {
   list-style-type: disc;
