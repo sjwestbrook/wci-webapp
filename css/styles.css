@@ -117,6 +117,9 @@ li {
   margin: 0;
   padding: 0;
 }
+ol li {
+  list-style-type: disc;
+}
 /* ============================== GLOBAL CLASS STYLES ============================== */
 .container-fluid {
   width: 80%;
@@ -130,6 +133,9 @@ li {
 }
 .margin-bottom {
   margin-bottom: 2%;
+}
+.logo-sm {
+  width: 60%;
 }
 /* ============================== CARD STYLES ============================== */
 .card {
@@ -290,6 +296,22 @@ li {
 .blocks:active {
   color: #DDDDDD;
   text-decoration: none;
+}
+.blocks .block1 {
+  background-color: ;
+  height: 320px;
+}
+.blocks .block2 {
+  background-color: ;
+  height: 320px;
+}
+.blocks .block3 {
+  background-color: ;
+  height: 320px;
+}
+.blocks .block4 {
+  background-color: ;
+  height: 320px;
 }
 /* ======================== HISTORY STYLES ======================== */
 .accomplishments li {
