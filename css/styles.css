@@ -257,47 +257,32 @@ li {
   color: #ffffff;
 }
 /*  HOME ======================== */
-/* .carousel-row {
+.carousel-row {
   margin: -2% -8% 0 -8%;
 }
-
-#carouselHome {
-  .carousel-inner {
-    .item {
-      p {
-        text-align: center;
-        .carousel-img {
-          width: 100%;
-          margin-bottom: -3%;
-        }
-      }      
-    }  
-  } 
+#carouselHome .carousel-inner .item p {
+  text-align: center;
 }
-
-
-
-.blocks {
-  a {
-    color: @black;
-    text-decoration: none;
-  }
-  &:hover {
-    color: @ltgrey;
-    text-decoration: none;
-  }
-  &:visited {
-    color: @black;
-    text-decoration: none;
-  }
-  &:active {
-    color: @ltgrey;
-    text-decoration: none;
-  }
+#carouselHome .carousel-inner .item p .carousel-img {
+  width: 100%;
+  margin-bottom: -3%;
 }
-
-
-
+.blocks a {
+  color: #000000;
+  text-decoration: none;
+}
+.blocks:hover {
+  color: #DDDDDD;
+  text-decoration: none;
+}
+.blocks:visited {
+  color: #000000;
+  text-decoration: none;
+}
+.blocks:active {
+  color: #DDDDDD;
+  text-decoration: none;
+}
 /* ======================== HISTORY STYLES ======================== */
 .accomplishments li {
   list-style-type: disc;
