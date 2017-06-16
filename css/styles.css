@@ -31,25 +31,25 @@
   text-decoration: none;
 }
 .body-links a {
-  color: #ffffff;
+  color: #124834;
   text-decoration: none;
   font-size: 1.2em;
   font-weight: bold;
 }
 .body-links a:hover {
-  color: #DDDDDD;
+  color: #75253d;
   text-decoration: none;
 }
 .body-links a:visited {
-  color: #ffffff;
+  color: #124834;
   text-decoration: none;
 }
 .body-links a:active {
-  color: #DDDDDD;
+  color: #75253d;
   text-decoration: none;
 }
 .body-links a:focus {
-  outline: 2px solid #E07E2B;
+  outline: 2px solid #75253d;
   text-decoration: none;
 }
 .button-links a {
@@ -194,29 +194,29 @@ li {
 }
 p a,
 li a {
-  color: #ffffff;
+  color: #124834;
   text-decoration: none;
   font-size: 1.2em;
   font-weight: bold;
 }
 p a:hover,
 li a:hover {
-  color: #DDDDDD;
+  color: #75253d;
   text-decoration: none;
 }
 p a:visited,
 li a:visited {
-  color: #ffffff;
+  color: #124834;
   text-decoration: none;
 }
 p a:active,
 li a:active {
-  color: #DDDDDD;
+  color: #75253d;
   text-decoration: none;
 }
 p a:focus,
 li a:focus {
-  outline: 2px solid #E07E2B;
+  outline: 2px solid #75253d;
   text-decoration: none;
 }
 a {
@@ -454,25 +454,25 @@ i {
   margin: 0;
 }
 .blocks a {
-  color: #ffffff;
+  color: #124834;
   text-decoration: none;
   font-size: 1.2em;
   font-weight: bold;
 }
 .blocks a:hover {
-  color: #DDDDDD;
+  color: #75253d;
   text-decoration: none;
 }
 .blocks a:visited {
-  color: #ffffff;
+  color: #124834;
   text-decoration: none;
 }
 .blocks a:active {
-  color: #DDDDDD;
+  color: #75253d;
   text-decoration: none;
 }
 .blocks a:focus {
-  outline: 2px solid #E07E2B;
+  outline: 2px solid #75253d;
   text-decoration: none;
 }
 .blocks .block1 {
@@ -569,9 +569,11 @@ i {
 }
 .footer-index .footer-socials li {
   display: inline-block;
+  font-size: 1.1em;
+  line-height: 1.5em;
 }
 .footer-index .footer-socials li i {
-  margin-right: 1em;
+  margin-right: 2em;
 }
 .footer-index a {
   color: #ffffff;
@@ -608,9 +610,9 @@ i {
   width: 80%;
 }
 .footer-index .staff-links {
-  font-size: 1em;
+  font-size: 1.1em;
   font-weight: bold;
-  line-height: .1em;
+  line-height: 1.5em;
 }
 .footer-index .address p {
   margin-bottom: 0.5%;
