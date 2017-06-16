@@ -44,6 +44,24 @@
 .body-links a:focus {
   outline: 2px solid #E07E2B;
 }
+.button-links a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+.button-links a:hover {
+  color: #DDDDDD;
+}
+.button-links a:visited {
+  color: #ffffff;
+}
+.button-links a:active {
+  color: #DDDDDD;
+}
+.button-links a:focus {
+  outline: 2px solid #E07E2B;
+}
 .footer-links a {
   color: #ffffff;
   background-color: #124834;
@@ -98,7 +116,7 @@ body {
 button a {
   color: #ffffff;
   text-decoration: none;
-  font-size: 1.2em;
+  font-size: 1.3em;
   font-weight: bold;
 }
 button a:hover {
