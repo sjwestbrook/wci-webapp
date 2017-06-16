@@ -59,7 +59,7 @@
   font-weight: bold;
 }
 .button-links a:hover {
-  color: #DDDDDD;
+  color: #ffffff;
   background-color: #75253d;
   text-decoration: none;
 }
@@ -68,7 +68,7 @@
   text-decoration: none;
 }
 .button-links a:active {
-  color: #DDDDDD;
+  color: #ffffff;
   text-decoration: none;
 }
 .button-links a:focus {
@@ -151,7 +151,7 @@ button a:hover,
 .btn a:hover,
 .btn-primary a:hover,
 .btn-block a:hover {
-  color: #DDDDDD;
+  color: #ffffff;
   background-color: #75253d;
   text-decoration: none;
 }
@@ -166,13 +166,43 @@ button a:active,
 .btn a:active,
 .btn-primary a:active,
 .btn-block a:active {
-  color: #DDDDDD;
+  color: #ffffff;
   text-decoration: none;
 }
 button a:focus,
 .btn a:focus,
 .btn-primary a:focus,
 .btn-block a:focus {
+  color: #ffffff;
+  outline: 2px solid #ffffff;
+  background-color: #75253d;
+  text-decoration: none;
+}
+button:hover,
+.btn:hover,
+.btn-primary:hover,
+.btn-block:hover {
+  color: #ffffff;
+  background-color: #75253d;
+}
+button:visited,
+.btn:visited,
+.btn-primary:visited,
+.btn-block:visited {
+  color: #ffffff;
+  background-color: #75253d;
+}
+button:active,
+.btn:active,
+.btn-primary:active,
+.btn-block:active {
+  color: #ffffff;
+  background-color: #75253d;
+}
+button:focus,
+.btn:focus,
+.btn-primary:focus,
+.btn-block:focus {
   color: #ffffff;
   outline: 2px solid #ffffff;
   background-color: #75253d;
