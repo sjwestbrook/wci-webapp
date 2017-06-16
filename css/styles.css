@@ -76,8 +76,8 @@
 .button-links a {
   color: #ffffff;
   text-decoration: none;
-  font-size: 1.3em;
-  font-weight: bold;
+  /*     font-size: 1.3em;
+    font-weight: bold; */
 }
 .button-links a:hover {
   color: #ffffff;
@@ -167,8 +167,8 @@ button a,
 .btn-block a {
   color: #ffffff;
   text-decoration: none;
-  font-size: 1.3em;
-  font-weight: bold;
+  /*     font-size: 1.3em;
+    font-weight: bold; */
 }
 button a:hover,
 .btn a:hover,
