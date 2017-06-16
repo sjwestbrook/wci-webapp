@@ -80,6 +80,30 @@
   } 
 }
 
+.block-links {
+  a {
+    color: @white;
+    text-decoration: none;
+    &:hover {
+      color: @white;
+      text-decoration: none;
+    }
+    &:visited {
+      color: @white;
+      text-decoration: none;
+    }
+    &:active {
+      color: @white;
+      text-decoration: none;
+    }
+    &:focus {    
+      color: @white;
+      outline: 2px solid @white; 
+      text-decoration: none;
+    }
+  } 
+}
+
 .button-links {
   a {
     color: @white;
@@ -434,7 +458,7 @@ i {
 
 .blocks {
   margin: 0;
-  .body-links;
+  .block-links;
   .block1 {
     background-color: @teal;
    .block-styles;
