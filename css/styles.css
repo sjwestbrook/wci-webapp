@@ -52,6 +52,27 @@
   outline: 2px solid #75253d;
   text-decoration: none;
 }
+.block-links a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.block-links a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+.block-links a:visited {
+  color: #ffffff;
+  text-decoration: none;
+}
+.block-links a:active {
+  color: #ffffff;
+  text-decoration: none;
+}
+.block-links a:focus {
+  color: #ffffff;
+  outline: 2px solid #ffffff;
+  text-decoration: none;
+}
 .button-links a {
   color: #ffffff;
   text-decoration: none;
@@ -484,25 +505,24 @@ i {
   margin: 0;
 }
 .blocks a {
-  color: #124834;
+  color: #ffffff;
   text-decoration: none;
-  font-size: 1.2em;
-  font-weight: bold;
 }
 .blocks a:hover {
-  color: #75253d;
+  color: #ffffff;
   text-decoration: none;
 }
 .blocks a:visited {
-  color: #124834;
+  color: #ffffff;
   text-decoration: none;
 }
 .blocks a:active {
-  color: #75253d;
+  color: #ffffff;
   text-decoration: none;
 }
 .blocks a:focus {
-  outline: 2px solid #75253d;
+  color: #ffffff;
+  outline: 2px solid #ffffff;
   text-decoration: none;
 }
 .blocks .block1 {
