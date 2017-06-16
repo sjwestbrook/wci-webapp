@@ -131,6 +131,12 @@ button a:active {
 button a:focus {
   outline: 2px solid #E07E2B;
 }
+button,
+.btn,
+.btn-primary,
+.btn-block {
+  background-color: #124834;
+}
 h1,
 h2,
 h3,
