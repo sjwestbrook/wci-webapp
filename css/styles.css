@@ -10,7 +10,7 @@
   text-decoration: none;
 }
 .header-links a:hover {
-  color: #DDDDDD;
+  color: #8ADAC2;
   background-color: #75253d;
   border: 0;
   text-decoration: none;
@@ -21,13 +21,13 @@
   text-decoration: none;
 }
 .header-links a:active {
-  color: #DDDDDD;
+  color: #8ADAC2;
   background-color: #75253d;
   border: 0;
   text-decoration: none;
 }
 .header-links a:focus {
-  outline: 2px solid #E07E2B;
+  outline: 2px solid #8ADAC2;
   text-decoration: none;
 }
 .body-links a {
@@ -49,7 +49,7 @@
   text-decoration: none;
 }
 .body-links a:focus {
-  outline: 2px solid #75253d;
+  outline: 2px solid #8ADAC2;
   text-decoration: none;
 }
 .block-links a {
@@ -70,7 +70,7 @@
 }
 .block-links a:focus {
   color: #ffffff;
-  outline: 2px solid #ffffff;
+  outline: 2px solid #8ADAC2;
   text-decoration: none;
 }
 .button-links a {
@@ -94,7 +94,7 @@
 }
 .button-links a:focus {
   color: #ffffff;
-  outline: 2px solid #ffffff;
+  outline: 2px solid #8ADAC2;
   background-color: #75253d;
   text-decoration: none;
 }
@@ -104,7 +104,7 @@
   text-decoration: none;
 }
 .footer-links a:hover {
-  color: #E07E2B;
+  color: #EDB7CB;
   background-color: #124834;
   border: 0;
   text-decoration: none;
@@ -115,15 +115,15 @@
   text-decoration: none;
 }
 .footer-links a:active {
-  color: #E07E2B;
+  color: #EDB7CB;
   background-color: #124834;
   border: 0;
   text-decoration: none;
 }
 .footer-links a:focus {
-  color: #E07E2B;
+  color: #EDB7CB;
   background-color: #124834;
-  outline: 2px solid #E07E2B;
+  outline: 2px solid #EDB7CB;
   text-decoration: none;
 }
 .footer-links a i {
@@ -199,7 +199,7 @@ button a:focus,
 .btn-primary a:focus,
 .btn-block a:focus {
   color: #ffffff;
-  outline: 2px solid #ffffff;
+  outline: 2px solid #8ADAC2;
   background-color: #75253d;
   text-decoration: none;
 }
@@ -271,7 +271,7 @@ li a:active {
 }
 p a:focus,
 li a:focus {
-  outline: 2px solid #75253d;
+  outline: 2px solid #8ADAC2;
   text-decoration: none;
 }
 a {
@@ -404,7 +404,7 @@ i {
   text-decoration: none;
 }
 .navbar-other .nav .nav-item a:hover {
-  color: #DDDDDD;
+  color: #8ADAC2;
   background-color: #75253d;
   border: 0;
   text-decoration: none;
@@ -415,13 +415,13 @@ i {
   text-decoration: none;
 }
 .navbar-other .nav .nav-item a:active {
-  color: #DDDDDD;
+  color: #8ADAC2;
   background-color: #75253d;
   border: 0;
   text-decoration: none;
 }
 .navbar-other .nav .nav-item a:focus {
-  outline: 2px solid #E07E2B;
+  outline: 2px solid #8ADAC2;
   text-decoration: none;
 }
 .navbar-other .nav .nav-item button {
@@ -437,7 +437,7 @@ i {
   text-decoration: none;
 }
 .navbar-other .nav .nav-item button ul li a a:hover {
-  color: #DDDDDD;
+  color: #8ADAC2;
   background-color: #75253d;
   border: 0;
   text-decoration: none;
@@ -448,13 +448,13 @@ i {
   text-decoration: none;
 }
 .navbar-other .nav .nav-item button ul li a a:active {
-  color: #DDDDDD;
+  color: #8ADAC2;
   background-color: #75253d;
   border: 0;
   text-decoration: none;
 }
 .navbar-other .nav .nav-item button ul li a a:focus {
-  outline: 2px solid #E07E2B;
+  outline: 2px solid #8ADAC2;
   text-decoration: none;
 }
 .navbar-other .nav .dropdown-menu {
@@ -470,7 +470,7 @@ i {
   text-decoration: none;
 }
 .navbar-other .nav .dropdown-menu .li a a:hover {
-  color: #DDDDDD;
+  color: #8ADAC2;
   background-color: #75253d;
   border: 0;
   text-decoration: none;
@@ -481,13 +481,13 @@ i {
   text-decoration: none;
 }
 .navbar-other .nav .dropdown-menu .li a a:active {
-  color: #DDDDDD;
+  color: #8ADAC2;
   background-color: #75253d;
   border: 0;
   text-decoration: none;
 }
 .navbar-other .nav .dropdown-menu .li a a:focus {
-  outline: 2px solid #E07E2B;
+  outline: 2px solid #8ADAC2;
   text-decoration: none;
 }
 .navbar-other .navbar-header button .navbar-toggle .icon-bar {
@@ -528,7 +528,7 @@ i {
 }
 .blocks a:focus {
   color: #ffffff;
-  outline: 2px solid #ffffff;
+  outline: 2px solid #8ADAC2;
   text-decoration: none;
 }
 .blocks .block1 {
@@ -647,7 +647,7 @@ i {
   text-decoration: none;
 }
 .footer-index a:hover {
-  color: #E07E2B;
+  color: #EDB7CB;
   background-color: #124834;
   border: 0;
   text-decoration: none;
@@ -658,15 +658,15 @@ i {
   text-decoration: none;
 }
 .footer-index a:active {
-  color: #E07E2B;
+  color: #EDB7CB;
   background-color: #124834;
   border: 0;
   text-decoration: none;
 }
 .footer-index a:focus {
-  color: #E07E2B;
+  color: #EDB7CB;
   background-color: #124834;
-  outline: 2px solid #E07E2B;
+  outline: 2px solid #EDB7CB;
   text-decoration: none;
 }
 .footer-index a i {
