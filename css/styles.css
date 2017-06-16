@@ -503,8 +503,11 @@ i {
   width: 100%;
   margin-bottom: -3%;
 }
+/* ======================== HOME BLOCK STYLES ======================== */
 .blocks {
   margin: 0;
+  font-size: 1.5em;
+  text-align: center;
 }
 .blocks a {
   color: #ffffff;
@@ -563,9 +566,11 @@ i {
 .blocks .block4 p {
   padding: 4% 5%;
 }
-/* ======================== MISSION STYLES ======================== */
+/* ======================== MISSION  BLOCK STYLES ======================== */
 .blocks2 {
   margin: 0;
+  font-size: 1.5em;
+  text-align: center;
 }
 .blocks2 .block5 {
   background-color: #1c7151;
