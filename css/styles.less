@@ -35,18 +35,22 @@
       color: @ltgrey;
       background-color: @maroon;
       border: 0;
+      text-decoration: none;
     }
     &:visited {
       color: @white;
       background-color: @maroon;
+      text-decoration: none;
     }
     &:active {
       color: @ltgrey;
       background-color: @maroon;
       border: 0;
+      text-decoration: none;
     }
     &:focus {
       outline: 2px solid @orange; 
+      text-decoration: none;
     }
   }  
 }
@@ -59,15 +63,19 @@
     font-weight: bold;
     &:hover {
       color: @ltgrey;
+      text-decoration: none;
     }
     &:visited {
       color: @white;
+      text-decoration: none;
     }
     &:active {
       color: @ltgrey;
+      text-decoration: none;
     }
     &:focus {    
       outline: 2px solid @orange; 
+      text-decoration: none;
     }
   } 
 }
@@ -80,15 +88,22 @@
     font-weight: bold;
     &:hover {
       color: @ltgrey;
+      background-color: @maroon;
+      text-decoration: none;
     }
     &:visited {
       color: @white;
+      text-decoration: none;
     }
     &:active {
       color: @ltgrey;
+      text-decoration: none;
     }
     &:focus {    
-      outline: 2px solid @orange; 
+      color: @white;
+      outline: 2px solid @white; 
+      background-color: @maroon;
+      text-decoration: none;
     }
   } 
 }
@@ -102,20 +117,24 @@
       color: @orange;
       background-color: @teal;
       border: 0;
+      text-decoration: none;
     }
     &:visited {
       color: @white;
       background-color: @teal;
+      text-decoration: none;
     }
     &:active {
       color: @orange;
       background-color: @teal;
       border: 0;
+      text-decoration: none;
     }
     &:focus {
       color: @orange;
       background-color: @teal;
       outline: 2px solid @orange; 
+      text-decoration: none;
     }
     i {
       font-size: 1.5em;
@@ -167,6 +186,7 @@ h1, h2, h3, h4, h5, h6 {
 p, li {
   font-size: 1.2em; 
   line-height: 1.5em;
+  .body-links;
 }
 
 a {
