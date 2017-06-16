@@ -55,22 +55,19 @@
   a {
     color: @white;
     text-decoration: none;
-  }
-  &:hover {
-    color: @ltgrey;
-    text-decoration: none;
-  }
-  &:visited {
-    color: @white;
-    text-decoration: none;
-  }
-  &:active {
-    color: @ltgrey;
-    text-decoration: none;
-  }
-  &:focus {
-    outline: 2px solid @orange; 
-  }
+    &:hover {
+      color: @ltgrey;
+    }
+    &:visited {
+      color: @white;
+    }
+    &:active {
+      color: @ltgrey;
+    }
+    &:focus {    
+      outline: 2px solid @orange; 
+    }
+  } 
 }
 
 .footer-links {
@@ -79,7 +76,7 @@
     background-color: @teal;
     text-decoration: none;
     &:hover {
-      color: @ltgrey;
+      color: @orange;
       background-color: @teal;
       border: 0;
     }
@@ -88,11 +85,13 @@
       background-color: @teal;
     }
     &:active {
-      color: @ltgrey;
+      color: @orange;
       background-color: @teal;
       border: 0;
     }
     &:focus {
+      color: @orange;
+      background-color: @teal;
       outline: 2px solid @orange; 
     }
     i {
