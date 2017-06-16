@@ -157,6 +157,8 @@ button,
 .btn,
 .btn-primary,
 .btn-block {
+  font-size: 1.35em;
+  font-weight: bold;
   background-color: #124834;
 }
 button a,
@@ -284,7 +286,7 @@ ol li {
   list-style-type: disc;
 }
 i {
-  margin-right: 2em;
+  margin-right: .25em;
 }
 /* ============================== GLOBAL CLASS STYLES ============================== */
 .container-fluid {
@@ -610,20 +612,22 @@ i {
   color: #ffffff;
   background-color: #124834;
   font-size: .8em;
+  /*   .footer-socials {
+     li {
+      display: inline-block;  
+       font-size: 1.1em;
+      line-height: 1.5em;
+      i {
+        margin-right: 2em;  
+      }
+    }
+  } */
 }
 .footer-index img {
   width: 150px;
 }
 .footer-index .footer-buffer {
   padding: 2% 1%;
-}
-.footer-index .footer-socials li {
-  display: inline-block;
-  font-size: 1.1em;
-  line-height: 1.5em;
-}
-.footer-index .footer-socials li i {
-  margin-right: 2em;
 }
 .footer-index a {
   color: #ffffff;
