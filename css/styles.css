@@ -30,19 +30,16 @@
   color: #ffffff;
   text-decoration: none;
 }
-.body-links:hover {
+.body-links a:hover {
   color: #DDDDDD;
-  text-decoration: none;
 }
-.body-links:visited {
+.body-links a:visited {
   color: #ffffff;
-  text-decoration: none;
 }
-.body-links:active {
+.body-links a:active {
   color: #DDDDDD;
-  text-decoration: none;
 }
-.body-links:focus {
+.body-links a:focus {
   outline: 2px solid #E07E2B;
 }
 .footer-links a {
@@ -51,7 +48,7 @@
   text-decoration: none;
 }
 .footer-links a:hover {
-  color: #DDDDDD;
+  color: #E07E2B;
   background-color: #124834;
   border: 0;
 }
@@ -60,11 +57,13 @@
   background-color: #124834;
 }
 .footer-links a:active {
-  color: #DDDDDD;
+  color: #E07E2B;
   background-color: #124834;
   border: 0;
 }
 .footer-links a:focus {
+  color: #E07E2B;
+  background-color: #124834;
   outline: 2px solid #E07E2B;
 }
 .footer-links a i {
@@ -102,19 +101,16 @@ button a {
   color: #ffffff;
   text-decoration: none;
 }
-button:hover {
+button a:hover {
   color: #DDDDDD;
-  text-decoration: none;
 }
-button:visited {
+button a:visited {
   color: #ffffff;
-  text-decoration: none;
 }
-button:active {
+button a:active {
   color: #DDDDDD;
-  text-decoration: none;
 }
-button:focus {
+button a:focus {
   outline: 2px solid #E07E2B;
 }
 button .btn a {
@@ -359,19 +355,16 @@ ol li {
   color: #ffffff;
   text-decoration: none;
 }
-.blocks:hover {
+.blocks a:hover {
   color: #DDDDDD;
-  text-decoration: none;
 }
-.blocks:visited {
+.blocks a:visited {
   color: #ffffff;
-  text-decoration: none;
 }
-.blocks:active {
+.blocks a:active {
   color: #DDDDDD;
-  text-decoration: none;
 }
-.blocks:focus {
+.blocks a:focus {
   outline: 2px solid #E07E2B;
 }
 .blocks .block1 {
@@ -478,7 +471,7 @@ ol li {
   text-decoration: none;
 }
 .footer-index a:hover {
-  color: #DDDDDD;
+  color: #E07E2B;
   background-color: #124834;
   border: 0;
 }
@@ -487,11 +480,13 @@ ol li {
   background-color: #124834;
 }
 .footer-index a:active {
-  color: #DDDDDD;
+  color: #E07E2B;
   background-color: #124834;
   border: 0;
 }
 .footer-index a:focus {
+  color: #E07E2B;
+  background-color: #124834;
   outline: 2px solid #E07E2B;
 }
 .footer-index a i {
