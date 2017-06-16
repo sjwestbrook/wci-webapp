@@ -87,7 +87,7 @@
     font-size: 1.3em;
     font-weight: bold;
     &:hover {
-      color: @ltgrey;
+      color: @white;
       background-color: @maroon;
       text-decoration: none;
     }
@@ -96,7 +96,7 @@
       text-decoration: none;
     }
     &:active {
-      color: @ltgrey;
+      color: @white;
       text-decoration: none;
     }
     &:focus {    
@@ -173,6 +173,24 @@ body {
 button, .btn, .btn-primary, .btn-block {
   .button-links;
   background-color: @teal; 
+  &:hover {
+    color: @white;
+    background-color: @maroon;
+  }
+  &:visited {
+    color: @white;
+    background-color: @maroon;
+  }
+  &:active {
+    color: @white;
+    background-color: @maroon;
+  }
+  &:focus {    
+    color: @white;
+    outline: 2px solid @white; 
+    background-color: @maroon;
+    text-decoration: none;
+  }
 }
 
 h1, h2, h3, h4, h5, h6 {
