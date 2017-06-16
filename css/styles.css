@@ -139,6 +139,7 @@
 }
 .block-styles p {
   padding: 4% 5%;
+  font-size: 1.3em;
 }
 .block-styles2 {
   height: 360px;
@@ -148,6 +149,7 @@
 }
 .block-styles2 p {
   padding: 4% 5%;
+  font-size: 1.2em;
 }
 /* ============================== GLOBAL ELEMENT STYLES ============================== */
 body {
@@ -506,7 +508,6 @@ i {
 /* ======================== HOME BLOCK STYLES ======================== */
 .blocks {
   margin: 0;
-  font-size: 1.3em;
   text-align: center;
 }
 .blocks a {
@@ -538,6 +539,7 @@ i {
 }
 .blocks .block1 p {
   padding: 4% 5%;
+  font-size: 1.3em;
 }
 .blocks .block2 {
   background-color: #1c7151;
@@ -547,6 +549,7 @@ i {
 }
 .blocks .block2 p {
   padding: 4% 5%;
+  font-size: 1.3em;
 }
 .blocks .block3 {
   background-color: #75253d;
@@ -556,6 +559,7 @@ i {
 }
 .blocks .block3 p {
   padding: 4% 5%;
+  font-size: 1.3em;
 }
 .blocks .block4 {
   background-color: #c23e66;
@@ -565,11 +569,11 @@ i {
 }
 .blocks .block4 p {
   padding: 4% 5%;
+  font-size: 1.3em;
 }
 /* ======================== MISSION  BLOCK STYLES ======================== */
 .blocks2 {
   margin: 0;
-  font-size: 1.3em;
   text-align: center;
 }
 .blocks2 .block5 {
@@ -581,6 +585,7 @@ i {
 }
 .blocks2 .block5 p {
   padding: 4% 5%;
+  font-size: 1.2em;
 }
 .blocks2 .block6 {
   background-color: #c23e66;
@@ -591,6 +596,7 @@ i {
 }
 .blocks2 .block6 p {
   padding: 4% 5%;
+  font-size: 1.2em;
 }
 .blocks2 .block7 {
   background-color: #1c7151;
@@ -601,6 +607,7 @@ i {
 }
 .blocks2 .block7 p {
   padding: 4% 5%;
+  font-size: 1.2em;
 }
 /* ======================== HISTORY STYLES ======================== */
 .accomplishments li {
