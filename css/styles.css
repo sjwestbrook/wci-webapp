@@ -199,6 +199,20 @@ ol li {
   padding-left: 5%;
 }
 /* ============================== HEADER STYLES ============================== */
+/* Skip link - visible to screen reader and keyboard users only when focused on */
+#skip a {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+#skip a:focus {
+  position: static;
+  width: auto;
+  height: auto;
+}
 .header-spacing {
   margin: 2% 0;
 }
