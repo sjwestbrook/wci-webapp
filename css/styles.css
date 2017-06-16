@@ -29,6 +29,8 @@
 .body-links a {
   color: #ffffff;
   text-decoration: none;
+  font-size: 1.2em;
+  font-weight: bold;
 }
 .body-links a:hover {
   color: #DDDDDD;
@@ -93,13 +95,11 @@
 body {
   font-family: "Aleo", serif;
 }
-button {
-  font-weight: bold;
-  font-size: 1.2em;
-}
 button a {
   color: #ffffff;
   text-decoration: none;
+  font-size: 1.2em;
+  font-weight: bold;
 }
 button a:hover {
   color: #DDDDDD;
@@ -113,10 +113,6 @@ button a:active {
 button a:focus {
   outline: 2px solid #E07E2B;
 }
-button .btn a {
-  font-weight: bold;
-  font-size: 1.2em;
-}
 h1,
 h2,
 h3,
@@ -127,10 +123,9 @@ h6 {
   text-align: center;
 }
 p,
-li,
-a {
+li {
   font-size: 1.2em;
-  line-height: 1.7em;
+  line-height: 1.5em;
 }
 a {
   cursor: pointer;
@@ -354,6 +349,8 @@ ol li {
 .blocks a {
   color: #ffffff;
   text-decoration: none;
+  font-size: 1.2em;
+  font-weight: bold;
 }
 .blocks a:hover {
   color: #DDDDDD;
