@@ -13,6 +13,7 @@
   color: #8ADAC2;
   background-color: #75253d;
   border: 0;
+  /*       outline: 2px solid @vltteal;  */
   text-decoration: none;
 }
 .header-links a:visited {
@@ -33,11 +34,12 @@
 .body-links a {
   color: #124834;
   text-decoration: none;
-  font-size: 1.2em;
+  font-size: 1em;
   font-weight: bold;
 }
 .body-links a:hover {
   color: #75253d;
+  /*       outline: 2px solid @vltteal; */
   text-decoration: none;
 }
 .body-links a:visited {
@@ -76,8 +78,6 @@
 .button-links a {
   color: #ffffff;
   text-decoration: none;
-  /*     font-size: 1.3em;
-    font-weight: bold; */
 }
 .button-links a:hover {
   color: #ffffff;
@@ -169,8 +169,6 @@ button a,
 .btn-block a {
   color: #ffffff;
   text-decoration: none;
-  /*     font-size: 1.3em;
-    font-weight: bold; */
 }
 button a:hover,
 .btn a:hover,
@@ -251,12 +249,13 @@ p a,
 li a {
   color: #124834;
   text-decoration: none;
-  font-size: 1.2em;
+  font-size: 1em;
   font-weight: bold;
 }
 p a:hover,
 li a:hover {
   color: #75253d;
+  /*       outline: 2px solid @vltteal; */
   text-decoration: none;
 }
 p a:visited,
@@ -407,6 +406,7 @@ i {
   color: #8ADAC2;
   background-color: #75253d;
   border: 0;
+  /*       outline: 2px solid @vltteal;  */
   text-decoration: none;
 }
 .navbar-other .nav .nav-item a:visited {
@@ -440,6 +440,7 @@ i {
   color: #8ADAC2;
   background-color: #75253d;
   border: 0;
+  /*       outline: 2px solid @vltteal;  */
   text-decoration: none;
 }
 .navbar-other .nav .nav-item button ul li a a:visited {
@@ -473,6 +474,7 @@ i {
   color: #8ADAC2;
   background-color: #75253d;
   border: 0;
+  /*       outline: 2px solid @vltteal;  */
   text-decoration: none;
 }
 .navbar-other .nav .dropdown-menu .li a a:visited {
