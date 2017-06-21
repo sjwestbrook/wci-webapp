@@ -169,6 +169,7 @@ button,
   font-size: 1.35em;
   font-weight: bold;
   background-color: #124834;
+  border-radius: 0;
 }
 button a,
 .btn a,
