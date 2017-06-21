@@ -352,6 +352,103 @@ i {
   width: 90%;
 }
 /* ============================== MODAL STYLES ============================== */
+.modal-header {
+  color: #ffffff;
+  background-color: #75253d;
+}
+.modal-header a {
+  color: #ffffff;
+  background-color: #75253d;
+  text-decoration: none;
+}
+.modal-header a:hover {
+  color: #8ADAC2;
+  background-color: #75253d;
+  border: 0;
+  /*       outline: 2px solid @vltteal;  */
+  text-decoration: none;
+}
+.modal-header a:visited {
+  color: #ffffff;
+  background-color: #75253d;
+  text-decoration: none;
+}
+.modal-header a:active {
+  color: #8ADAC2;
+  background-color: #75253d;
+  border: 0;
+  text-decoration: none;
+}
+.modal-header a:focus {
+  outline: 2px solid #8ADAC2;
+  text-decoration: none;
+}
+.modal-body a {
+  color: #124834;
+  text-decoration: none;
+  font-size: 1em;
+  font-weight: bold;
+}
+.modal-body a:hover {
+  color: #75253d;
+  outline: 2px solid #8ADAC2;
+  text-decoration: none;
+  padding: .5em;
+}
+.modal-body a:visited {
+  color: #124834;
+  text-decoration: none;
+}
+.modal-body a:active {
+  color: #75253d;
+  text-decoration: none;
+}
+.modal-body a:focus {
+  color: #75253d;
+  outline: 2px solid #8ADAC2;
+  text-decoration: none;
+  padding: .5em;
+}
+.modal-footer {
+  color: #ffffff;
+  background-color: #124834;
+}
+.modal-footer a {
+  color: #ffffff;
+  background-color: #124834;
+  text-decoration: none;
+}
+.modal-footer a:hover {
+  color: #EDB7CB;
+  background-color: #124834;
+  outline: 2px solid #EDB7CB;
+  text-decoration: none;
+  padding: .5em;
+}
+.modal-footer a:visited {
+  color: #ffffff;
+  background-color: #124834;
+  text-decoration: none;
+}
+.modal-footer a:active {
+  color: #EDB7CB;
+  background-color: #124834;
+  border: 0;
+  text-decoration: none;
+}
+.modal-footer a:focus {
+  color: #EDB7CB;
+  background-color: #124834;
+  outline: 2px solid #EDB7CB;
+  text-decoration: none;
+  padding: .5em;
+}
+.modal-footer a i {
+  font-size: 1.5em;
+}
+.modal-footer a img {
+  width: 80%;
+}
 .modal-btn-margin {
   margin-bottom: 5px;
 }
