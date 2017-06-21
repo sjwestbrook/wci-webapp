@@ -39,7 +39,7 @@
 }
 .body-links a:hover {
   color: #75253d;
-  outline: 2px solid #8ADAC2;
+  /*       outline: 2px solid @vltteal; */
   text-decoration: none;
   padding: .5em;
 }
@@ -64,7 +64,7 @@
 .block-links a:hover {
   color: #ffffff;
   text-decoration: none;
-  outline: 2px solid #8ADAC2;
+  /*       outline: 2px solid @vltteal;  */
 }
 .block-links a:visited {
   color: #ffffff;
@@ -86,7 +86,7 @@
 .button-links a:hover {
   color: #ffffff;
   background-color: #75253d;
-  outline: 2px solid #8ADAC2;
+  /*       outline: 2px solid @vltteal;  */
   text-decoration: none;
 }
 .button-links a:visited {
@@ -111,7 +111,7 @@
 .footer-links a:hover {
   color: #EDB7CB;
   background-color: #124834;
-  outline: 2px solid #EDB7CB;
+  /*       outline: 2px solid @vltmaroon;  */
   text-decoration: none;
   padding: .5em;
 }
@@ -183,7 +183,7 @@ button a:hover,
 .btn-block a:hover {
   color: #ffffff;
   background-color: #75253d;
-  outline: 2px solid #8ADAC2;
+  /*       outline: 2px solid @vltteal;  */
   text-decoration: none;
 }
 button a:visited,
@@ -263,7 +263,7 @@ li a {
 p a:hover,
 li a:hover {
   color: #75253d;
-  outline: 2px solid #8ADAC2;
+  /*       outline: 2px solid @vltteal; */
   text-decoration: none;
   padding: .5em;
 }
@@ -391,7 +391,7 @@ i {
 }
 .modal-body a:hover {
   color: #75253d;
-  outline: 2px solid #8ADAC2;
+  /*       outline: 2px solid @vltteal; */
   text-decoration: none;
   padding: .5em;
 }
@@ -421,7 +421,7 @@ i {
 .modal-footer a:hover {
   color: #EDB7CB;
   background-color: #124834;
-  outline: 2px solid #EDB7CB;
+  /*       outline: 2px solid @vltmaroon;  */
   text-decoration: none;
   padding: .5em;
 }
@@ -603,7 +603,7 @@ i {
 .navbar-other .navbar-header button .navbar-toggle .icon-bar {
   color: #ffffff;
 }
-/*  HOME ======================== */
+/*  ======================== HOME ======================== */
 .carousel-row {
   margin: -2% -8% 0 -8%;
   padding-bottom: 0;
@@ -627,7 +627,7 @@ i {
 .blocks a:hover {
   color: #ffffff;
   text-decoration: none;
-  outline: 2px solid #8ADAC2;
+  /*       outline: 2px solid @vltteal;  */
 }
 .blocks a:visited {
   color: #ffffff;
@@ -731,72 +731,75 @@ i {
   text-align: center;
 }
 /* ======================== FOOTER STYLES ======================== */
-.footer-index {
+.footer {
+  text-align: left;
+}
+.footer .footer-index {
   color: #ffffff;
   background-color: #124834;
   font-size: .8em;
-  /*   .footer-socials {
-     li {
-      display: inline-block;  
-       font-size: 1.1em;
-      line-height: 1.5em;
-      i {
-        margin-right: 2em;  
+  /*     .footer-buffer {
+      padding: 2% 1%;
+    } */
+  /*     .address {
+      p {
+        margin-bottom: 0.5%;
+        font-size: 1.1em;
+        font-weight: bold;
       }
-    }
-  } */
+    } */
 }
-.footer-index img {
+.footer .footer-index img {
   width: 150px;
 }
-.footer-index .footer-buffer {
-  padding: 2% 1%;
+.footer .footer-index .footer-socials {
+  display: inline-block;
+  font-size: 1.1em;
+  line-height: 1.5em;
 }
-.footer-index a {
+.footer .footer-index .footer-socials i {
+  margin-right: 1em;
+}
+.footer .footer-index a {
   color: #ffffff;
   background-color: #124834;
   text-decoration: none;
 }
-.footer-index a:hover {
+.footer .footer-index a:hover {
   color: #EDB7CB;
   background-color: #124834;
-  outline: 2px solid #EDB7CB;
+  /*       outline: 2px solid @vltmaroon;  */
   text-decoration: none;
   padding: .5em;
 }
-.footer-index a:visited {
+.footer .footer-index a:visited {
   color: #ffffff;
   background-color: #124834;
   text-decoration: none;
 }
-.footer-index a:active {
+.footer .footer-index a:active {
   color: #EDB7CB;
   background-color: #124834;
   border: 0;
   text-decoration: none;
 }
-.footer-index a:focus {
+.footer .footer-index a:focus {
   color: #EDB7CB;
   background-color: #124834;
   outline: 2px solid #EDB7CB;
   text-decoration: none;
   padding: .5em;
 }
-.footer-index a i {
+.footer .footer-index a i {
   font-size: 1.5em;
 }
-.footer-index a img {
+.footer .footer-index a img {
   width: 80%;
 }
-.footer-index .staff-links {
+.footer .footer-index .staff-links {
   font-size: 1.1em;
   font-weight: bold;
   line-height: 1.5em;
-}
-.footer-index .address p {
-  margin-bottom: 0.5%;
-  font-size: 1.1em;
-  font-weight: bold;
 }
 /* ======================== MEDIA QUERIES ======================== */
 /* header buttons (about, programs) in mobile must have 17% padding removed and a minor left padding added to be in line with non-dropdown links */
