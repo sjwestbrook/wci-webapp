@@ -39,8 +39,9 @@
 }
 .body-links a:hover {
   color: #75253d;
-  /*       outline: 2px solid @vltteal; */
+  outline: 2px solid #8ADAC2;
   text-decoration: none;
+  padding: .5em;
 }
 .body-links a:visited {
   color: #124834;
@@ -51,8 +52,10 @@
   text-decoration: none;
 }
 .body-links a:focus {
+  color: #75253d;
   outline: 2px solid #8ADAC2;
   text-decoration: none;
+  padding: .5em;
 }
 .block-links a {
   color: #ffffff;
@@ -61,6 +64,7 @@
 .block-links a:hover {
   color: #ffffff;
   text-decoration: none;
+  outline: 2px solid #8ADAC2;
 }
 .block-links a:visited {
   color: #ffffff;
@@ -82,6 +86,7 @@
 .button-links a:hover {
   color: #ffffff;
   background-color: #75253d;
+  outline: 2px solid #8ADAC2;
   text-decoration: none;
 }
 .button-links a:visited {
@@ -94,8 +99,8 @@
 }
 .button-links a:focus {
   color: #ffffff;
-  outline: 2px solid #8ADAC2;
   background-color: #75253d;
+  outline: 2px solid #8ADAC2;
   text-decoration: none;
 }
 .footer-links a {
@@ -106,8 +111,9 @@
 .footer-links a:hover {
   color: #EDB7CB;
   background-color: #124834;
-  border: 0;
+  outline: 2px solid #EDB7CB;
   text-decoration: none;
+  padding: .5em;
 }
 .footer-links a:visited {
   color: #ffffff;
@@ -125,6 +131,7 @@
   background-color: #124834;
   outline: 2px solid #EDB7CB;
   text-decoration: none;
+  padding: .5em;
 }
 .footer-links a i {
   font-size: 1.5em;
@@ -176,6 +183,7 @@ button a:hover,
 .btn-block a:hover {
   color: #ffffff;
   background-color: #75253d;
+  outline: 2px solid #8ADAC2;
   text-decoration: none;
 }
 button a:visited,
@@ -197,8 +205,8 @@ button a:focus,
 .btn-primary a:focus,
 .btn-block a:focus {
   color: #ffffff;
-  outline: 2px solid #8ADAC2;
   background-color: #75253d;
+  outline: 2px solid #8ADAC2;
   text-decoration: none;
 }
 button:hover,
@@ -255,8 +263,9 @@ li a {
 p a:hover,
 li a:hover {
   color: #75253d;
-  /*       outline: 2px solid @vltteal; */
+  outline: 2px solid #8ADAC2;
   text-decoration: none;
+  padding: .5em;
 }
 p a:visited,
 li a:visited {
@@ -270,8 +279,10 @@ li a:active {
 }
 p a:focus,
 li a:focus {
+  color: #75253d;
   outline: 2px solid #8ADAC2;
   text-decoration: none;
+  padding: .5em;
 }
 a {
   cursor: pointer;
@@ -519,6 +530,7 @@ i {
 .blocks a:hover {
   color: #ffffff;
   text-decoration: none;
+  outline: 2px solid #8ADAC2;
 }
 .blocks a:visited {
   color: #ffffff;
@@ -651,8 +663,9 @@ i {
 .footer-index a:hover {
   color: #EDB7CB;
   background-color: #124834;
-  border: 0;
+  outline: 2px solid #EDB7CB;
   text-decoration: none;
+  padding: .5em;
 }
 .footer-index a:visited {
   color: #ffffff;
@@ -670,6 +683,7 @@ i {
   background-color: #124834;
   outline: 2px solid #EDB7CB;
   text-decoration: none;
+  padding: .5em;
 }
 .footer-index a i {
   font-size: 1.5em;
