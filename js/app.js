@@ -212,6 +212,11 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
             templateUrl: './partials/trempealeau.html' 
         })
     
+        .state('sitemap', {
+            url: '/sitemap',
+            templateUrl: './partials/sitemap.html' 
+        })
+    
         .state('vernon', {
             url: '/vernon',
             templateUrl: './partials/vernon.html' 
