@@ -34,14 +34,13 @@
 .body-links a {
   color: #124834;
   text-decoration: none;
-  font-size: 1em;
+  font-size: 1.1em;
   font-weight: bold;
 }
 .body-links a:hover {
   color: #75253d;
   /*       outline: 2px solid @vltteal; */
   text-decoration: none;
-  padding: .5em;
 }
 .body-links a:visited {
   color: #124834;
@@ -55,7 +54,6 @@
   color: #75253d;
   outline: 2px solid #8ADAC2;
   text-decoration: none;
-  padding: .5em;
 }
 .block-links a {
   color: #ffffff;
@@ -113,7 +111,6 @@
   background-color: #124834;
   /*       outline: 2px solid @vltmaroon;  */
   text-decoration: none;
-  padding: .5em;
 }
 .footer-links a:visited {
   color: #ffffff;
@@ -131,7 +128,6 @@
   background-color: #124834;
   outline: 2px solid #EDB7CB;
   text-decoration: none;
-  padding: .5em;
 }
 .footer-links a i {
   font-size: 1.5em;
@@ -258,7 +254,7 @@ p a,
 li a {
   color: #124834;
   text-decoration: none;
-  font-size: 1em;
+  font-size: 1.1em;
   font-weight: bold;
 }
 p a:hover,
@@ -266,7 +262,6 @@ li a:hover {
   color: #75253d;
   /*       outline: 2px solid @vltteal; */
   text-decoration: none;
-  padding: .5em;
 }
 p a:visited,
 li a:visited {
@@ -283,7 +278,10 @@ li a:focus {
   color: #75253d;
   outline: 2px solid #8ADAC2;
   text-decoration: none;
-  padding: .5em;
+}
+p {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
 }
 a {
   cursor: pointer;
@@ -312,6 +310,17 @@ i {
 .row {
   padding: 2% 0;
 }
+/* =================== SPACING / ALIGNMENT CLASS STYLES =================== */
+.btn-margin-btm {
+  margin-bottom: .2em;
+}
+.btn-margin-top-btm {
+  margin-top: .2em;
+  margin-bottom: .2em;
+}
+.btn-margin-top {
+  margin-top: .2em;
+}
 .margin-bottom {
   margin-bottom: 2%;
 }
@@ -324,6 +333,7 @@ i {
 .right-aligned {
   text-align: right;
 }
+/* =================== IMAGE CLASS STYLES =================== */
 .logo-sm {
   width: 60%;
 }
@@ -387,14 +397,13 @@ i {
 .modal-body a {
   color: #124834;
   text-decoration: none;
-  font-size: 1em;
+  font-size: 1.1em;
   font-weight: bold;
 }
 .modal-body a:hover {
   color: #75253d;
   /*       outline: 2px solid @vltteal; */
   text-decoration: none;
-  padding: .5em;
 }
 .modal-body a:visited {
   color: #124834;
@@ -408,7 +417,6 @@ i {
   color: #75253d;
   outline: 2px solid #8ADAC2;
   text-decoration: none;
-  padding: .5em;
 }
 .modal-footer {
   color: #ffffff;
@@ -424,7 +432,6 @@ i {
   background-color: #124834;
   /*       outline: 2px solid @vltmaroon;  */
   text-decoration: none;
-  padding: .5em;
 }
 .modal-footer a:visited {
   color: #ffffff;
@@ -442,7 +449,6 @@ i {
   background-color: #124834;
   outline: 2px solid #EDB7CB;
   text-decoration: none;
-  padding: .5em;
 }
 .modal-footer a i {
   font-size: 1.5em;
@@ -735,6 +741,9 @@ i {
 .footer {
   text-align: left;
 }
+.footer h4 {
+  text-align: left;
+}
 .footer .footer-index {
   color: #ffffff;
   background-color: #124834;
@@ -771,7 +780,6 @@ i {
   background-color: #124834;
   /*       outline: 2px solid @vltmaroon;  */
   text-decoration: none;
-  padding: .5em;
 }
 .footer .footer-index a:visited {
   color: #ffffff;
@@ -789,7 +797,6 @@ i {
   background-color: #124834;
   outline: 2px solid #EDB7CB;
   text-decoration: none;
-  padding: .5em;
 }
 .footer .footer-index a i {
   font-size: 1.5em;
