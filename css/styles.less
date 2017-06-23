@@ -90,6 +90,7 @@
     color: @white;
     text-decoration: none;
     &:hover {
+      font-weight: bold;
       color: @white;
       text-decoration: none;
       outline: 1px dotted @white; 
@@ -103,6 +104,7 @@
       text-decoration: none;
     }
     &:focus {    
+      font-weight: bold;
       color: @white;
       text-decoration: none;
       outline: 1px dotted @white; 
@@ -254,7 +256,7 @@ ul,li {
   list-style-type: none;
   list-style-position:inside;
   margin:0;
-  padding:0; 
+  padding: .2em 0; 
 }
 
 ol {
@@ -584,25 +586,23 @@ i {
 
 .footer {
    text-align: left;
-  h4 {
-    text-align: left; 
-  }
-  .footer-index {
-    color: @white;
-    background-color: @teal; 
-    font-size: .8em;
-    img {
-      width: 150px;
+   h4 {
+     text-align: left; 
+     font-size: 1.9em;
+   }
+   .footer-index {
+     color: @white;
+     background-color: @teal; 
+     font-size: .8em;
+     img {
+       width: 150px;
     }
-/*     .footer-buffer {
-      padding: 2% 1%;
-    } */
    .footer-socials {
       display: inline-block;  
-      font-size: 1.1em;
+      font-size: 1.7em;
       line-height: 1.5em;
       i {
-        margin-right: 1em;  
+        margin-right: 2em;  
       }
     } 
     .footer-links;
@@ -611,13 +611,11 @@ i {
       font-weight: bold;
       line-height: 1.5em;
     }
-/*     .address {
-      p {
-        margin-bottom: 0.5%;
-        font-size: 1.1em;
-        font-weight: bold;
-      }
-    } */
+   .address {
+      margin-top: 0.3em;
+      font-size: 1.3em;
+      font-weight: bold;
+    }
   }
 }
 
