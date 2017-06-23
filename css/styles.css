@@ -13,7 +13,7 @@
   color: #ffffff;
   background-color: #75253d;
   /*       border: 0; */
-  outline: 1px solid #ffffff;
+  outline: 1px dotted #ffffff;
   text-decoration: none;
 }
 .header-links a:visited {
@@ -28,7 +28,7 @@
 }
 .header-links a:focus {
   color: #ffffff;
-  outline: 1px solid #ffffff;
+  outline: 1px dotted #ffffff;
   text-decoration: none;
 }
 .body-links a {
@@ -39,7 +39,7 @@
 }
 .body-links a:hover {
   color: #75253d;
-  outline: 1px solid #75253d;
+  outline: 1px dotted #75253d;
   text-decoration: none;
 }
 .body-links a:visited {
@@ -52,7 +52,7 @@
 }
 .body-links a:focus {
   color: #75253d;
-  outline: 1px solid #75253d;
+  outline: 1px dotted #75253d;
   text-decoration: none;
 }
 .block-links a {
@@ -62,7 +62,7 @@
 .block-links a:hover {
   color: #ffffff;
   text-decoration: none;
-  outline: 1px solid #ffffff;
+  outline: 1px dotted #ffffff;
 }
 .block-links a:visited {
   color: #ffffff;
@@ -75,7 +75,7 @@
 .block-links a:focus {
   color: #ffffff;
   text-decoration: none;
-  outline: 1px solid #ffffff;
+  outline: 1px dotted #ffffff;
 }
 .button-links a {
   color: #ffffff;
@@ -84,7 +84,7 @@
 .button-links a:hover {
   color: #ffffff;
   background-color: #75253d;
-  outline: 1px solid #ffffff;
+  outline: 1px dotted #ffffff;
   text-decoration: none;
 }
 .button-links a:visited {
@@ -98,7 +98,7 @@
 .button-links a:focus {
   color: #ffffff;
   background-color: #75253d;
-  outline: 1px solid #ffffff;
+  outline: 1px dotted #ffffff;
   text-decoration: none;
 }
 .footer-links a {
@@ -109,7 +109,7 @@
 .footer-links a:hover {
   color: #ffffff;
   background-color: #124834;
-  outline: 1px solid #ffffff;
+  outline: 1px dotted #ffffff;
   text-decoration: none;
 }
 .footer-links a:visited {
@@ -126,7 +126,7 @@
 .footer-links a:focus {
   color: #EDB7CB;
   background-color: #124834;
-  outline: 1px solid #ffffff;
+  outline: 1px dotted #ffffff;
   text-decoration: none;
 }
 .footer-links a i {
@@ -180,7 +180,7 @@ button a:hover,
 .btn-block a:hover {
   color: #ffffff;
   background-color: #75253d;
-  outline: 1px solid #ffffff;
+  outline: 1px dotted #ffffff;
   text-decoration: none;
 }
 button a:visited,
@@ -203,7 +203,7 @@ button a:focus,
 .btn-block a:focus {
   color: #ffffff;
   background-color: #75253d;
-  outline: 1px solid #ffffff;
+  outline: 1px dotted #ffffff;
   text-decoration: none;
 }
 button:hover,
@@ -263,7 +263,7 @@ li a {
 p a:hover,
 li a:hover {
   color: #75253d;
-  outline: 1px solid #75253d;
+  outline: 1px dotted #75253d;
   text-decoration: none;
 }
 p a:visited,
@@ -279,7 +279,7 @@ li a:active {
 p a:focus,
 li a:focus {
   color: #75253d;
-  outline: 1px solid #75253d;
+  outline: 1px dotted #75253d;
   text-decoration: none;
 }
 p {
@@ -379,7 +379,7 @@ i {
   color: #ffffff;
   background-color: #75253d;
   /*       border: 0; */
-  outline: 1px solid #ffffff;
+  outline: 1px dotted #ffffff;
   text-decoration: none;
 }
 .modal-header a:visited {
@@ -394,7 +394,7 @@ i {
 }
 .modal-header a:focus {
   color: #ffffff;
-  outline: 1px solid #ffffff;
+  outline: 1px dotted #ffffff;
   text-decoration: none;
 }
 .modal-body a {
@@ -405,7 +405,7 @@ i {
 }
 .modal-body a:hover {
   color: #75253d;
-  outline: 1px solid #75253d;
+  outline: 1px dotted #75253d;
   text-decoration: none;
 }
 .modal-body a:visited {
@@ -418,7 +418,7 @@ i {
 }
 .modal-body a:focus {
   color: #75253d;
-  outline: 1px solid #75253d;
+  outline: 1px dotted #75253d;
   text-decoration: none;
 }
 .modal-footer {
@@ -433,7 +433,7 @@ i {
 .modal-footer a:hover {
   color: #ffffff;
   background-color: #124834;
-  outline: 1px solid #ffffff;
+  outline: 1px dotted #ffffff;
   text-decoration: none;
 }
 .modal-footer a:visited {
@@ -450,7 +450,7 @@ i {
 .modal-footer a:focus {
   color: #EDB7CB;
   background-color: #124834;
-  outline: 1px solid #ffffff;
+  outline: 1px dotted #ffffff;
   text-decoration: none;
 }
 .modal-footer a i {
@@ -524,7 +524,7 @@ i {
   color: #ffffff;
   background-color: #75253d;
   /*       border: 0; */
-  outline: 1px solid #ffffff;
+  outline: 1px dotted #ffffff;
   text-decoration: none;
 }
 .navbar-other .nav .nav-item a:visited {
@@ -539,7 +539,7 @@ i {
 }
 .navbar-other .nav .nav-item a:focus {
   color: #ffffff;
-  outline: 1px solid #ffffff;
+  outline: 1px dotted #ffffff;
   text-decoration: none;
 }
 .navbar-other .nav .nav-item button {
@@ -558,7 +558,7 @@ i {
   color: #ffffff;
   background-color: #75253d;
   /*       border: 0; */
-  outline: 1px solid #ffffff;
+  outline: 1px dotted #ffffff;
   text-decoration: none;
 }
 .navbar-other .nav .nav-item button ul li a a:visited {
@@ -573,7 +573,7 @@ i {
 }
 .navbar-other .nav .nav-item button ul li a a:focus {
   color: #ffffff;
-  outline: 1px solid #ffffff;
+  outline: 1px dotted #ffffff;
   text-decoration: none;
 }
 .navbar-other .nav .dropdown-menu {
@@ -592,7 +592,7 @@ i {
   color: #ffffff;
   background-color: #75253d;
   /*       border: 0; */
-  outline: 1px solid #ffffff;
+  outline: 1px dotted #ffffff;
   text-decoration: none;
 }
 .navbar-other .nav .dropdown-menu .li a a:visited {
@@ -607,7 +607,7 @@ i {
 }
 .navbar-other .nav .dropdown-menu .li a a:focus {
   color: #ffffff;
-  outline: 1px solid #ffffff;
+  outline: 1px dotted #ffffff;
   text-decoration: none;
 }
 .navbar-other .navbar-header button .navbar-toggle .icon-bar {
@@ -637,7 +637,7 @@ i {
 .blocks a:hover {
   color: #ffffff;
   text-decoration: none;
-  outline: 1px solid #ffffff;
+  outline: 1px dotted #ffffff;
 }
 .blocks a:visited {
   color: #ffffff;
@@ -650,7 +650,7 @@ i {
 .blocks a:focus {
   color: #ffffff;
   text-decoration: none;
-  outline: 1px solid #ffffff;
+  outline: 1px dotted #ffffff;
 }
 .blocks .block1 {
   background-color: #124834;
@@ -781,7 +781,7 @@ i {
 .footer .footer-index a:hover {
   color: #ffffff;
   background-color: #124834;
-  outline: 1px solid #ffffff;
+  outline: 1px dotted #ffffff;
   text-decoration: none;
 }
 .footer .footer-index a:visited {
@@ -798,7 +798,7 @@ i {
 .footer .footer-index a:focus {
   color: #EDB7CB;
   background-color: #124834;
-  outline: 1px solid #ffffff;
+  outline: 1px dotted #ffffff;
   text-decoration: none;
 }
 .footer .footer-index a i {
