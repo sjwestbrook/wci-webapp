@@ -22,9 +22,64 @@
   </div> <!-- end col -->
   
   <div class="col-sm-6">
-     <button type="button" class="btn btn-primary btn-block">
-        <a href="">WIOA Overview</a>  <!-- modal -->
-     </button>
+    
+    <button type="button" class="btn btn-primary btn-block btn-margin-btm" data-toggle="modal" data-target="#wioa-overview" aria-label="Open modal to view the WIOA Overview">WIOA Overview</button>    
+    <!-- Modal HTML -->
+    <div class="modal fade" id="wioa-overview" tabindex="-1" role="dialog" aria-labelledby="wioa-overviewLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h3 class="modal-title" id="what-wioa-overviewLabel">WIOA Overview</h3>
+          </div>            
+          <div class="modal-body">
+            <p>The Workforce Innovation and Opportunity Act (WIOA) Program provides individualized, employment-focused services to job seekers who meet eligibility and program enrollment requirements. The goal is full-time employment, job retention, and sustainable earnings for individuals, thereby improving the quality of the workforce.</p>
+            <p>WIOA may assist with career planning, job searching, training, and various other needs that may arise in your journey to obtaining employment. WIOA services are free to participant.</p>
+            <p>Being out of work can be frustrating and an uncertain time. Our staff are trained employment professionals ready to assist you in the journey to employment. Staff can help develop a plan for your search and help equip you with the tools you need for success. Our services are individualized to meet your needs.</p>
+            <ul>
+              <li>Age 18 or older,</li>
+              <li>Authorized to work in the Unites States, and</li>
+              <li>You must have met the requirements for <a href="http://www.sss.gov/" title=""Open Selective Service Registration in a new tab" target="_blank">Selective Service Registration</a></li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="prog-btn" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div> <!-- end modal -->  
+    
+    
+     <button type="button" class="btn btn-primary btn-block btn-margin-btm" data-toggle="modal" data-target="#wioa-services" aria-label="Open modal to view the WIOA Services">Available Services</button>    
+    <!-- Modal HTML -->
+    <div class="modal fade" id="wioa-services" tabindex="-1" role="dialog" aria-labelledby="wioa-servicesLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h3 class="modal-title" id="what-wioa-servicesLabel">WIOA Services</h3>
+          </div>            
+          <div class="modal-body">
+            <h4>Career Plan</h4>
+            <p>We can guide you to a new job or career. You may have the opportunity to take interest, personality, skills, aptitude, or career assessments to help determine a career path that is right for you.</p>
+                
+            <h4>Job Search</h4>
+            <p>Staff can help you search for positions, develop your resume, improve your interviewing skills, and fill out traditional or online applications. We can also connect you to resources to explore available jobs that are in demand in your local labor market.</p>
+                
+            <h4>Training</h4>
+            <p>You may be eligible for training services if you and your employment coordinator determine additional training is needed for a competitive edge in today’s job market</p>
+                
+            <h4>Support</h4>
+            <p>Transportation assistance, dependent care assistance, clothing/uniform allowance, medical services, tools, or relocation assistance may be available to help you while in job search activities or training. We are available to answer concerns or questions as you transition into your new job.</p>
+            <p>Services are individualized to meet your needs. Eligibility requirements may apply.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="prog-btn" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div> <!-- end modal -->  
+    
     
      <button type="button" class="btn btn-primary btn-block">
         <a href="">Available Services</a>  <!-- modal -->
@@ -54,6 +109,10 @@
         <a href="">WIA-WIOA Grievance Procedures (PDF)</a> 
      </button>      
   </div> <!-- end col -->
+                
+                
+                
+                
   
 </div> <!-- end row -->
 
