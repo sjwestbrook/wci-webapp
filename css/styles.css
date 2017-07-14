@@ -7,6 +7,7 @@
 .header-links a {
   color: #ffffff;
   background-color: #75253d;
+  font-size: .875em;
   text-decoration: none;
 }
 .header-links a:hover {
@@ -126,7 +127,7 @@
   text-decoration: none;
 }
 .footer-links a:focus {
-  color: #EDB7CB;
+  color: #ffffff;
   background-color: #124834;
   outline: 1px dotted #ffffff;
   text-decoration: none;
@@ -158,7 +159,8 @@
 }
 /* ============================== GLOBAL ELEMENT STYLES ============================== */
 body {
-  font-family: "Aleo", serif;
+  /*   font-family: "Aleo", serif;  */
+  font-family: 'Arimo', 'Tahoma', sans-serif;
 }
 button,
 .btn,
@@ -375,6 +377,7 @@ i {
 .modal-header a {
   color: #ffffff;
   background-color: #75253d;
+  font-size: .875em;
   text-decoration: none;
 }
 .modal-header a:hover {
@@ -450,7 +453,7 @@ i {
   text-decoration: none;
 }
 .modal-footer a:focus {
-  color: #EDB7CB;
+  color: #ffffff;
   background-color: #124834;
   outline: 1px dotted #ffffff;
   text-decoration: none;
@@ -520,6 +523,7 @@ i {
 .navbar-other .nav .nav-item a {
   color: #ffffff;
   background-color: #75253d;
+  font-size: .875em;
   text-decoration: none;
 }
 .navbar-other .nav .nav-item a:hover {
@@ -554,6 +558,7 @@ i {
 .navbar-other .nav .nav-item button ul li a a {
   color: #ffffff;
   background-color: #75253d;
+  font-size: .875em;
   text-decoration: none;
 }
 .navbar-other .nav .nav-item button ul li a a:hover {
@@ -588,6 +593,7 @@ i {
 .navbar-other .nav .dropdown-menu .li a a {
   color: #ffffff;
   background-color: #75253d;
+  font-size: .875em;
   text-decoration: none;
 }
 .navbar-other .nav .dropdown-menu .li a a:hover {
@@ -736,8 +742,10 @@ i {
 }
 /* ======================== HISTORY STYLES ======================== */
 .accomplishments li {
+  list-style-position: outside;
   list-style-type: disc;
   padding-bottom: .5%;
+  margin-left: 8%;
 }
 /* ======================== ANNUAL REPORT STYLES ======================== */
 /* ======================== ACA STYLES ======================== */
@@ -757,11 +765,6 @@ i {
   background-color: #124834;
   font-size: .8em;
   padding-top: 5%;
-  /*     .staff-links {
-      font-size: 1.1em;
-      font-weight: bold;
-      line-height: 1.5em;
-    } */
 }
 .footer .footer-index img {
   width: 150px;
@@ -800,7 +803,7 @@ i {
   text-decoration: none;
 }
 .footer .footer-index li a:focus {
-  color: #EDB7CB;
+  color: #ffffff;
   background-color: #124834;
   outline: 1px dotted #ffffff;
   text-decoration: none;
@@ -809,6 +812,40 @@ i {
   font-size: 1.5em;
 }
 .footer .footer-index li a img {
+  width: 80%;
+}
+.footer .footer-index a a {
+  color: #ffffff;
+  background-color: #124834;
+  text-decoration: none;
+}
+.footer .footer-index a a:hover {
+  color: #ffffff;
+  background-color: #124834;
+  outline: 1px dotted #ffffff;
+  text-decoration: none;
+}
+.footer .footer-index a a:visited {
+  color: #ffffff;
+  background-color: #124834;
+  text-decoration: none;
+}
+.footer .footer-index a a:active {
+  color: #ffffff;
+  background-color: #124834;
+  /*       border: 0; */
+  text-decoration: none;
+}
+.footer .footer-index a a:focus {
+  color: #ffffff;
+  background-color: #124834;
+  outline: 1px dotted #ffffff;
+  text-decoration: none;
+}
+.footer .footer-index a a i {
+  font-size: 1.5em;
+}
+.footer .footer-index a a img {
   width: 80%;
 }
 .footer .footer-index .address {
