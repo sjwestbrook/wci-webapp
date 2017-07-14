@@ -549,6 +549,8 @@ i {
   text-decoration: none;
 }
 .navbar-other .nav .nav-item button {
+  margin-top: 12%;
+  font-size: .875em;
   color: #ffffff;
   background-color: #75253d;
   border: 0;
