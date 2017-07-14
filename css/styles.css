@@ -583,6 +583,34 @@ i {
   outline: 1px dotted #ffffff;
   text-decoration: none;
 }
+.navbar-other .nav button a {
+  color: #ffffff;
+  background-color: #75253d;
+  font-size: .875em;
+  text-decoration: none;
+}
+.navbar-other .nav button a:hover {
+  color: #ffffff;
+  background-color: #75253d;
+  /*       border: 0; */
+  outline: 1px dotted #ffffff;
+  text-decoration: none;
+}
+.navbar-other .nav button a:visited {
+  color: #ffffff;
+  background-color: #75253d;
+  text-decoration: none;
+}
+.navbar-other .nav button a:active {
+  color: #ffffff;
+  background-color: #75253d;
+  text-decoration: none;
+}
+.navbar-other .nav button a:focus {
+  color: #ffffff;
+  outline: 1px dotted #ffffff;
+  text-decoration: none;
+}
 .navbar-other .nav .dropdown-menu {
   list-style: none;
   padding: 0;
