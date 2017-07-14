@@ -814,38 +814,38 @@ i {
 .footer .footer-index li a img {
   width: 80%;
 }
-.footer .footer-index a a {
+.footer .footer-index p a {
   color: #ffffff;
   background-color: #124834;
   text-decoration: none;
 }
-.footer .footer-index a a:hover {
+.footer .footer-index p a:hover {
   color: #ffffff;
   background-color: #124834;
   outline: 1px dotted #ffffff;
   text-decoration: none;
 }
-.footer .footer-index a a:visited {
+.footer .footer-index p a:visited {
   color: #ffffff;
   background-color: #124834;
   text-decoration: none;
 }
-.footer .footer-index a a:active {
+.footer .footer-index p a:active {
   color: #ffffff;
   background-color: #124834;
   /*       border: 0; */
   text-decoration: none;
 }
-.footer .footer-index a a:focus {
+.footer .footer-index p a:focus {
   color: #ffffff;
   background-color: #124834;
   outline: 1px dotted #ffffff;
   text-decoration: none;
 }
-.footer .footer-index a a i {
+.footer .footer-index p a i {
   font-size: 1.5em;
 }
-.footer .footer-index a a img {
+.footer .footer-index p a img {
   width: 80%;
 }
 .footer .footer-index .address {
