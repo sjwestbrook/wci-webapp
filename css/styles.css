@@ -374,30 +374,30 @@ i {
   color: #ffffff;
   background-color: #75253d;
 }
-.modal-header a {
+.modal-header button span a {
   color: #ffffff;
   background-color: #75253d;
   font-size: .875em;
   text-decoration: none;
 }
-.modal-header a:hover {
+.modal-header button span a:hover {
   color: #ffffff;
   background-color: #75253d;
   /*       border: 0; */
   outline: 1px dotted #ffffff;
   text-decoration: none;
 }
-.modal-header a:visited {
+.modal-header button span a:visited {
   color: #ffffff;
   background-color: #75253d;
   text-decoration: none;
 }
-.modal-header a:active {
+.modal-header button span a:active {
   color: #ffffff;
   background-color: #75253d;
   text-decoration: none;
 }
-.modal-header a:focus {
+.modal-header button span a:focus {
   color: #ffffff;
   outline: 1px dotted #ffffff;
   text-decoration: none;
