@@ -349,6 +349,9 @@ i {
 .img-lg {
   width: 90%;
 }
+.img-xl {
+  width: 100%;
+}
 /* ============================== CARD STYLES ============================== */
 .card {
   background-color: #FCFCFC;
@@ -555,6 +558,7 @@ i {
   background-color: #75253d;
   border: 0;
   margin-top: 12%;
+  font-size: .875em;
 }
 .navbar-other .nav .nav-item button ul li a a {
   color: #ffffff;
