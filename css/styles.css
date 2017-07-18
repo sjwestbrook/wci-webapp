@@ -549,13 +549,10 @@ i {
   text-decoration: none;
 }
 .navbar-other .nav .nav-item button {
-  margin-top: 12%;
-  font-size: .875em;
   color: #ffffff;
   background-color: #75253d;
   border: 0;
-  margin-top: 11%;
-  font-size: 1.1em;
+  margin-top: 12%;
 }
 .navbar-other .nav .nav-item button ul li a a {
   color: #ffffff;
