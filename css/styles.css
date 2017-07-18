@@ -161,6 +161,7 @@
 body {
   /*   font-family: "Aleo", serif;  */
   font-family: 'Arimo', 'Tahoma', sans-serif;
+  background-color: #EEEEEE;
 }
 button,
 .btn,
@@ -310,7 +311,7 @@ i {
 .container-fluid {
   width: 80%;
   margin: 0 auto;
-  background-color: #EEEEEE;
+  background-color: #ffffff;
 }
 .bold {
   font-weight: bold;
@@ -796,6 +797,9 @@ i {
 }
 .footer .footer-index img {
   width: 150px;
+}
+.footer .footer-index .container-fluid {
+  background-color: #124834;
 }
 .footer .footer-index .footer-socials {
   display: inline-block;
